@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8546732410864072326}
   - component: {fileID: 1468698721237771136}
   - component: {fileID: 1136672516484425753}
+  - component: {fileID: 5588373510244903781}
   m_Layer: 0
   m_Name: NPC 3
   m_TagString: Player
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 370303068708422825}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.01, y: 0.07, z: 0}
+  m_LocalPosition: {x: 618.5, y: 169.5, z: 0}
   m_LocalScale: {x: 0.45, y: 2.375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -183,3 +184,18 @@ MonoBehaviour:
   salidaAceptar: {fileID: 1950445729189711011, guid: 578e840c03ab23844b3de4c816769316, type: 3}
   salidaRechazar: {fileID: 3863459967143294691, guid: 1540770a34153674383cdab4c75123e6, type: 3}
   velocidad: 2
+--- !u!114 &5588373510244903781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370303068708422825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9098655bc75c5154fa123b65aeadca22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
+  dialogo:
+    lineas:
+    - 

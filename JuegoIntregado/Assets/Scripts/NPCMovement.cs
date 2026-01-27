@@ -2,22 +2,24 @@
 
 public class NPCMovement : MonoBehaviour
 {
+    [Header("Puntos de movimiento")]
     public Transform puntoA;
     public Transform puntoB;
     public Transform salidaAceptar;
     public Transform salidaRechazar;
 
+    [Header("Velocidad de movimiento")]
     public float velocidad = 2f;
 
     private Transform destinoActual;
     private bool puedeMoverse = true;
     private bool esperandoDecision = false;
 
-    private NPCSpawner spawner; // referencia al spawner para avisar cuando destruir
+    private NPCSpawner spawner;
 
     void Start()
     {
-        destinoActual = puntoB;
+        destinoActual = puntoB; // comienza yendo al puntoB
         spawner = FindObjectOfType<NPCSpawner>();
     }
 
@@ -25,12 +27,14 @@ public class NPCMovement : MonoBehaviour
     {
         if (!puedeMoverse || destinoActual == null) return;
 
+        // Movimiento
         transform.position = Vector2.MoveTowards(
             transform.position,
             destinoActual.position,
             velocidad * Time.deltaTime
         );
 
+        // Comprobar llegada
         if (Vector2.Distance(transform.position, destinoActual.position) < 0.05f)
         {
             LlegadaAlPunto();
@@ -49,12 +53,12 @@ public class NPCMovement : MonoBehaviour
             if (spawner != null)
                 spawner.npcActivo = this;
 
-            // Aquí activas tu UI
-            // DialogoManager.Instance.MostrarDialogo(this);
+            // Mostramos el diálogo propio del NPC
+            DialogManager.Instance.MostrarDialogo(gameObject);
         }
         else
         {
-            // Llegó a su salida final → destruir y avisar al spawner
+            // Llegó a salida final → destruir y avisar al spawner
             if (spawner != null)
                 spawner.SpawnSiguienteNPC();
 
@@ -62,6 +66,7 @@ public class NPCMovement : MonoBehaviour
         }
     }
 
+    // 🔵 Llamado desde los botones de UI
     public void Aceptar()
     {
         if (!esperandoDecision) return;
