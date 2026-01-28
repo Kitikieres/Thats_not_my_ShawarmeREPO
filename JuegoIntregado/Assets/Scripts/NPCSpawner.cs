@@ -1,39 +1,65 @@
-using UnityEngine;
-using System.Collections.Generic;
+﻿using UnityEngine;
 using System.Collections;
 
 public class NPCSpawner : MonoBehaviour
 {
-    [Header("Prefabs de NPC")]
-    public List<GameObject> listaNPCs; 
-    public Transform puntoSpawn;
+    public GameObject[] npcPrefabs;
 
-    [Header("Tiempo entre NPCs")]
-    public float tiempoEspera = 2f;
+    public Transform puntoA;
+    public Transform puntoB;
+    public Transform salidaAceptar;
+    public Transform salidaRechazar;
 
-    [HideInInspector]
-    public NPCMovement npcActivo; 
+    public float delayEntreNPCs = 2f;
 
-    private int indiceSiguiente = 0;
+    private int indiceActual = 0;
+    private NPCMovement npcActual;
 
     void Start()
     {
-        
-        SpawnSiguienteNPC();
+        SpawnNPC();
     }
 
-    public void SpawnSiguienteNPC()
+    void SpawnNPC()
     {
-        if (indiceSiguiente >= listaNPCs.Count) return;
+        if (npcActual != null) return;
+        if (indiceActual >= npcPrefabs.Length) return;
 
-        StartCoroutine(SpawnConDelay(listaNPCs[indiceSiguiente]));
-        indiceSiguiente++;
+        GameObject npc = Instantiate(npcPrefabs[indiceActual]);
+
+        NPCMovement mov = npc.GetComponent<NPCMovement>();
+        mov.spawner = this;
+        mov.puntoA = puntoA;
+        mov.puntoB = puntoB;
+        mov.salidaAceptar = salidaAceptar;
+        mov.salidaRechazar = salidaRechazar;
+
+        npcActual = mov;
+        indiceActual++;
     }
 
-    IEnumerator SpawnConDelay(GameObject npcPrefab)
+    public void NPCFinalizado()
     {
-        yield return new WaitForSeconds(tiempoEspera);
-        GameObject nuevoNPC = Instantiate(npcPrefab, puntoSpawn.position, Quaternion.identity);
-        npcActivo = nuevoNPC.GetComponent<NPCMovement>();
+        npcActual = null;
+        StartCoroutine(SpawnConDelay());
+    }
+
+    IEnumerator SpawnConDelay()
+    {
+        yield return new WaitForSeconds(delayEntreNPCs);
+        SpawnNPC();
+    }
+
+    public void AceptarNPC()
+    {
+        if (npcActual != null)
+            npcActual.Aceptar();
+    }
+
+    public void RechazarNPC()
+    {
+        if (npcActual != null)
+            npcActual.Rechazar();
     }
 }
+

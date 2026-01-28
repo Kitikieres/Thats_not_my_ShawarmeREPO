@@ -2,91 +2,126 @@
 
 public class NPCMovement : MonoBehaviour
 {
-    [Header("Puntos de movimiento")]
+    [Header("Spawner")]
+    public NPCSpawner spawner;
+
+    [Header("Puntos")]
     public Transform puntoA;
     public Transform puntoB;
     public Transform salidaAceptar;
     public Transform salidaRechazar;
 
-    [Header("Velocidad de movimiento")]
+    [Header("Movimiento")]
     public float velocidad = 2f;
 
-    private Transform destinoActual;
-    private bool puedeMoverse = true;
-    private bool esperandoDecision = false;
+    [Header("Objeto del NPC (HIJO, instancia)")]
+    public GameObject objetoNPC;
 
-    private NPCSpawner spawner;
+    private Transform destinoActual;
+    private bool esperandoDecision = false;
 
     void Start()
     {
-        destinoActual = puntoB; // comienza yendo al puntoB
-        spawner = FindObjectOfType<NPCSpawner>();
+        if (puntoA == null || puntoB == null || salidaAceptar == null || salidaRechazar == null)
+        {
+            Debug.LogError("❌ NPCMovement: faltan puntos");
+            Destroy(gameObject);
+            return;
+        }
+
+        if (objetoNPC == null)
+        {
+            Debug.LogError("❌ NPCMovement: objetoNPC no asignado");
+            Destroy(gameObject);
+            return;
+        }
+
+        // estado inicial
+        objetoNPC.SetActive(false);
+        transform.position = puntoA.position;
+        destinoActual = puntoB;
     }
 
     void Update()
     {
-        if (!puedeMoverse || destinoActual == null) return;
+        if (destinoActual == null) return;
 
-        // Movimiento
-        transform.position = Vector2.MoveTowards(
+        transform.position = Vector3.MoveTowards(
             transform.position,
             destinoActual.position,
             velocidad * Time.deltaTime
         );
 
-        // Comprobar llegada
-        if (Vector2.Distance(transform.position, destinoActual.position) < 0.05f)
+        if (Vector3.Distance(transform.position, destinoActual.position) < 0.05f)
         {
-            LlegadaAlPunto();
+            LlegarDestino();
         }
     }
 
-    void LlegadaAlPunto()
+    void LlegarDestino()
     {
-        // Llegó al punto de diálogo
-        if (destinoActual == puntoB)
+        // 🔥 LLEGÓ A PUNTO B → MOSTRAR OBJETO SIEMPRE
+        if (destinoActual == puntoB && !esperandoDecision)
         {
-            puedeMoverse = false;
             esperandoDecision = true;
+            destinoActual = null;
 
-            // Avisamos al spawner que este es el NPC activo
-            if (spawner != null)
-                spawner.npcActivo = this;
+            MostrarObjeto();
 
-            // Mostramos el diálogo propio del NPC
-            DialogManager.Instance.MostrarDialogo(gameObject);
+            if (DialogManager.Instance != null)
+                DialogManager.Instance.MostrarDialogo(gameObject);
         }
-        else
+        else if (destinoActual == salidaAceptar || destinoActual == salidaRechazar)
         {
-            // Llegó a salida final → destruir y avisar al spawner
             if (spawner != null)
-                spawner.SpawnSiguienteNPC();
+                spawner.NPCFinalizado();
 
             Destroy(gameObject);
         }
     }
 
-    // 🔵 Llamado desde los botones de UI
+    void MostrarObjeto()
+    {
+        objetoNPC.transform.SetParent(null);
+        objetoNPC.transform.position = new Vector3(
+            puntoB.position.x,
+            puntoB.position.y,
+            0f
+        );
+        objetoNPC.transform.localScale = Vector3.one;
+        objetoNPC.SetActive(true);
+
+        Debug.Log("🎁 OBJETO MOSTRADO (GARANTIZADO)");
+    }
+
+    void RecogerObjeto()
+    {
+        objetoNPC.SetActive(false);
+        Debug.Log("📦 OBJETO RECOGIDO");
+    }
+
     public void Aceptar()
     {
         if (!esperandoDecision) return;
 
+        RecogerObjeto();
         destinoActual = salidaAceptar;
-        ReanudarMovimiento();
+        esperandoDecision = false;
+
+        if (DialogManager.Instance != null)
+            DialogManager.Instance.CerrarDialogo();
     }
 
     public void Rechazar()
     {
         if (!esperandoDecision) return;
 
+        RecogerObjeto();
         destinoActual = salidaRechazar;
-        ReanudarMovimiento();
-    }
-
-    void ReanudarMovimiento()
-    {
         esperandoDecision = false;
-        puedeMoverse = true;
+
+        if (DialogManager.Instance != null)
+            DialogManager.Instance.CerrarDialogo();
     }
 }
 
