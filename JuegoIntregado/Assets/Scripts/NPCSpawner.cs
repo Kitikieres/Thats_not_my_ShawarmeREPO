@@ -1,31 +1,46 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class NPCSpawner : MonoBehaviour
 {
     public GameObject[] npcPrefabs;
-
     public Transform puntoA;
     public Transform puntoB;
     public Transform salidaAceptar;
     public Transform salidaRechazar;
-
     public float delayEntreNPCs = 2f;
 
-    private int indiceActual = 0;
+    private List<GameObject> colaNPCs = new List<GameObject>();
     private NPCMovement npcActual;
 
     void Start()
     {
+        PrepararColaAleatoria();
         SpawnNPC();
+    }
+
+    void PrepararColaAleatoria()
+    {
+        colaNPCs.Clear();
+        colaNPCs.AddRange(npcPrefabs);
+
+        for (int i = 0; i < colaNPCs.Count; i++)
+        {
+            int randomIndex = Random.Range(i, colaNPCs.Count);
+            GameObject temp = colaNPCs[i];
+            colaNPCs[i] = colaNPCs[randomIndex];
+            colaNPCs[randomIndex] = temp;
+        }
     }
 
     void SpawnNPC()
     {
         if (npcActual != null) return;
-        if (indiceActual >= npcPrefabs.Length) return;
+        if (colaNPCs.Count == 0) return;
 
-        GameObject npc = Instantiate(npcPrefabs[indiceActual]);
+        GameObject npc = Instantiate(colaNPCs[0]);
+        colaNPCs.RemoveAt(0);
 
         NPCMovement mov = npc.GetComponent<NPCMovement>();
         mov.spawner = this;
@@ -35,7 +50,6 @@ public class NPCSpawner : MonoBehaviour
         mov.salidaRechazar = salidaRechazar;
 
         npcActual = mov;
-        indiceActual++;
     }
 
     public void NPCFinalizado()
@@ -62,4 +76,3 @@ public class NPCSpawner : MonoBehaviour
             npcActual.Rechazar();
     }
 }
-

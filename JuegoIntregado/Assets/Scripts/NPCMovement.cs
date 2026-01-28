@@ -36,7 +36,6 @@ public class NPCMovement : MonoBehaviour
             return;
         }
 
-        // estado inicial
         objetoNPC.SetActive(false);
         transform.position = puntoA.position;
         destinoActual = puntoB;
@@ -53,14 +52,11 @@ public class NPCMovement : MonoBehaviour
         );
 
         if (Vector3.Distance(transform.position, destinoActual.position) < 0.05f)
-        {
             LlegarDestino();
-        }
     }
 
     void LlegarDestino()
     {
-        // 🔥 LLEGÓ A PUNTO B → MOSTRAR OBJETO SIEMPRE
         if (destinoActual == puntoB && !esperandoDecision)
         {
             esperandoDecision = true;
@@ -91,7 +87,7 @@ public class NPCMovement : MonoBehaviour
         objetoNPC.transform.localScale = Vector3.one;
         objetoNPC.SetActive(true);
 
-        Debug.Log("🎁 OBJETO MOSTRADO (GARANTIZADO)");
+        Debug.Log("🎁 OBJETO MOSTRADO");
     }
 
     void RecogerObjeto()
