@@ -4,11 +4,16 @@ using System.Collections.Generic;
 
 public class NPCSpawner : MonoBehaviour
 {
+    [Header("NPCs (prefabs)")]
     public GameObject[] npcPrefabs;
+
+    [Header("Puntos")]
     public Transform puntoA;
     public Transform puntoB;
     public Transform salidaAceptar;
     public Transform salidaRechazar;
+
+    [Header("Delay entre NPCs")]
     public float delayEntreNPCs = 2f;
 
     private List<GameObject> colaNPCs = new List<GameObject>();
@@ -20,6 +25,7 @@ public class NPCSpawner : MonoBehaviour
         SpawnNPC();
     }
 
+    // 🔀 Mezcla los NPCs una vez
     void PrepararColaAleatoria()
     {
         colaNPCs.Clear();
@@ -52,6 +58,7 @@ public class NPCSpawner : MonoBehaviour
         npcActual = mov;
     }
 
+    // 🔔 Llamado por el NPC cuando se destruye
     public void NPCFinalizado()
     {
         npcActual = null;
@@ -64,6 +71,7 @@ public class NPCSpawner : MonoBehaviour
         SpawnNPC();
     }
 
+    // 🔘 MÉTODOS USADOS POR TUS SCRIPTS DE BOTONES
     public void AceptarNPC()
     {
         if (npcActual != null)
