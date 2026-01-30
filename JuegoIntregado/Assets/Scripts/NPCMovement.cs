@@ -2,7 +2,6 @@
 
 public class NPCMovement : MonoBehaviour
 {
-    [Header("Spawner")]
     public NPCSpawner spawner;
 
     [Header("Puntos")]
@@ -14,31 +13,22 @@ public class NPCMovement : MonoBehaviour
     [Header("Movimiento")]
     public float velocidad = 2f;
 
-    [Header("Objeto del NPC (HIJO, instancia)")]
+    [Header("Objeto que deja el NPC")]
     public GameObject objetoNPC;
+
+    [Header("Punto desde donde sale el objeto")]
+    public Transform puntoEntregaObjeto; // 👈 EMPTY
 
     private Transform destinoActual;
     private bool esperandoDecision = false;
 
     void Start()
     {
-        if (puntoA == null || puntoB == null || salidaAceptar == null || salidaRechazar == null)
-        {
-            Debug.LogError("❌ NPCMovement: faltan puntos");
-            Destroy(gameObject);
-            return;
-        }
-
-        if (objetoNPC == null)
-        {
-            Debug.LogError("❌ NPCMovement: objetoNPC no asignado");
-            Destroy(gameObject);
-            return;
-        }
-
-        objetoNPC.SetActive(false);
         transform.position = puntoA.position;
         destinoActual = puntoB;
+
+        if (objetoNPC != null)
+            objetoNPC.SetActive(false);
     }
 
     void Update()
@@ -52,15 +42,17 @@ public class NPCMovement : MonoBehaviour
         );
 
         if (Vector3.Distance(transform.position, destinoActual.position) < 0.05f)
+        {
             LlegarDestino();
+        }
     }
 
     void LlegarDestino()
     {
         if (destinoActual == puntoB && !esperandoDecision)
         {
-            esperandoDecision = true;
             destinoActual = null;
+            esperandoDecision = true;
 
             MostrarObjeto();
 
@@ -76,33 +68,40 @@ public class NPCMovement : MonoBehaviour
         }
     }
 
+    // 🎁 DESLIZAMIENTO DESDE EL EMPTY
     void MostrarObjeto()
     {
-        objetoNPC.transform.SetParent(null);
-        objetoNPC.transform.position = new Vector3(
-            puntoB.position.x,
-            puntoB.position.y,
-            0f
-        );
-        objetoNPC.transform.localScale = Vector3.one;
-        objetoNPC.SetActive(true);
+        if (objetoNPC == null || puntoEntregaObjeto == null) return;
 
-        Debug.Log("🎁 OBJETO MOSTRADO");
+        ObjetoDeslizante deslizante = objetoNPC.GetComponent<ObjetoDeslizante>();
+
+        Vector3 inicio = puntoEntregaObjeto.position; // 🔥 AQUÍ
+        Vector3 destino = puntoB.position;
+
+        if (deslizante != null)
+        {
+            deslizante.DeslizarDesdeHasta(inicio, destino);
+        }
+        else
+        {
+            objetoNPC.transform.position = destino;
+            objetoNPC.SetActive(true);
+        }
     }
 
     void RecogerObjeto()
     {
-        objetoNPC.SetActive(false);
-        Debug.Log("📦 OBJETO RECOGIDO");
+        if (objetoNPC != null)
+            objetoNPC.SetActive(false);
     }
 
     public void Aceptar()
     {
         if (!esperandoDecision) return;
 
+        esperandoDecision = false;
         RecogerObjeto();
         destinoActual = salidaAceptar;
-        esperandoDecision = false;
 
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
@@ -112,9 +111,9 @@ public class NPCMovement : MonoBehaviour
     {
         if (!esperandoDecision) return;
 
+        esperandoDecision = false;
         RecogerObjeto();
         destinoActual = salidaRechazar;
-        esperandoDecision = false;
 
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
