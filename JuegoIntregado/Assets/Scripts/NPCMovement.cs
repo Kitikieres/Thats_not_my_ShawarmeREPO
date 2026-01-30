@@ -38,7 +38,7 @@ public class NPCMovement : MonoBehaviour
         transform.position = puntoA.position;
         destinoActual = puntoB;
 
-        // Referencias a otros scripts del NPC
+        // Referencias
         dialogoNPC = GetComponent<NPCDialogo>();
         checklistNPC = GetComponent<NPCChecklist>();
 
@@ -67,7 +67,7 @@ public class NPCMovement : MonoBehaviour
 
     void LlegarDestino()
     {
-        // ➜ Llega al punto B
+        // Llega al punto B
         if (destinoActual == puntoB && !esperandoDecision)
         {
             destinoActual = null;
@@ -81,7 +81,7 @@ public class NPCMovement : MonoBehaviour
                 DialogManager.Instance.MostrarDialogo(dialogoNPC.textoDialogo);
             }
         }
-        // ➜ Sale del escenario
+        // Sale del escenario
         else if (destinoActual == salidaAceptar || destinoActual == salidaRechazar)
         {
             if (spawner != null)
@@ -91,7 +91,7 @@ public class NPCMovement : MonoBehaviour
         }
     }
 
-    // ▶️ El objeto SALE del NPC y va al empty
+    // ▶️ Objeto sale del NPC y va al empty
     void MostrarObjeto()
     {
         if (objetoNPC == null || puntoEntregaObjeto == null || deslizante == null)
@@ -103,7 +103,7 @@ public class NPCMovement : MonoBehaviour
         deslizante.DeslizarDesdeHasta(inicio, destino);
     }
 
-    // ◀️ El objeto vuelve del empty al NPC y se guarda
+    // ◀️ Objeto vuelve del empty al NPC
     void GuardarObjeto()
     {
         if (objetoNPC == null || puntoEntregaObjeto == null || deslizante == null)
@@ -123,19 +123,18 @@ public class NPCMovement : MonoBehaviour
         esperandoDecision = false;
         GuardarObjeto();
 
+        // Cierra diálogo actual
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
 
-        // Evaluar checklist y mostrar reacción del NPC
+        // Respuesta del NPC según las preguntas marcadas
         if (checklistNPC != null && ChecklistManager.Instance != null && DialogManager.Instance != null)
         {
-            bool correcto = checklistNPC.EvaluarChecklist(
-                ChecklistManager.Instance.ObtenerResultado()
+            string respuesta = checklistNPC.ObtenerRespuesta(
+                ChecklistManager.Instance.ObtenerPreguntas()
             );
 
-            DialogManager.Instance.MostrarDialogo(
-                correcto ? checklistNPC.dialogoCorrecto : checklistNPC.dialogoIncorrecto
-            );
+            DialogManager.Instance.MostrarDialogo(respuesta);
         }
 
         if (rutinaSalida != null)
