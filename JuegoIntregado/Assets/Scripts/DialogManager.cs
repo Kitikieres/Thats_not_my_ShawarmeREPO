@@ -1,4 +1,4 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 using TMPro;
 using System.Collections;
 
@@ -6,62 +6,78 @@ public class DialogManager : MonoBehaviour
 {
     public static DialogManager Instance;
 
-    [Header("UI de di·logo")]
-    public GameObject panelDialogo;   // Panel del di·logo
-    public TMP_Text textoDialogo;     // Texto dentro del panel
-    public float velocidadEscritura = 0.05f; // Tiempo entre letras
+    [Header("UI")]
+    public GameObject panelDialogo;
+    public TMP_Text textoDialogo;   // üëà AHORA ES TMP
 
-    private Coroutine escrituraCoroutine;
-    private string[] lineasActuales;
-    private int indice = 0;
-    private bool dialogoActivo = false;
+    [Header("Velocidad de escritura")]
+    public float velocidadTexto = 0.03f;
+
+    private bool escribiendo = false;
+    private string textoCompleto;
+    private Coroutine rutinaEscritura;
 
     void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
         panelDialogo.SetActive(false);
     }
 
-    // Mostrar di·logo de un NPC
-    public void MostrarDialogo(GameObject npc)
+    public void MostrarDialogo(string texto)
     {
-        var dialog = npc.GetComponent<NPCDialog>();
-        if (dialog == null || dialog.ObtenerDialogo().Length == 0) return;
-
-        lineasActuales = dialog.ObtenerDialogo();
-        indice = 0;
+        if (string.IsNullOrEmpty(texto))
+        {
+            Debug.LogWarning("‚ö†Ô∏è DialogManager: texto vac√≠o");
+            return;
+        }
 
         panelDialogo.SetActive(true);
-        dialogoActivo = true;
+        textoCompleto = texto;
 
-        if (escrituraCoroutine != null) StopCoroutine(escrituraCoroutine);
-        escrituraCoroutine = StartCoroutine(EscribirLinea(lineasActuales[indice]));
+        if (rutinaEscritura != null)
+            StopCoroutine(rutinaEscritura);
+
+        rutinaEscritura = StartCoroutine(EscribirTexto());
     }
 
-    IEnumerator EscribirLinea(string linea)
+    IEnumerator EscribirTexto()
     {
+        escribiendo = true;
         textoDialogo.text = "";
-        foreach (char letra in linea)
+
+        foreach (char c in textoCompleto)
         {
-            textoDialogo.text += letra;
-            yield return new WaitForSeconds(velocidadEscritura);
+            textoDialogo.text += c;
+            yield return new WaitForSeconds(velocidadTexto);
         }
+
+        escribiendo = false;
     }
 
-    // Se llama desde el botÛn Aceptar o Rechazar
+    public void ClickEnDialogo()
+    {
+        if (escribiendo)
+            return;
+
+        CerrarDialogo();
+    }
+
     public void CerrarDialogo()
     {
-        if (!dialogoActivo) return;
-
-        if (escrituraCoroutine != null)
-        {
-            StopCoroutine(escrituraCoroutine);
-            escrituraCoroutine = null;
-        }
+        if (rutinaEscritura != null)
+            StopCoroutine(rutinaEscritura);
 
         panelDialogo.SetActive(false);
-        textoDialogo.text = "";
-        dialogoActivo = false;
+    }
+
+    public bool HaTerminadoDeHablar()
+    {
+        return !escribiendo;
     }
 }
-

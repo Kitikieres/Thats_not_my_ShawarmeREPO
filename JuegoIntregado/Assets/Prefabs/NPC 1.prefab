@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1468698721237771136}
   - component: {fileID: 1136672516484425753}
   - component: {fileID: 8759808511203947608}
+  - component: {fileID: 4938141508111027831}
   m_Layer: 0
   m_Name: NPC 1
   m_TagString: NPC
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -6
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.3254902, g: 0.28235295, b: 0.427451, a: 1}
   m_FlipX: 0
@@ -188,6 +189,7 @@ MonoBehaviour:
   velocidad: 2
   objetoNPC: {fileID: 3031453512272577996}
   puntoEntregaObjeto: {fileID: 1424061394326425369, guid: d654458448a54d2449d0f05aef35a9bb, type: 3}
+  tiempoEsperaDecision: 1
 --- !u!114 &8759808511203947608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,9 +202,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9098655bc75c5154fa123b65aeadca22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
-  dialogo:
-    lineas:
-    - holaaa amigos de youtubee
+  textoDialogo: Hola soy un kebab creeme porfa
+--- !u!114 &4938141508111027831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370303068708422825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76dd2c90d32b85b4e8f3b5f64e137857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCChecklist
+  checksCorrectos:
+  - 
+  - 
+  - 
+  - 
+  dialogoCorrecto: 
+  dialogoIncorrecto: 
 --- !u!1 &3031453512272577996
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +303,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 80
+  m_SortingOrder: 0
   m_Sprite: {fileID: -7473734097194121349, guid: 2274e28ee9443a7428611ec29e125d7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class NPCMovement : MonoBehaviour
 {
+    [Header("Spawner")]
     public NPCSpawner spawner;
 
     [Header("Puntos")]
@@ -16,19 +18,35 @@ public class NPCMovement : MonoBehaviour
     [Header("Objeto que deja el NPC")]
     public GameObject objetoNPC;
 
-    [Header("Punto desde donde sale el objeto")]
-    public Transform puntoEntregaObjeto; // 👈 EMPTY
+    [Header("Empty donde se queda el objeto")]
+    public Transform puntoEntregaObjeto;
+
+    [Header("Tiempo de espera tras decisión")]
+    public float tiempoEsperaDecision = 1f;
 
     private Transform destinoActual;
     private bool esperandoDecision = false;
 
+    private ObjetoDeslizante deslizante;
+    private NPCDialogo dialogoNPC;
+    private NPCChecklist checklistNPC;
+    private Coroutine rutinaSalida;
+
     void Start()
     {
+        // Posición inicial
         transform.position = puntoA.position;
         destinoActual = puntoB;
 
+        // Referencias a otros scripts del NPC
+        dialogoNPC = GetComponent<NPCDialogo>();
+        checklistNPC = GetComponent<NPCChecklist>();
+
         if (objetoNPC != null)
+        {
+            deslizante = objetoNPC.GetComponent<ObjetoDeslizante>();
             objetoNPC.SetActive(false);
+        }
     }
 
     void Update()
@@ -49,6 +67,7 @@ public class NPCMovement : MonoBehaviour
 
     void LlegarDestino()
     {
+        // ➜ Llega al punto B
         if (destinoActual == puntoB && !esperandoDecision)
         {
             destinoActual = null;
@@ -56,9 +75,13 @@ public class NPCMovement : MonoBehaviour
 
             MostrarObjeto();
 
-            if (DialogManager.Instance != null)
-                DialogManager.Instance.MostrarDialogo(gameObject);
+            // Diálogo inicial del NPC
+            if (dialogoNPC != null && DialogManager.Instance != null)
+            {
+                DialogManager.Instance.MostrarDialogo(dialogoNPC.textoDialogo);
+            }
         }
+        // ➜ Sale del escenario
         else if (destinoActual == salidaAceptar || destinoActual == salidaRechazar)
         {
             if (spawner != null)
@@ -68,55 +91,82 @@ public class NPCMovement : MonoBehaviour
         }
     }
 
-    // 🎁 DESLIZAMIENTO DESDE EL EMPTY
+    // ▶️ El objeto SALE del NPC y va al empty
     void MostrarObjeto()
     {
-        if (objetoNPC == null || puntoEntregaObjeto == null) return;
+        if (objetoNPC == null || puntoEntregaObjeto == null || deslizante == null)
+            return;
 
-        ObjetoDeslizante deslizante = objetoNPC.GetComponent<ObjetoDeslizante>();
+        Vector3 inicio = transform.position;
+        Vector3 destino = puntoEntregaObjeto.position;
 
-        Vector3 inicio = puntoEntregaObjeto.position; // 🔥 AQUÍ
-        Vector3 destino = puntoB.position;
-
-        if (deslizante != null)
-        {
-            deslizante.DeslizarDesdeHasta(inicio, destino);
-        }
-        else
-        {
-            objetoNPC.transform.position = destino;
-            objetoNPC.SetActive(true);
-        }
+        deslizante.DeslizarDesdeHasta(inicio, destino);
     }
 
-    void RecogerObjeto()
+    // ◀️ El objeto vuelve del empty al NPC y se guarda
+    void GuardarObjeto()
     {
-        if (objetoNPC != null)
-            objetoNPC.SetActive(false);
+        if (objetoNPC == null || puntoEntregaObjeto == null || deslizante == null)
+            return;
+
+        Vector3 inicio = puntoEntregaObjeto.position;
+        Vector3 destino = transform.position;
+
+        deslizante.DeslizarYGuardar(inicio, destino);
     }
 
+    // ✔️ ACEPTAR
     public void Aceptar()
     {
         if (!esperandoDecision) return;
 
         esperandoDecision = false;
-        RecogerObjeto();
-        destinoActual = salidaAceptar;
+        GuardarObjeto();
 
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
+
+        // Evaluar checklist y mostrar reacción del NPC
+        if (checklistNPC != null && ChecklistManager.Instance != null && DialogManager.Instance != null)
+        {
+            bool correcto = checklistNPC.EvaluarChecklist(
+                ChecklistManager.Instance.ObtenerResultado()
+            );
+
+            DialogManager.Instance.MostrarDialogo(
+                correcto ? checklistNPC.dialogoCorrecto : checklistNPC.dialogoIncorrecto
+            );
+        }
+
+        if (rutinaSalida != null)
+            StopCoroutine(rutinaSalida);
+
+        rutinaSalida = StartCoroutine(EsperarYSalir(salidaAceptar));
     }
 
+    // ❌ RECHAZAR
     public void Rechazar()
     {
         if (!esperandoDecision) return;
 
         esperandoDecision = false;
-        RecogerObjeto();
-        destinoActual = salidaRechazar;
+        GuardarObjeto();
 
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
+
+        if (rutinaSalida != null)
+            StopCoroutine(rutinaSalida);
+
+        rutinaSalida = StartCoroutine(EsperarYSalir(salidaRechazar));
+    }
+
+    IEnumerator EsperarYSalir(Transform salida)
+    {
+        destinoActual = null; // se queda quieto
+
+        yield return new WaitForSeconds(tiempoEsperaDecision);
+
+        destinoActual = salida;
     }
 }
-

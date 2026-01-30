@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class ObjetoDeslizante : MonoBehaviour
@@ -8,19 +8,26 @@ public class ObjetoDeslizante : MonoBehaviour
 
     private Coroutine rutina;
 
-    /// <summary>
-    /// Desliza el objeto desde un punto inicial hasta el destino
-    /// </summary>
     public void DeslizarDesdeHasta(Vector3 inicio, Vector3 destino)
     {
         if (rutina != null)
             StopCoroutine(rutina);
 
         gameObject.SetActive(true);
-        rutina = StartCoroutine(Deslizar(inicio, destino));
+        rutina = StartCoroutine(Deslizar(inicio, destino, false));
     }
 
-    IEnumerator Deslizar(Vector3 inicio, Vector3 destino)
+    // 🔄 Deslizamiento de vuelta (para aceptar / rechazar)
+    public void DeslizarYGuardar(Vector3 inicio, Vector3 destino)
+    {
+        if (rutina != null)
+            StopCoroutine(rutina);
+
+        gameObject.SetActive(true);
+        rutina = StartCoroutine(Deslizar(inicio, destino, true));
+    }
+
+    IEnumerator Deslizar(Vector3 inicio, Vector3 destino, bool ocultarAlFinal)
     {
         float tiempo = 0f;
         transform.position = inicio;
@@ -36,5 +43,8 @@ public class ObjetoDeslizante : MonoBehaviour
         }
 
         transform.position = destino;
+
+        if (ocultarAlFinal)
+            gameObject.SetActive(false);
     }
 }

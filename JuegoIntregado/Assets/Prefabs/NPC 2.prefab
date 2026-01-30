@@ -83,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -6
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.6313726, g: 0.89019614, b: 0.34117648, a: 1}
   m_FlipX: 0
@@ -188,6 +188,7 @@ MonoBehaviour:
   velocidad: 2
   objetoNPC: {fileID: 3031453512272577996}
   puntoEntregaObjeto: {fileID: 1424061394326425369, guid: d654458448a54d2449d0f05aef35a9bb, type: 3}
+  tiempoEsperaDecision: 1
 --- !u!114 &8759808511203947608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,9 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9098655bc75c5154fa123b65aeadca22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
-  dialogo:
-    lineas:
-    - holaaa amigos de youtubee
+  textoDialogo: Hola soy un kebab malvadoo
 --- !u!1 &3031453512272577996
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +283,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 80
+  m_SortingOrder: 2
   m_Sprite: {fileID: -7473734097194121349, guid: 2274e28ee9443a7428611ec29e125d7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
