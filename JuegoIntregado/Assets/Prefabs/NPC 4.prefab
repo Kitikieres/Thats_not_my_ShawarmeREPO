@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1468698721237771136}
   - component: {fileID: 1136672516484425753}
   - component: {fileID: 8759808511203947608}
+  - component: {fileID: 4170812834668071956}
   m_Layer: 0
   m_Name: NPC 4
   m_TagString: NPC
@@ -202,6 +203,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
   textoDialogo: Eh tu, si tu, el jugador que esta jugando esto. trabajaa gandul
+--- !u!114 &4170812834668071956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370303068708422825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76dd2c90d32b85b4e8f3b5f64e137857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCChecklist
+  respuestaFaltaDocumento: 
+  respuestaFaltaFoto: 
+  respuestaFaltaFirma: 
+  respuestaFaltaPermiso: 
+  respuestaNadaPreguntado: 
 --- !u!1 &3031453512272577996
 GameObject:
   m_ObjectHideFlags: 0
