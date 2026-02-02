@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 60eaaf5a777e97949ae256e7fda69b7e
+guid: 6e573a83d8f17954a84bd5a546ac01eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1875917246518206917
-    second: radio_0
+      213: 8929365541598880665
+    second: CheckList 1_0
   - first:
-      213: 6024717204825164481
-    second: radio_1
+      213: 4716804443520321483
+    second: CheckList 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -155,13 +155,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: radio_0
+      name: CheckList 1_1
       rect:
         serializedVersion: 2
-        x: 1669
-        y: 237
-        width: 431
-        height: 268
+        x: 2127
+        y: 441
+        width: 298
+        height: 397
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,8 +170,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c12fb2fbc8980a10800000000000000
-      internalID: 1875917246518206917
+      spriteID: bc7430396a4757140800000000000000
+      internalID: 4716804443520321483
       vertices: []
       indices: 
       edges: []
@@ -180,7 +180,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 20df443ba55897b4eae96951fe7f0067
+    spriteID: 94553f67c951eb14db67164d04acf0d4
     internalID: 0
     vertices: []
     indices: 
@@ -190,8 +190,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      radio_0: 1875917246518206917
-      radio_1: 6024717204825164481
+      CheckList 1_0: 8929365541598880665
+      CheckList 1_1: 4716804443520321483
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
