@@ -2,6 +2,7 @@
 using TMPro;
 using System.Collections;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour, IPointerClickHandler
 {
@@ -27,7 +28,17 @@ public class DialogManager : MonoBehaviour, IPointerClickHandler
         Instance = this;
 
         if (panelDialogo != null)
+        {
+            Button botonDialogo = panelDialogo.GetComponent<Button>();
+            if (botonDialogo == null)
+                botonDialogo = panelDialogo.AddComponent<Button>();
+
+            botonDialogo.transition = Selectable.Transition.None;
+            botonDialogo.onClick.RemoveListener(ClickEnDialogo);
+            botonDialogo.onClick.AddListener(ClickEnDialogo);
+
             panelDialogo.SetActive(false);
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)
