@@ -1264,6 +1264,7 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1391858716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1552,6 +1553,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 =======
 >>>>>>> 2f0f0e6f6d92581fe880f007b6f84bdc565a8189
+=======
+>>>>>>> parent of e9f7e93 (yippie)
 --- !u!1 &1625554031
 GameObject:
   m_ObjectHideFlags: 0
