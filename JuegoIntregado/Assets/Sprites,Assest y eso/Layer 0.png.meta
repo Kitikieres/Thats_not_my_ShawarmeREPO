@@ -1,52 +1,10 @@
 fileFormatVersion: 2
-guid: 7157a55544f25014a80cd332c9727e9c
+guid: 23d9a415d76f1c5418a69744d17f0471
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2367194002124611475
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_0"
-  - first:
-      213: 8211517115123845697
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_1"
-  - first:
-      213: -8472420149057924962
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_2"
-  - first:
-      213: 1773705964375476030
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_3"
-  - first:
-      213: -3149641798132409164
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_4"
-  - first:
-      213: 5384555471465124460
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_5"
-  - first:
-      213: -6777754899112303087
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_6"
-  - first:
-      213: 1995558122674372149
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_7"
-  - first:
-      213: -5485008764071224822
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_8"
-  - first:
-      213: -8721385208615113178
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_9"
-  - first:
-      213: 1423336420660807752
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_10"
-  - first:
-      213: 2086659145516810331
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_11"
-  - first:
-      213: -2844156786494602092
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_12"
-  - first:
-      213: -2221313055994484145
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_13"
-  - first:
-      213: 3923189919380424623
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_14"
+      213: -2816916164556420652
+    second: Layer 0_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -114,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -155,7 +113,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -194,23 +152,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Ilustracio\u0301n_sin_ti\u0301tulo (1)_3"
+      name: Layer 0_0
       rect:
         serializedVersion: 2
-        x: 750
-        y: 701
-        width: 650
-        height: 795
-      alignment: 9
-      pivot: {x: 0.38663575, y: 0.50950646}
+        x: 0
+        y: 0
+        width: 434
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3787965d287d9810800000000000000
-      internalID: 1773705964375476030
+      spriteID: 4d90f894cad48e8d0800000000000000
+      internalID: -2816916164556420652
       vertices: []
       indices: 
       edges: []
@@ -219,7 +177,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2f6367c55067e604fa37d6b472d15634
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -229,21 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_0": -2367194002124611475
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_1": 8211517115123845697
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_10": 1423336420660807752
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_11": 2086659145516810331
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_12": -2844156786494602092
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_13": -2221313055994484145
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_14": 3923189919380424623
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_2": -8472420149057924962
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_3": 1773705964375476030
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_4": -3149641798132409164
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_5": 5384555471465124460
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_6": -6777754899112303087
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_7": 1995558122674372149
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_8": -5485008764071224822
-      "Ilustracio\u0301n_sin_ti\u0301tulo (1)_9": -8721385208615113178
+      Layer 0_0: -2816916164556420652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
