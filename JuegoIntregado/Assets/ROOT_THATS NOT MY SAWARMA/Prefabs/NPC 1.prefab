@@ -215,13 +215,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76dd2c90d32b85b4e8f3b5f64e137857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCChecklist
-  checksCorrectos:
-  - 
-  - 
-  - 
-  - 
-  dialogoCorrecto: 
-  dialogoIncorrecto: 
+  respuestaFaltaDocumento: yo no amigo eso no
+  respuestaFaltaFoto: 'como q no esta bien la foto mira bien eh
+
+'
+  respuestaFaltaFirma: venga va chaval
+  respuestaFaltaPermiso: pues me cago en tus muertos pisaos
+  respuestaNadaPreguntado: ya sabia yo que no me faltaba nada
 --- !u!1 &3031453512272577996
 GameObject:
   m_ObjectHideFlags: 0
