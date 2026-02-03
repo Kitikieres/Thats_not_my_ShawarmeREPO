@@ -1,15 +1,17 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SalirJuegoEditor : MonoBehaviour
 {
+    public void EmpezarJuego(string nivel)
+    {
+        SceneManager.LoadScene(nivel);
+    }
+
     public void Salir()
     {
-        Debug.Log("Saliendo del juego...");
+        Application.Quit();
+        Debug.Log("Abandonando tu puesto de trabajo");
 
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false; // DETIENE EL JUEGO EN UNITY
-#else
-        Application.Quit(); // Cierra el juego cuando esté exportado
-#endif
     }
 }
