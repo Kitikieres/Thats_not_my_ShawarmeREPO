@@ -3,29 +3,24 @@ using System.Collections;
 
 public class NPCMovement : MonoBehaviour
 {
-    [Header("Spawner")]
     public NPCSpawner spawner;
 
-    [Header("Puntos")]
     public Transform puntoA;
     public Transform puntoB;
     public Transform salidaAceptar;
     public Transform salidaRechazar;
 
-    [Header("Movimiento")]
     public float velocidad = 2f;
 
-    [Header("Objeto que deja el NPC")]
     public GameObject objetoNPC;
 
-    [Header("Empty donde se queda el objeto")]
     public Transform puntoEntregaObjeto;
 
-    [Header("Tiempo de espera tras decisión")]
     public float tiempoEsperaDecision = 1f;
 
     private Transform destinoActual;
     private bool esperandoDecision = false;
+    private bool dialogoMostrado = false;
 
     private ObjetoDeslizante deslizante;
     private NPCDialogo dialogoNPC;
@@ -65,21 +60,19 @@ public class NPCMovement : MonoBehaviour
 
     void LlegarDestino()
     {
-        // 👉 LLEGA AL PUNTO B
-        if (destinoActual == puntoB && !esperandoDecision)
+        if (destinoActual == puntoB && !esperandoDecision && !dialogoMostrado)
         {
             destinoActual = null;
             esperandoDecision = true;
+            dialogoMostrado = true;
 
             MostrarObjeto();
 
-            // Diálogo inicial del NPC
             if (dialogoNPC != null && DialogManager.Instance != null)
             {
                 DialogManager.Instance.MostrarDialogo(dialogoNPC.textoDialogo);
             }
         }
-        // 👉 SALE DEL ESCENARIO
         else if (destinoActual == salidaAceptar || destinoActual == salidaRechazar)
         {
             if (spawner != null)
@@ -110,10 +103,6 @@ public class NPCMovement : MonoBehaviour
             transform.position
         );
     }
-
-    // ============================
-    // 🔥 VUELVE EL SISTEMA ORIGINAL
-    // ============================
 
     public void Aceptar()
     {
