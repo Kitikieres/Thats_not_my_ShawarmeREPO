@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 1468698721237771136}
   - component: {fileID: 1136672516484425753}
   - component: {fileID: 8759808511203947608}
-  - component: {fileID: 7907255900641005447}
+  - component: {fileID: 4170812834668071956}
   m_Layer: 0
-  m_Name: NPC 3
+  m_Name: NPC 4
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -6
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.49803925, g: 0.83921576, b: 0.98823535, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -202,8 +202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9098655bc75c5154fa123b65aeadca22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
-  textoDialogo: Hola buenas, a mi se me olvido ponerle tomate pero no pasa nada no?
---- !u!114 &7907255900641005447
+  textoDialogo: Eh tu, si tu, el jugador que esta jugando esto. trabajaa gandul
+--- !u!114 &4170812834668071956
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,11 +215,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76dd2c90d32b85b4e8f3b5f64e137857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCChecklist
-  respuestaFaltaDocumento: pues nada chico
-  respuestaFaltaFoto: pues nada chico
-  respuestaFaltaFirma: pues nada chico
-  respuestaFaltaPermiso: pues nada chico
-  respuestaNadaPreguntado: pues nada chico
+  respuestaFaltaDocumento: yo no amigo eso no
+  respuestaFaltaFoto: como q no esta bien la foto mira bien eh
+  respuestaFaltaFirma: venga va chaval
+  respuestaFaltaPermiso: pues me cago en tus muertos pisaos
+  respuestaNadaPreguntado: ya sabia yo que no me faltaba nada
 --- !u!1 &3031453512272577996
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 9220369886812519662}
   - component: {fileID: 2407506648520434557}
   - component: {fileID: 2502147206248914531}
-  - component: {fileID: 6763717215526888590}
+  - component: {fileID: 7367957480136265728}
   m_Layer: 0
   m_Name: Listado
   m_TagString: Untagged
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e6eb39276cf3840afb8fac746cd532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjetoPrueba
---- !u!114 &6763717215526888590
+--- !u!114 &7367957480136265728
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -383,4 +383,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d9f55df971905548b7c7be92a9a651e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjetoDeslizante
-  duracion: 1
+  duracion: 0.4

@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: JuegoIntregado
-  defaultCursor: {fileID: 2800000, guid: 7157a55544f25014a80cd332c9727e9c, type: 3}
+  defaultCursor: {fileID: 2800000, guid: 23d9a415d76f1c5418a69744d17f0471, type: 3}
   cursorHotspot: {x: 32, y: 32}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1

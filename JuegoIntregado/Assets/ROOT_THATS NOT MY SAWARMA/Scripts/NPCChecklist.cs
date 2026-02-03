@@ -1,5 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections.Generic;
+using TMPro;
 
 public class NPCChecklist : MonoBehaviour
 {
@@ -10,6 +11,22 @@ public class NPCChecklist : MonoBehaviour
     [TextArea] public string respuestaFaltaPermiso;
 
     [TextArea] public string respuestaNadaPreguntado;
+
+    [Header("UI de Diálogo")]
+    public GameObject panelDialogo;
+    public TextMeshProUGUI textoDialogo;
+
+    // 🔥 Se ejecuta al cerrar checklist
+    public void ResponderDesdeChecklist(HashSet<string> preguntas)
+    {
+        string respuesta = ObtenerRespuesta(preguntas);
+
+        panelDialogo.SetActive(true);
+        textoDialogo.text = respuesta;
+
+        // 👉 Aquí YA NO movemos al NPC
+        // Esperamos a que el jugador pulse Aceptar o Rechazar
+    }
 
     public string ObtenerRespuesta(HashSet<string> preguntas)
     {

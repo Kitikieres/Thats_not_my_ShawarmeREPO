@@ -8,7 +8,7 @@ public class DialogManager : MonoBehaviour
 
     [Header("UI")]
     public GameObject panelDialogo;
-    public TMP_Text textoDialogo;   // 👈 AHORA ES TMP
+    public TMP_Text textoDialogo;   
 
     [Header("Velocidad de escritura")]
     public float velocidadTexto = 0.03f;

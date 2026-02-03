@@ -34,11 +34,9 @@ public class NPCMovement : MonoBehaviour
 
     void Start()
     {
-        // Posición inicial
         transform.position = puntoA.position;
         destinoActual = puntoB;
 
-        // Referencias
         dialogoNPC = GetComponent<NPCDialogo>();
         checklistNPC = GetComponent<NPCChecklist>();
 
@@ -67,7 +65,7 @@ public class NPCMovement : MonoBehaviour
 
     void LlegarDestino()
     {
-        // Llega al punto B
+        // 👉 LLEGA AL PUNTO B
         if (destinoActual == puntoB && !esperandoDecision)
         {
             destinoActual = null;
@@ -81,7 +79,7 @@ public class NPCMovement : MonoBehaviour
                 DialogManager.Instance.MostrarDialogo(dialogoNPC.textoDialogo);
             }
         }
-        // Sale del escenario
+        // 👉 SALE DEL ESCENARIO
         else if (destinoActual == salidaAceptar || destinoActual == salidaRechazar)
         {
             if (spawner != null)
@@ -91,31 +89,32 @@ public class NPCMovement : MonoBehaviour
         }
     }
 
-    // ▶️ Objeto sale del NPC y va al empty
     void MostrarObjeto()
     {
         if (objetoNPC == null || puntoEntregaObjeto == null || deslizante == null)
             return;
 
-        Vector3 inicio = transform.position;
-        Vector3 destino = puntoEntregaObjeto.position;
-
-        deslizante.DeslizarDesdeHasta(inicio, destino);
+        deslizante.DeslizarDesdeHasta(
+            transform.position,
+            puntoEntregaObjeto.position
+        );
     }
 
-    // ◀️ Objeto vuelve del empty al NPC
     void GuardarObjeto()
     {
         if (objetoNPC == null || puntoEntregaObjeto == null || deslizante == null)
             return;
 
-        Vector3 inicio = puntoEntregaObjeto.position;
-        Vector3 destino = transform.position;
-
-        deslizante.DeslizarYGuardar(inicio, destino);
+        deslizante.DeslizarYGuardar(
+            puntoEntregaObjeto.position,
+            transform.position
+        );
     }
 
-    // ✔️ ACEPTAR
+    // ============================
+    // 🔥 VUELVE EL SISTEMA ORIGINAL
+    // ============================
+
     public void Aceptar()
     {
         if (!esperandoDecision) return;
@@ -123,19 +122,8 @@ public class NPCMovement : MonoBehaviour
         esperandoDecision = false;
         GuardarObjeto();
 
-        // Cierra diálogo actual
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
-
-        // Respuesta del NPC según las preguntas marcadas
-        if (checklistNPC != null && ChecklistManager.Instance != null && DialogManager.Instance != null)
-        {
-            string respuesta = checklistNPC.ObtenerRespuesta(
-                ChecklistManager.Instance.ObtenerPreguntas()
-            );
-
-            DialogManager.Instance.MostrarDialogo(respuesta);
-        }
 
         if (rutinaSalida != null)
             StopCoroutine(rutinaSalida);
@@ -143,7 +131,6 @@ public class NPCMovement : MonoBehaviour
         rutinaSalida = StartCoroutine(EsperarYSalir(salidaAceptar));
     }
 
-    // ❌ RECHAZAR
     public void Rechazar()
     {
         if (!esperandoDecision) return;
@@ -162,7 +149,7 @@ public class NPCMovement : MonoBehaviour
 
     IEnumerator EsperarYSalir(Transform salida)
     {
-        destinoActual = null; // se queda quieto
+        destinoActual = null;
 
         yield return new WaitForSeconds(tiempoEsperaDecision);
 
