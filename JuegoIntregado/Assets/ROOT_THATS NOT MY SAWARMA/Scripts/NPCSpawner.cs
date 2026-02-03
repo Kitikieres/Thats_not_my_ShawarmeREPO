@@ -25,7 +25,7 @@ public class NPCSpawner : MonoBehaviour
         SpawnNPC();
     }
 
-    // 🔀 Mezcla los NPCs una vez
+   
     void PrepararColaAleatoria()
     {
         colaNPCs.Clear();
@@ -58,7 +58,7 @@ public class NPCSpawner : MonoBehaviour
         npcActual = mov;
     }
 
-    // 🔔 Llamado por el NPC cuando se destruye
+    
     public void NPCFinalizado()
     {
         npcActual = null;
@@ -71,7 +71,7 @@ public class NPCSpawner : MonoBehaviour
         SpawnNPC();
     }
 
-    // 🔘 MÉTODOS USADOS POR TUS SCRIPTS DE BOTONES
+    
     public void AceptarNPC()
     {
         if (npcActual != null)

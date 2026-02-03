@@ -42,17 +42,17 @@ public class ChecklistManager : MonoBehaviour
             preguntasMarcadas.Remove(toggle.name);
     }
 
-    // 🔥 SE LLAMA AL CERRAR EL PANEL
+  
     public void CerrarChecklist()
     {
-        // Cierra el panel de checklist
+        
         gameObject.SetActive(false);
 
-        // Si no hay nada marcado → no pasa nada
+        
         if (preguntasMarcadas.Count == 0)
             return;
 
-        // Busca NPC activo
+        
         NPCChecklist npc = FindObjectOfType<NPCChecklist>();
 
         if (npc != null)

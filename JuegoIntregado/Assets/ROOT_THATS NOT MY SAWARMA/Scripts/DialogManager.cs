@@ -1,16 +1,15 @@
 ﻿using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.EventSystems;
 
-public class DialogManager : MonoBehaviour
+public class DialogManager : MonoBehaviour, IPointerClickHandler
 {
     public static DialogManager Instance;
 
-    [Header("UI")]
     public GameObject panelDialogo;
-    public TMP_Text textoDialogo;   
+    public TMP_Text textoDialogo;
 
-    [Header("Velocidad de escritura")]
     public float velocidadTexto = 0.03f;
 
     private bool escribiendo = false;
@@ -26,16 +25,20 @@ public class DialogManager : MonoBehaviour
         }
 
         Instance = this;
-        panelDialogo.SetActive(false);
+
+        if (panelDialogo != null)
+            panelDialogo.SetActive(false);
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        ClickEnDialogo();
     }
 
     public void MostrarDialogo(string texto)
     {
-        if (string.IsNullOrEmpty(texto))
-        {
-            Debug.LogWarning("⚠️ DialogManager: texto vacío");
+        if (panelDialogo == null || textoDialogo == null)
             return;
-        }
 
         panelDialogo.SetActive(true);
         textoCompleto = texto;
@@ -63,21 +66,21 @@ public class DialogManager : MonoBehaviour
     public void ClickEnDialogo()
     {
         if (escribiendo)
+        {
+            if (rutinaEscritura != null)
+                StopCoroutine(rutinaEscritura);
+
+            textoDialogo.text = textoCompleto;
+            escribiendo = false;
             return;
+        }
 
         CerrarDialogo();
     }
 
     public void CerrarDialogo()
     {
-        if (rutinaEscritura != null)
-            StopCoroutine(rutinaEscritura);
-
-        panelDialogo.SetActive(false);
-    }
-
-    public bool HaTerminadoDeHablar()
-    {
-        return !escribiendo;
+        if (panelDialogo != null)
+            panelDialogo.SetActive(false);
     }
 }
