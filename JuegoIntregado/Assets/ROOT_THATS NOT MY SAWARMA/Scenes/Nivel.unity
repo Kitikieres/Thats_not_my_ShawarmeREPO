@@ -1098,7 +1098,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_TargetDisplay: 0
 --- !u!224 &375396613
 RectTransform:
@@ -1852,7 +1852,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &566833481
 RectTransform:
@@ -2475,7 +2475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 1.1000061, y: 117}
+  m_AnchoredPosition: {x: 1.1000366, y: 117}
   m_SizeDelta: {x: 6.2, y: 98.32}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &814262058
@@ -3233,7 +3233,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.5, y: 1, z: 98}
-  m_LocalScale: {x: 0.69948, y: 0.69948, z: 0.69948}
+  m_LocalScale: {x: 0.80461186, y: 0.80461186, z: 0.80461186}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4194,7 +4194,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &1620786619
 RectTransform:
@@ -4577,7 +4577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CinemachineFollowOnlyCursor
   virtualCamera: {fileID: 1803034985}
-  deadZonePercent: 0.25
+  deadZonePercent: 0.3
   moveSpeed: 8
   maxOffset: 6
 --- !u!114 &1803034983
@@ -5138,7 +5138,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1943650070
 RectTransform:
@@ -5424,7 +5424,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 19
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!1001 &1716883713918082706
 PrefabInstance:
