@@ -215,11 +215,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76dd2c90d32b85b4e8f3b5f64e137857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCChecklist
-  respuestaFaltaDocumento: 
-  respuestaFaltaFoto: 
-  respuestaFaltaFirma: 
-  respuestaFaltaPermiso: 
-  respuestaNadaPreguntado: 
+  respuestaFaltaDocumento: pues nada chico
+  respuestaFaltaFoto: pues nada chico
+  respuestaFaltaFirma: pues nada chico
+  respuestaFaltaPermiso: pues nada chico
+  respuestaNadaPreguntado: pues nada chico
 --- !u!1 &3031453512272577996
 GameObject:
   m_ObjectHideFlags: 0
