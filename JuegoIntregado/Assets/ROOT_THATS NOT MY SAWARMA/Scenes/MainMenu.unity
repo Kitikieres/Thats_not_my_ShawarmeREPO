@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Game
+  m_text: Nuevo juego
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 071d15784c5f4f449b6b266ccfc6f751, type: 2}
   m_sharedMaterial: {fileID: -8042243207450906592, guid: 071d15784c5f4f449b6b266ccfc6f751, type: 2}
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Options
+  m_text: Opciones
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 071d15784c5f4f449b6b266ccfc6f751, type: 2}
   m_sharedMaterial: {fileID: -8042243207450906592, guid: 071d15784c5f4f449b6b266ccfc6f751, type: 2}
@@ -861,7 +861,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit
+  m_text: Salir
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 071d15784c5f4f449b6b266ccfc6f751, type: 2}
   m_sharedMaterial: {fileID: -8042243207450906592, guid: 071d15784c5f4f449b6b266ccfc6f751, type: 2}
@@ -1597,7 +1597,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: Continuar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 071d15784c5f4f449b6b266ccfc6f751, type: 2}
   m_sharedMaterial: {fileID: -8042243207450906592, guid: 071d15784c5f4f449b6b266ccfc6f751, type: 2}
