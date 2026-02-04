@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4498671882567876770}
   - component: {fileID: 6985651726911512369}
   - component: {fileID: 7143344603845354031}
+  - component: {fileID: 5392153170818479105}
   m_Layer: 0
   m_Name: Listado 1
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e6eb39276cf3840afb8fac746cd532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjetoPrueba
+--- !u!114 &5392153170818479105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7749227492938496384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86474edb5f9c81f4b9e724d3384734ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIHoverHighlight
+  hoverColor: {r: 0.8705883, g: 0.7254902, b: 0.5686275, a: 1}
+  scaleOnHover: 1.06

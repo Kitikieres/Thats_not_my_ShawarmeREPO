@@ -661,11 +661,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 262370036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35fcf4e02f57fd8448561d029d157014, type: 3}
+  m_Script: {fileID: 11500000, guid: 86474edb5f9c81f4b9e724d3384734ab, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Hover2DHighlight
-  colorResaltado: {r: 1, g: 0, b: 0.11425209, a: 1}
-  escalaHover: 1.1
+  m_EditorClassIdentifier: Assembly-CSharp::UIHoverHighlight
+  hoverColor: {r: 1, g: 0, b: 0.049950123, a: 1}
+  scaleOnHover: 1.06
 --- !u!1 &339038174
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,7 +703,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 368.8, y: 50.6}
+  m_AnchoredPosition: {x: 366.6, y: 50.6}
   m_SizeDelta: {x: 172.8001, y: 200.1665}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &339038176
@@ -822,11 +822,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 339038174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35fcf4e02f57fd8448561d029d157014, type: 3}
+  m_Script: {fileID: 11500000, guid: 86474edb5f9c81f4b9e724d3384734ab, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Hover2DHighlight
-  colorResaltado: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  escalaHover: 1.1
+  m_EditorClassIdentifier: Assembly-CSharp::UIHoverHighlight
+  hoverColor: {r: 0.75294125, g: 0.7176471, b: 0.5803922, a: 1}
+  scaleOnHover: 1.06
 --- !u!1 &341473713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,11 +1058,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 370809054}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35fcf4e02f57fd8448561d029d157014, type: 3}
+  m_Script: {fileID: 11500000, guid: 86474edb5f9c81f4b9e724d3384734ab, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Hover2DHighlight
-  colorResaltado: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  escalaHover: 1.1
+  m_EditorClassIdentifier: Assembly-CSharp::UIHoverHighlight
+  hoverColor: {r: 0.68235296, g: 0.6509804, b: 0.54901963, a: 1}
+  scaleOnHover: 1.06
 --- !u!1 &375396609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,6 +1303,53 @@ RectTransform:
   m_AnchoredPosition: {x: -230, y: 14.999992}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &450427080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 450427082}
+  - component: {fileID: 450427081}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &450427081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450427080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edea2121b66e1ae4e85f890ef987af40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  aceptasteUnMalo: 0
+  escenaVictoria: 
+  escenaDerrota: 
+--- !u!4 &450427082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450427080}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3438, y: -6.90337, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471471227
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,7 +1945,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &566833481
 RectTransform:
@@ -2576,8 +2623,8 @@ GameObject:
   - component: {fileID: 819007715}
   - component: {fileID: 819007714}
   - component: {fileID: 819007713}
-  - component: {fileID: 819007717}
   - component: {fileID: 819007718}
+  - component: {fileID: 819007719}
   m_Layer: 5
   m_Name: Boton aceptar
   m_TagString: Untagged
@@ -2713,20 +2760,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819007711}
   m_CullTransparentMesh: 1
---- !u!114 &819007717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819007711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35fcf4e02f57fd8448561d029d157014, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Hover2DHighlight
-  colorResaltado: {r: 0.4429498, g: 1, b: 0.015686274, a: 1}
-  escalaHover: 1.1
 --- !u!212 &819007718
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2785,6 +2818,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &819007719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819007711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86474edb5f9c81f4b9e724d3384734ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIHoverHighlight
+  hoverColor: {r: 0, g: 1, b: 0.0034604073, a: 1}
+  scaleOnHover: 1.06
 --- !u!1 &852333720
 GameObject:
   m_ObjectHideFlags: 0
@@ -3447,8 +3494,8 @@ GameObject:
   - component: {fileID: 1124629774}
   - component: {fileID: 1124629773}
   - component: {fileID: 1124629772}
-  - component: {fileID: 1124629776}
-  - component: {fileID: 1124629777}
+  - component: {fileID: 1124629778}
+  - component: {fileID: 1124629779}
   m_Layer: 5
   m_Name: "Manual peque\xF1ito"
   m_TagString: Untagged
@@ -3507,7 +3554,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3582,7 +3629,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124629770}
   m_CullTransparentMesh: 1
---- !u!114 &1124629776
+--- !u!114 &1124629778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3591,69 +3638,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 1124629770}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35fcf4e02f57fd8448561d029d157014, type: 3}
+  m_Script: {fileID: 11500000, guid: 86474edb5f9c81f4b9e724d3384734ab, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Hover2DHighlight
-  colorResaltado: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  escalaHover: 1.1
---- !u!212 &1124629777
-SpriteRenderer:
+  m_EditorClassIdentifier: Assembly-CSharp::UIHoverHighlight
+  hoverColor: {r: 0.6870773, g: 0.70552444, b: 0.754717, a: 1}
+  scaleOnHover: 1.06
+--- !u!95 &1124629779
+Animator:
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124629770}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -947511265063585297, guid: b28daa322d22bbb42b40f9e7b34862f4, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5.15, y: 5.67}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5d58f8ad4eab0754c8ad070d65263663, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1210583766
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,7 +3750,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1235166050}
-  - component: {fileID: 1235166049}
   m_Layer: 0
   m_Name: HoverManager
   m_TagString: Untagged
@@ -3747,18 +3757,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1235166049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235166048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 856921da87eb39f45b41fc62ca4d2b03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Hover2DManager
 --- !u!4 &1235166050
 Transform:
   m_ObjectHideFlags: 0
@@ -5691,11 +5689,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2124657098467227332, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 179.3
+      value: 224.3
       objectReference: {fileID: 0}
     - target: {fileID: 2124657098467227332, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 103.2
+      value: 113.1
       objectReference: {fileID: 0}
     - target: {fileID: 4219252662331991587, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_Sprite
@@ -5711,11 +5709,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5465697385452445038, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -47
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5465697385452445038, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_Pivot.x
@@ -5743,11 +5741,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 312.11
+      value: 530.4779
       objectReference: {fileID: 0}
     - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 33.611816
+      value: -772.3773
+      objectReference: {fileID: 0}
+    - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2852716
+      objectReference: {fileID: 0}
+    - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.2852716
+      objectReference: {fileID: 0}
+    - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.2852716
       objectReference: {fileID: 0}
     - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5779,11 +5789,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 4.8000793
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.432495
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5836867919213360590, guid: 12165325661f5584bb2a11089d47d87c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6202,3 +6212,4 @@ SceneRoots:
   - {fileID: 810582606}
   - {fileID: 951136602}
   - {fileID: 1235166050}
+  - {fileID: 450427082}
