@@ -25,6 +25,7 @@ public class NPCMovement : MonoBehaviour
     private ObjetoDeslizante deslizante;
     private NPCDialogo dialogoNPC;
     private NPCChecklist checklistNPC;
+    private NPCEstado estadoNPC;            // 🔴 NUEVO
     private Coroutine rutinaSalida;
 
     void Start()
@@ -34,6 +35,7 @@ public class NPCMovement : MonoBehaviour
 
         dialogoNPC = GetComponent<NPCDialogo>();
         checklistNPC = GetComponent<NPCChecklist>();
+        estadoNPC = GetComponent<NPCEstado>();   // 🔴 NUEVO
 
         if (objetoNPC != null)
         {
@@ -104,6 +106,7 @@ public class NPCMovement : MonoBehaviour
         );
     }
 
+    // ✔️ ACEPTAR
     public void Aceptar()
     {
         if (!esperandoDecision) return;
@@ -114,12 +117,23 @@ public class NPCMovement : MonoBehaviour
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
 
+        // 🔴 LÓGICA CLAVE: SOLO AQUÍ SE DETECTA EL MALO
+        if (estadoNPC != null && estadoNPC.esMalo)
+        {
+            if (GameManager.Instance != null)
+            {
+                Debug.Log("❌ ACEPTASTE UN KEBAB MALO");
+                GameManager.Instance.AceptarMalo();
+            }
+        }
+
         if (rutinaSalida != null)
             StopCoroutine(rutinaSalida);
 
         rutinaSalida = StartCoroutine(EsperarYSalir(salidaAceptar));
     }
 
+    // ❌ RECHAZAR
     public void Rechazar()
     {
         if (!esperandoDecision) return;
@@ -129,6 +143,9 @@ public class NPCMovement : MonoBehaviour
 
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
+
+        // 🟢 Rechazar a un malo es lo correcto → NO penaliza
+        Debug.Log("✔ Rechazaste al NPC");
 
         if (rutinaSalida != null)
             StopCoroutine(rutinaSalida);

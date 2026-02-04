@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1136672516484425753}
   - component: {fileID: 8759808511203947608}
   - component: {fileID: 4938141508111027831}
+  - component: {fileID: 3431948225841205300}
   m_Layer: 0
   m_Name: NPC 1
   m_TagString: NPC
@@ -222,6 +223,21 @@ MonoBehaviour:
   respuestaFaltaFirma: venga va chaval
   respuestaFaltaPermiso: pues me cago en tus muertos pisaos
   respuestaNadaPreguntado: ya sabia yo que no me faltaba nada
+  panelDialogo: {fileID: 0}
+  textoDialogo: {fileID: 0}
+--- !u!114 &3431948225841205300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370303068708422825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4298b9943ad54f4582549b46d979140, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCEstado
+  esMalo: 1
 --- !u!1 &3031453512272577996
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,6 +251,7 @@ GameObject:
   - component: {fileID: 2407506648520434557}
   - component: {fileID: 2502147206248914531}
   - component: {fileID: 5879269142210318371}
+  - component: {fileID: 5022539946151394623}
   m_Layer: 0
   m_Name: Listado
   m_TagString: Untagged
@@ -386,3 +403,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjetoDeslizante
   duracion: 1
+--- !u!114 &5022539946151394623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3031453512272577996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86474edb5f9c81f4b9e724d3384734ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIHoverHighlight
+  hoverColor: {r: 0.8705883, g: 0.7254902, b: 0.5686275, a: 1}
+  scaleOnHover: 1.06

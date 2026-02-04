@@ -25,7 +25,6 @@ public class NPCSpawner : MonoBehaviour
         SpawnNPC();
     }
 
-   
     void PrepararColaAleatoria()
     {
         colaNPCs.Clear();
@@ -43,7 +42,17 @@ public class NPCSpawner : MonoBehaviour
     void SpawnNPC()
     {
         if (npcActual != null) return;
-        if (colaNPCs.Count == 0) return;
+
+        // 🔴 AQUÍ COMPROBAMOS SI YA NO QUEDAN KEBABS
+        if (colaNPCs.Count == 0)
+        {
+            Debug.Log("🏁 No quedan más kebabs → FIN DE PARTIDA");
+
+            if (GameManager.Instance != null)
+                GameManager.Instance.FinDePartida();
+
+            return;
+        }
 
         GameObject npc = Instantiate(colaNPCs[0]);
         colaNPCs.RemoveAt(0);
@@ -58,7 +67,6 @@ public class NPCSpawner : MonoBehaviour
         npcActual = mov;
     }
 
-    
     public void NPCFinalizado()
     {
         npcActual = null;
@@ -71,7 +79,6 @@ public class NPCSpawner : MonoBehaviour
         SpawnNPC();
     }
 
-    
     public void AceptarNPC()
     {
         if (npcActual != null)
