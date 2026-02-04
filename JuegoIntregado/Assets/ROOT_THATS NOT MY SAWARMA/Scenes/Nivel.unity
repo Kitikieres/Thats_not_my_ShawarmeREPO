@@ -1333,8 +1333,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   aceptasteUnMalo: 0
-  escenaVictoria: 
-  escenaDerrota: 
+  escenaVictoria: MainMenu
+  escenaDerrota: Testeo
 --- !u!4 &450427082
 Transform:
   m_ObjectHideFlags: 0
