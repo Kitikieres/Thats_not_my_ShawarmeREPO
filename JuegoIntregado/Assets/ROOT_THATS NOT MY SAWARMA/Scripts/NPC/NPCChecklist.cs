@@ -16,7 +16,7 @@ public class NPCChecklist : MonoBehaviour
     public GameObject panelDialogo;
     public TextMeshProUGUI textoDialogo;
 
-  
+
     public void ResponderDesdeChecklist(HashSet<string> preguntas)
     {
         string respuesta = ObtenerRespuesta(preguntas);
@@ -24,7 +24,7 @@ public class NPCChecklist : MonoBehaviour
         panelDialogo.SetActive(true);
         textoDialogo.text = respuesta;
 
-       
+
     }
 
     public string ObtenerRespuesta(HashSet<string> preguntas)

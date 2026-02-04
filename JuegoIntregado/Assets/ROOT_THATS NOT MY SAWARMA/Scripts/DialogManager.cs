@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 using TMPro;
 using System.Collections;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
-public class DialogManager : MonoBehaviour, IPointerClickHandler
+public class DialogManager : MonoBehaviour
 {
     public static DialogManager Instance;
 
@@ -17,42 +15,22 @@ public class DialogManager : MonoBehaviour, IPointerClickHandler
     private string textoCompleto;
     private Coroutine rutinaEscritura;
 
+    // Para avisar al NPC actual
+    private NPCInteractuar npcActual;
+
     void Awake()
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
         Instance = this;
-
-        if (panelDialogo != null)
-        {
-            Button botonDialogo = panelDialogo.GetComponent<Button>();
-            if (botonDialogo == null)
-                botonDialogo = panelDialogo.AddComponent<Button>();
-
-            botonDialogo.transition = Selectable.Transition.None;
-            botonDialogo.onClick.RemoveListener(ClickEnDialogo);
-            botonDialogo.onClick.AddListener(ClickEnDialogo);
-
-            panelDialogo.SetActive(false);
-        }
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        ClickEnDialogo();
+        panelDialogo.SetActive(false);
     }
 
     public void MostrarDialogo(string texto)
     {
-        if (panelDialogo == null || textoDialogo == null)
-            return;
-
         panelDialogo.SetActive(true);
         textoCompleto = texto;
+
+        // Buscar quién llamó
+        npcActual = FindObjectOfType<NPCInteractuar>();
 
         if (rutinaEscritura != null)
             StopCoroutine(rutinaEscritura);
@@ -77,21 +55,19 @@ public class DialogManager : MonoBehaviour, IPointerClickHandler
     public void ClickEnDialogo()
     {
         if (escribiendo)
-        {
-            if (rutinaEscritura != null)
-                StopCoroutine(rutinaEscritura);
-
-            textoDialogo.text = textoCompleto;
-            escribiendo = false;
             return;
-        }
 
         CerrarDialogo();
     }
 
     public void CerrarDialogo()
     {
-        if (panelDialogo != null)
-            panelDialogo.SetActive(false);
+        if (rutinaEscritura != null)
+            StopCoroutine(rutinaEscritura);
+
+        panelDialogo.SetActive(false);
+
+        if (npcActual != null)
+            npcActual.DialogoCerrado();
     }
 }

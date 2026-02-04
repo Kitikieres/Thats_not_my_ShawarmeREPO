@@ -43,7 +43,7 @@ public class NPCSpawner : MonoBehaviour
     {
         if (npcActual != null) return;
 
-        // 🔴 AQUÍ COMPROBAMOS SI YA NO QUEDAN KEBABS
+        
         if (colaNPCs.Count == 0)
         {
             Debug.Log("🏁 No quedan más kebabs → FIN DE PARTIDA");

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8759808511203947608}
   - component: {fileID: 4170812834668071956}
   - component: {fileID: 3241984217698878925}
+  - component: {fileID: 7594591665336879350}
   m_Layer: 0
   m_Name: NPC 4
   m_TagString: NPC
@@ -221,8 +222,8 @@ MonoBehaviour:
   respuestaFaltaFirma: venga va chaval
   respuestaFaltaPermiso: pues me cago en tus muertos pisaos
   respuestaNadaPreguntado: ya sabia yo que no me faltaba nada
-  panelDialogo: {fileID: 0}
-  textoDialogo: {fileID: 0}
+  panelDialogo: {fileID: 7242771716699534813, guid: a6a78d648b866a140811108398c90b6b, type: 3}
+  textoDialogo: {fileID: 989098126252988847, guid: 6140527c8bd7d3943969941000e1114a, type: 3}
 --- !u!114 &3241984217698878925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +237,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCEstado
   esMalo: 0
+--- !u!114 &7594591665336879350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370303068708422825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d60f6d4984e75434bbf40b12e85cd09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCInteractuar
 --- !u!1 &3031453512272577996
 GameObject:
   m_ObjectHideFlags: 0
