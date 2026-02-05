@@ -4,13 +4,25 @@ using UnityEngine.InputSystem;
 public class RadioInteractiva : MonoBehaviour
 {
     public AudioSource musicaRadio;
-    private bool encendida = false;
 
+    [Header("Clip por defecto")]
+    public AudioClip clipRadio;
+
+    private bool encendida = false;
     private Camera cam;
 
     private void Start()
     {
-        musicaRadio = GetComponent<AudioSource>();
+        // Si no está asignado, intentamos cogerlo
+        if (musicaRadio == null)
+            musicaRadio = GetComponent<AudioSource>();
+
+        // 🔴 ESTO ES CLAVE
+        if (musicaRadio.clip == null && clipRadio != null)
+        {
+            musicaRadio.clip = clipRadio;
+        }
+
         musicaRadio.loop = true;
         musicaRadio.Stop();
 
@@ -25,7 +37,6 @@ public class RadioInteractiva : MonoBehaviour
             return;
         }
 
-        
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             Vector2 mousePos = Mouse.current.position.ReadValue();
@@ -35,19 +46,24 @@ public class RadioInteractiva : MonoBehaviour
 
             if (hit.collider != null && hit.transform == transform)
             {
-                Debug.Log("CLICK EN RADIO");
-
-                if (encendida)
-                {
-                    encendida = false;
-                    musicaRadio.Stop();
-                }
-                else
-                {
-                    encendida = true;
-                    musicaRadio.Play();
-                }
+                ToggleRadio();
             }
         }
+    }
+
+    void ToggleRadio()
+    {
+        if (musicaRadio.clip == null)
+        {
+            Debug.LogError("❌ La radio NO tiene AudioClip asignado");
+            return;
+        }
+
+        encendida = !encendida;
+
+        if (encendida)
+            musicaRadio.Play();
+        else
+            musicaRadio.Stop();
     }
 }
