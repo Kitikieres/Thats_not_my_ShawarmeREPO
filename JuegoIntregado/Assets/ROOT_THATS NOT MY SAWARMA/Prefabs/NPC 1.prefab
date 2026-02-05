@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 7251571969419823484}
   - component: {fileID: -6529786488162968591}
   - component: {fileID: 7568493968644573065}
+  - component: {fileID: 6791947743770796511}
   m_Layer: 0
   m_Name: NPC 1
   m_TagString: NPC
@@ -282,6 +283,21 @@ MonoBehaviour:
   opcionB: vas bien
   respuestaA: pues no se tu me diras
   respuestaB: gracias bro
+--- !u!114 &6791947743770796511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370303068708422825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd7f88e5194c9b40b02fc37e2d9590f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCObjetosYImagenes
+  objetoNPC: {fileID: 3031453512272577996}
+  imagenNPC: {fileID: -5509931391424394324, guid: a04d0c1958a36504db8c774a41cb7048, type: 3}
+  puntoEntregaObjeto: {fileID: 1424061394326425369, guid: d654458448a54d2449d0f05aef35a9bb, type: 3}
 --- !u!1 &3031453512272577996
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,7 +327,7 @@ Transform:
   m_GameObject: {fileID: 3031453512272577996}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: -0.714, z: 0}
+  m_LocalPosition: {x: 0.11, y: -0.643, z: 0}
   m_LocalScale: {x: 0.22834694, y: 0.039819177, z: 0.07949243}
   m_ConstrainProportionsScale: 0
   m_Children: []
