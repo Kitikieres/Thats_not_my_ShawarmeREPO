@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6.609192, y: 37.45233}
+  m_AnchoredPosition: {x: -6.609131, y: 37.452393}
   m_SizeDelta: {x: 81.2584, y: 9.2982}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &27701095
@@ -675,7 +675,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 14.122}
+  m_AnchoredPosition: {x: 0, y: 14.121948}
   m_SizeDelta: {x: 0, y: -234.80994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &221567398
@@ -1067,6 +1067,7 @@ GameObject:
   - component: {fileID: 356101145}
   - component: {fileID: 356101146}
   - component: {fileID: 356101147}
+  - component: {fileID: 356101148}
   m_Layer: 0
   m_Name: ControladorOpciones
   m_TagString: Untagged
@@ -1175,7 +1176,20 @@ MonoBehaviour:
   menuPrincipal: {fileID: 1994001292}
   panelConfirmacion: {fileID: 221567396}
   menuAnimator: {fileID: 1409008982}
-  tiempoAnimacion: 3
+  tiempoAnimacion: 3.4
+--- !u!114 &356101148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356101140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155a080178bb39944b537a182e5c7b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RejaSoloAnimacion
+  rejaAnimator: {fileID: 1637046534}
 --- !u!1 &384101784
 GameObject:
   m_ObjectHideFlags: 0
@@ -4132,7 +4146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00012207031, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1362185519
@@ -4220,6 +4234,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2062310106}
         m_TargetAssemblyTypeName: FadeMenuUI, Assembly-CSharp
+        m_MethodName: ConfirmarNuevaPartida
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 356101148}
+        m_TargetAssemblyTypeName: RejaSoloAnimacion, Assembly-CSharp
         m_MethodName: ConfirmarNuevaPartida
         m_Mode: 1
         m_Arguments:
@@ -5118,6 +5144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637046532}
   - component: {fileID: 1637046533}
+  - component: {fileID: 1637046534}
   m_Layer: 0
   m_Name: reja_0
   m_TagString: Untagged
@@ -5134,8 +5161,8 @@ Transform:
   m_GameObject: {fileID: 1637046531}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -952.13, y: -537.49, z: 71.255}
-  m_LocalScale: {x: 1.2417359, y: 1.2417359, z: 1.2417359}
+  m_LocalPosition: {x: -952.5953, y: -537.49, z: 71.255}
+  m_LocalScale: {x: 1.1576704, y: 1.2417359, z: 1.2417359}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1825558821}
@@ -5198,6 +5225,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1637046534
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637046531}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c2a049da45f73044c8e18cdd73f6e5f0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1717677454
 GameObject:
   m_ObjectHideFlags: 0
