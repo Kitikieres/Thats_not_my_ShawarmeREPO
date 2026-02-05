@@ -1176,7 +1176,7 @@ MonoBehaviour:
   menuPrincipal: {fileID: 1994001292}
   panelConfirmacion: {fileID: 221567396}
   menuAnimator: {fileID: 1409008982}
-  tiempoAnimacion: 3.4
+  tiempoAnimacion: 3.5
 --- !u!114 &356101148
 MonoBehaviour:
   m_ObjectHideFlags: 0
