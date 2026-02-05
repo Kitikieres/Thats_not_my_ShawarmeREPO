@@ -1,47 +1,53 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class RadioInteractiva : MonoBehaviour
 {
-    [Header("Audio")]
     public AudioSource musicaRadio;
-
     private bool encendida = false;
+
+    private Camera cam;
 
     private void Start()
     {
-        if (musicaRadio == null)
-        {
-            musicaRadio = GetComponent<AudioSource>();
-        }
-
+        musicaRadio = GetComponent<AudioSource>();
         musicaRadio.loop = true;
         musicaRadio.Stop();
-        encendida = false;
+
+        cam = Camera.main;
     }
 
-    private void OnMouseDown()
+    private void Update()
     {
-        if (encendida)
+        if (cam == null)
         {
-            ApagarRadio();
+            cam = Camera.main;
+            return;
         }
-        else
+
+        // CLICK IZQUIERDO DEL INPUT SYSTEM
+        if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            EncenderRadio();
+            Vector2 mousePos = Mouse.current.position.ReadValue();
+            Vector2 worldPos = cam.ScreenToWorldPoint(mousePos);
+
+            RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
+
+            if (hit.collider != null && hit.transform == transform)
+            {
+                Debug.Log("CLICK EN RADIO");
+
+                if (encendida)
+                {
+                    encendida = false;
+                    musicaRadio.Stop();
+                }
+                else
+                {
+                    encendida = true;
+                    musicaRadio.Play();
+                }
+            }
         }
-    }
-
-    void EncenderRadio()
-    {
-        encendida = true;
-        musicaRadio.Play();
-        Debug.Log("📻 Radio encendida");
-    }
-
-    void ApagarRadio()
-    {
-        encendida = false;
-        musicaRadio.Stop();
-        Debug.Log("📻 Radio apagada");
     }
 }
