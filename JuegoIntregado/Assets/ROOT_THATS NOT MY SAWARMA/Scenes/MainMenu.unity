@@ -1907,8 +1907,8 @@ Transform:
   m_GameObject: {fileID: 433306216}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.313, y: -0.78143, z: 0}
-  m_LocalScale: {x: 0.044004273, y: 0.044380486, z: 0.043243192}
+  m_LocalPosition: {x: 15.324, y: -0.78471, z: 0}
+  m_LocalScale: {x: 0.13704251, y: 0.13821414, z: 0.13467227}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 306059284}
@@ -3154,7 +3154,6 @@ GameObject:
   m_Component:
   - component: {fileID: 887331123}
   - component: {fileID: 887331125}
-  - component: {fileID: 887331124}
   m_Layer: 0
   m_Name: ObjetoEntreEscenas
   m_TagString: Opciones
@@ -3179,19 +3178,6 @@ Transform:
   - {fileID: 356101142}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &887331124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887331122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b47252e1e056a2429ffaca8a5fbca05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ControladorOpciones
-  pantallaOpcions: {fileID: 1350692353}
 --- !u!114 &887331125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3201,9 +3187,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 887331122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6526e4ae857b6d74f833cb781b14f600, type: 3}
+  m_Script: {fileID: 11500000, guid: 78db5d3900ea97a4fba33ac70f5fb11b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScenesLogic
+  m_EditorClassIdentifier: Assembly-CSharp::MenuEsc
+  pauseAction:
+    m_Name: Pause
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 25ef691b-7393-4d63-88d0-827dd21d70e0
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  pauseMenu: {fileID: 1350692353}
 --- !u!1 &902792343
 GameObject:
   m_ObjectHideFlags: 0
@@ -3469,6 +3465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 945809710}
   - component: {fileID: 945809713}
+  - component: {fileID: 945809714}
   - component: {fileID: 945809712}
   - component: {fileID: 945809711}
   m_Layer: 0
@@ -3556,11 +3553,23 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &945809714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945809709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0279a9a91f839e44a33d47719b623f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuPersistente
 --- !u!1 &949433894
 GameObject:
   m_ObjectHideFlags: 0
@@ -7205,8 +7214,8 @@ Transform:
   m_GameObject: {fileID: 2117891755}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6424, y: 1.7999, z: 0}
-  m_LocalScale: {x: 0.059883945, y: 0.06039592, z: 0.058848213}
+  m_LocalPosition: {x: 2.65, y: 1.7976, z: 0}
+  m_LocalScale: {x: 0.12551674, y: 0.12658985, z: 0.12334585}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 171496405}
