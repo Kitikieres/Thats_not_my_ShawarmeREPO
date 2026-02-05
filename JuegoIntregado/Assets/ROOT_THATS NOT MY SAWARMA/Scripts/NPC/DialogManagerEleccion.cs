@@ -1,11 +1,10 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class DialogManagerEleccion : MonoBehaviour
 {
     public static DialogManagerEleccion Instance;
 
-    [Header("UI")]
     public GameObject panelDialogo;
     public TMP_Text textoDialogo;
 
@@ -18,6 +17,7 @@ public class DialogManagerEleccion : MonoBehaviour
     void Awake()
     {
         Instance = this;
+
         panelDialogo.SetActive(false);
         panelOpciones.SetActive(false);
     }
@@ -26,8 +26,10 @@ public class DialogManagerEleccion : MonoBehaviour
     {
         npcActual = npc;
 
-        panelDialogo.SetActive(true);
-        panelOpciones.SetActive(true);
+        Debug.Log("🟢 INICIANDO DIALOGO");
+
+        panelDialogo.SetActive(true);   // 👈 FORZADO
+        panelOpciones.SetActive(true);  // 👈 FORZADO
 
         textoDialogo.text = npc.textoInicial;
 
@@ -39,20 +41,33 @@ public class DialogManagerEleccion : MonoBehaviour
     {
         if (npcActual == null) return;
 
-        textoDialogo.text = npcActual.respuestaA;
+        Debug.Log("👉 ELEGISTE A");
+
+        // ❗ SOLO ocultamos opciones
         panelOpciones.SetActive(false);
+
+        // ❗ JAMÁS ocultamos panelDialogo aquí
+        panelDialogo.SetActive(true);
+
+        textoDialogo.text = npcActual.respuestaA;
     }
 
     public void ElegirB()
     {
         if (npcActual == null) return;
 
-        textoDialogo.text = npcActual.respuestaB;
+        Debug.Log("👉 ELEGISTE B");
+
         panelOpciones.SetActive(false);
+        panelDialogo.SetActive(true);
+
+        textoDialogo.text = npcActual.respuestaB;
     }
 
     public void CerrarDialogo()
     {
+        Debug.Log("❌ CERRANDO DIALOGO");
+
         panelDialogo.SetActive(false);
         panelOpciones.SetActive(false);
         npcActual = null;
