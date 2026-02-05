@@ -25,7 +25,7 @@ public class RadioInteractiva : MonoBehaviour
             return;
         }
 
-        // CLICK IZQUIERDO DEL INPUT SYSTEM
+        
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             Vector2 mousePos = Mouse.current.position.ReadValue();

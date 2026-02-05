@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class NPCInteractuarEleccion : MonoBehaviour
 {
@@ -9,8 +9,11 @@ public class NPCInteractuarEleccion : MonoBehaviour
         dialogo = GetComponent<NPCDialogoEleccion>();
     }
 
-    void OnMouseDown()
+    // Esto lo llamará el raycast
+    public void ClickManual()
     {
+        Debug.Log("🍖 CLICK AL KEBAB DETECTADO POR RAYCAST");
+
         if (dialogo != null && DialogManagerEleccion.Instance != null)
         {
             DialogManagerEleccion.Instance.IniciarDialogo(dialogo);
