@@ -159,11 +159,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1669
-        y: 222
+        y: 236
         width: 430
-        height: 297
+        height: 271
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -176,33 +176,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: radio 1_1
-      rect:
-        serializedVersion: 2
-        x: 1818
-        y: 509
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f8e613772e788b90800000000000000
-      internalID: -7239397693098366732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 994579c838b88b546b544470ecbd631f
     internalID: 0
     vertices: []
     indices: 
