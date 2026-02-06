@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9098655bc75c5154fa123b65aeadca22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
-  textoDialogo: Hola soy un kebab malvadoo
+  textoDialogo: Voy para enrique gonzalez ,chaval que no te enteras
 --- !u!114 &2174006115281490289
 MonoBehaviour:
   m_ObjectHideFlags: 0

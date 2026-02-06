@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9098655bc75c5154fa123b65aeadca22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
-  textoDialogo: Hola soy un kebab creeme porfa
+  textoDialogo: Voy para la mesa 14, y voy para enrique quique gonzalez
 --- !u!114 &4938141508111027831
 MonoBehaviour:
   m_ObjectHideFlags: 0
