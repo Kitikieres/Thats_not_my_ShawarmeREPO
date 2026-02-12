@@ -9,12 +9,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 3750669085265726331}
     m_Modifications:
     - target: {fileID: 5741362098202768986, guid: 9ad666ed2b3dd7447baac949c4ade889, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1388782
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741362098202768986, guid: 9ad666ed2b3dd7447baac949c4ade889, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.13879067
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741362098202768986, guid: 9ad666ed2b3dd7447baac949c4ade889, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2728889
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741362098202768986, guid: 9ad666ed2b3dd7447baac949c4ade889, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.336071
+      value: -0.33894
       objectReference: {fileID: 0}
     - target: {fileID: 5741362098202768986, guid: 9ad666ed2b3dd7447baac949c4ade889, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.0371034
+      value: 4.4422
       objectReference: {fileID: 0}
     - target: {fileID: 5741362098202768986, guid: 9ad666ed2b3dd7447baac949c4ade889, type: 3}
       propertyPath: m_LocalPosition.z
@@ -218,9 +230,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 9098f1d479dd822429a76dc8b4b60e7b, type: 3}
       insertIndex: -1
       addedObject: {fileID: -5582569518188701759}
-    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 9098f1d479dd822429a76dc8b4b60e7b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8431440168648385844}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 9098f1d479dd822429a76dc8b4b60e7b, type: 3}
 --- !u!1 &2649546485393707800 stripped
 GameObject:
@@ -296,21 +305,6 @@ MonoBehaviour:
   objetoNPC: {fileID: 8231278385207837700}
   puntoEntregaObjeto: {fileID: 1424061394326425369, guid: d654458448a54d2449d0f05aef35a9bb, type: 3}
   tiempoEsperaDecision: 1
---- !u!114 &8431440168648385844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2649546485393707800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edd7f88e5194c9b40b02fc37e2d9590f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCObjetosYImagenes
-  objetoNPC: {fileID: 0}
-  imagenNPC: {fileID: 0}
-  puntoEntregaObjeto: {fileID: 0}
 --- !u!4 &3750669085265726331 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: 9098f1d479dd822429a76dc8b4b60e7b, type: 3}

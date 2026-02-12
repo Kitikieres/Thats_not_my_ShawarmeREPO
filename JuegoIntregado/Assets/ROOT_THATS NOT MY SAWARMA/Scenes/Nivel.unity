@@ -7471,7 +7471,7 @@ PrefabInstance:
       objectReference: {fileID: 3863459967143294691, guid: 1540770a34153674383cdab4c75123e6, type: 3}
     - target: {fileID: 9207402337911073669, guid: 0b88bce57b5c3da419b1640011b50e93, type: 3}
       propertyPath: npcPrefabs.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9207402337911073669, guid: 0b88bce57b5c3da419b1640011b50e93, type: 3}
       propertyPath: 'listaNPCs.Array.data[0]'
@@ -7492,19 +7492,23 @@ PrefabInstance:
     - target: {fileID: 9207402337911073669, guid: 0b88bce57b5c3da419b1640011b50e93, type: 3}
       propertyPath: 'npcPrefabs.Array.data[0]'
       value: 
-      objectReference: {fileID: 3146523834220049149, guid: 3917c8de33d51d441914531ea038e299, type: 3}
+      objectReference: {fileID: 8838861983160862709, guid: cc00a7559cef50742854a1fdbc81790f, type: 3}
     - target: {fileID: 9207402337911073669, guid: 0b88bce57b5c3da419b1640011b50e93, type: 3}
       propertyPath: 'npcPrefabs.Array.data[1]'
       value: 
-      objectReference: {fileID: 3146523834220049149, guid: 91c93c0fc2b9512468c47054833d6514, type: 3}
+      objectReference: {fileID: 3146523834220049149, guid: 3917c8de33d51d441914531ea038e299, type: 3}
     - target: {fileID: 9207402337911073669, guid: 0b88bce57b5c3da419b1640011b50e93, type: 3}
       propertyPath: 'npcPrefabs.Array.data[2]'
       value: 
-      objectReference: {fileID: 3146523834220049149, guid: e1304010668ed3e45856a6d2f7d9563d, type: 3}
+      objectReference: {fileID: 1329096821914367782, guid: cfa6b7fd5f36a814cbd77b0415e5774d, type: 3}
     - target: {fileID: 9207402337911073669, guid: 0b88bce57b5c3da419b1640011b50e93, type: 3}
       propertyPath: 'npcPrefabs.Array.data[3]'
       value: 
-      objectReference: {fileID: 3146523834220049149, guid: 43f585d96449dd9489d8656932b3d13a, type: 3}
+      objectReference: {fileID: 215135404841946836, guid: 1761841010c930441b87958d58842d69, type: 3}
+    - target: {fileID: 9207402337911073669, guid: 0b88bce57b5c3da419b1640011b50e93, type: 3}
+      propertyPath: 'npcPrefabs.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2649546485393707800, guid: 53e5348cf90e571458f7a5cf29bff62f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
