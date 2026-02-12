@@ -7348,9 +7348,53 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 2887606817650524598, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.36018905
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887606817650524598, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6007692
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887606817650524598, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.6007692
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887606817650524598, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 744
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887606817650524598, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 406
+      objectReference: {fileID: 0}
     - target: {fileID: 4274342675272309071, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
       propertyPath: m_Name
       value: ListadoEnrique
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236760360483357372, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -345
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236760360483357372, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -165
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130086818128357916, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 348.4828
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130086818128357916, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 225.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130086818128357916, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 280.68283
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130086818128357916, guid: 5404503280b1fc543a39d9c0e5646b2a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 177.30449
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
