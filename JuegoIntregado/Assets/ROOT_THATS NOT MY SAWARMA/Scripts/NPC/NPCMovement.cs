@@ -25,8 +25,11 @@ public class NPCMovement : MonoBehaviour
     private ObjetoDeslizante deslizante;
     private NPCDialogo dialogoNPC;
     private NPCChecklist checklistNPC;
-    private NPCEstado estadoNPC;            // 🔴 NUEVO
+    private NPCEstado estadoNPC;
+
     private Coroutine rutinaSalida;
+
+    private Animator animator;
 
     void Start()
     {
@@ -35,29 +38,44 @@ public class NPCMovement : MonoBehaviour
 
         dialogoNPC = GetComponent<NPCDialogo>();
         checklistNPC = GetComponent<NPCChecklist>();
-        estadoNPC = GetComponent<NPCEstado>();   // 🔴 NUEVO
+        estadoNPC = GetComponent<NPCEstado>();
+        animator = GetComponent<Animator>();
 
         if (objetoNPC != null)
         {
             deslizante = objetoNPC.GetComponent<ObjetoDeslizante>();
             objetoNPC.SetActive(false);
         }
+
+        ActualizarAnimacion();
     }
 
     void Update()
     {
-        if (destinoActual == null) return;
-
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            destinoActual.position,
-            velocidad * Time.deltaTime
-        );
-
-        if (Vector3.Distance(transform.position, destinoActual.position) < 0.05f)
+        if (destinoActual != null)
         {
-            LlegarDestino();
+            transform.position = Vector3.MoveTowards(
+                transform.position,
+                destinoActual.position,
+                velocidad * Time.deltaTime
+            );
+
+            if (Vector3.Distance(transform.position, destinoActual.position) < 0.05f)
+            {
+                LlegarDestino();
+            }
         }
+
+        ActualizarAnimacion();
+    }
+
+    void ActualizarAnimacion()
+    {
+        if (animator == null) return;
+
+        bool caminando = destinoActual != null;
+
+        animator.SetBool("isWalking", caminando);
     }
 
     void LlegarDestino()
@@ -106,7 +124,6 @@ public class NPCMovement : MonoBehaviour
         );
     }
 
-    // ✔️ ACEPTAR
     public void Aceptar()
     {
         if (!esperandoDecision) return;
@@ -117,12 +134,10 @@ public class NPCMovement : MonoBehaviour
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
 
-        // 🔴 LÓGICA CLAVE: SOLO AQUÍ SE DETECTA EL MALO
         if (estadoNPC != null && estadoNPC.esMalo)
         {
             if (GameManager.Instance != null)
             {
-                Debug.Log("❌ ACEPTASTE UN KEBAB MALO");
                 GameManager.Instance.AceptarMalo();
             }
         }
@@ -133,7 +148,6 @@ public class NPCMovement : MonoBehaviour
         rutinaSalida = StartCoroutine(EsperarYSalir(salidaAceptar));
     }
 
-    // ❌ RECHAZAR
     public void Rechazar()
     {
         if (!esperandoDecision) return;
@@ -143,9 +157,6 @@ public class NPCMovement : MonoBehaviour
 
         if (DialogManager.Instance != null)
             DialogManager.Instance.CerrarDialogo();
-
-        // 🟢 Rechazar a un malo es lo correcto → NO penaliza
-        Debug.Log("✔ Rechazaste al NPC");
 
         if (rutinaSalida != null)
             StopCoroutine(rutinaSalida);
@@ -157,8 +168,12 @@ public class NPCMovement : MonoBehaviour
     {
         destinoActual = null;
 
+        ActualizarAnimacion();
+
         yield return new WaitForSeconds(tiempoEsperaDecision);
 
         destinoActual = salida;
+
+        ActualizarAnimacion();
     }
 }
