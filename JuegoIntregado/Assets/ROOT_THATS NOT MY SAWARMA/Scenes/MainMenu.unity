@@ -1338,6 +1338,7 @@ GameObject:
   - component: {fileID: 356101146}
   - component: {fileID: 356101147}
   - component: {fileID: 356101148}
+  - component: {fileID: 356101149}
   m_Layer: 0
   m_Name: ControladorOpciones
   m_TagString: Untagged
@@ -1460,6 +1461,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RejaSoloAnimacion
   rejaAnimator: {fileID: 1637046534}
+--- !u!114 &356101149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356101140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e5395e2722e7141b2f4cb45c6e062c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OptionsMenuManager
+  masterVolumeSlider: {fileID: 0}
+  sfxVolumeSlider: {fileID: 0}
+  musicVolumeSlider: {fileID: 2129648487}
+  optionsPanel: {fileID: 945809709}
 --- !u!1 &384101784
 GameObject:
   m_ObjectHideFlags: 0
