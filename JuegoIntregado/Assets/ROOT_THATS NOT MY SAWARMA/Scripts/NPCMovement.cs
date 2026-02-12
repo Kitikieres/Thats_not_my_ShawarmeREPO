@@ -24,7 +24,7 @@ public class NPCMovement : MonoBehaviour
 
     private ObjetoDeslizante deslizante;
     private NPCDialogo dialogoNPC;
-    private NPCChecklist checklistNPC;
+    
     private NPCEstado estadoNPC;            // 🔴 NUEVO
     private Coroutine rutinaSalida;
 
@@ -34,7 +34,7 @@ public class NPCMovement : MonoBehaviour
         destinoActual = puntoB;
 
         dialogoNPC = GetComponent<NPCDialogo>();
-        checklistNPC = GetComponent<NPCChecklist>();
+        
         estadoNPC = GetComponent<NPCEstado>();   // 🔴 NUEVO
 
         if (objetoNPC != null)

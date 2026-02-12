@@ -15,12 +15,8 @@ public class ClickMundo2D : MonoBehaviour
             {
                 Debug.Log("CLICK A: " + hit.collider.name);
 
-                NPCInteractuarEleccion npc = hit.collider.GetComponent<NPCInteractuarEleccion>();
+                
 
-                if (npc != null)
-                {
-                    npc.ClickManual();
-                }
             }
         }
     }
