@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine;
 
 public class PanelInfoManager : MonoBehaviour
 {
@@ -7,9 +6,6 @@ public class PanelInfoManager : MonoBehaviour
 
     [Header("Overlay que bloquea clicks")]
     public GameObject overlayBloqueo;
-
-    [Header("Imagen UI donde se mostrará")]
-    public Image imagenUI;
 
     private void Awake()
     {
@@ -21,22 +17,19 @@ public class PanelInfoManager : MonoBehaviour
 
         Instance = this;
 
+        // Seguridad inicial
         if (overlayBloqueo != null)
             overlayBloqueo.SetActive(false);
 
-        gameObject.SetActive(false);
+        gameObject.SetActive(false); // el panel empieza oculto
     }
 
-    // 🔥 AHORA RECIBE LA IMAGEN
-    public void Abrir(Sprite imagen)
+    public void Abrir()
     {
         if (overlayBloqueo != null)
             overlayBloqueo.SetActive(true);
 
         gameObject.SetActive(true);
-
-        if (imagenUI != null && imagen != null)
-            imagenUI.sprite = imagen;
     }
 
     public void Cerrar()

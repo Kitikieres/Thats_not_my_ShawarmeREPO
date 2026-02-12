@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5741362098202768986
 Transform:
   m_ObjectHideFlags: 0
@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e6eb39276cf3840afb8fac746cd532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjetoPrueba
+<<<<<<< HEAD
   imagenGrande: {fileID: 0}
 --- !u!114 &6317526163712032942
 MonoBehaviour:
@@ -165,3 +166,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TarjetaInteractiva
   imagenGrande: {fileID: 0}
+=======
+>>>>>>> parent of e91a580 (hola caracola)
