@@ -1,24 +1,32 @@
 using UnityEngine;
+using UnityEngine.InputSystem; // importante
 
-using UnityEngine;
-
-public class OpenMenuWithEscape : MonoBehaviour
+public class PlayerInputHandler : MonoBehaviour
 {
-    public GameObject menuPanel; // Panel de tu menú (asígnalo desde el inspector)
+    public InputAction pauseAction; // arrastra tu acción Pause aquí
+    public GameObject pauseMenu;    // arrastra tu menú de pausa aquí
 
-    void Update()
+    private void OnEnable()
     {
-        // Detecta si presionas Escape
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (menuPanel != null)
-            {
-                // Abre o cierra el menú
-                menuPanel.SetActive(!menuPanel.activeSelf);
+        pauseAction.Enable();
+        pauseAction.performed += OnPausePressed;
+    }
 
-                // Pausa o reanuda el juego
-                Time.timeScale = menuPanel.activeSelf ? 0f : 1f;
-            }
-        }
+    private void OnDisable()
+    {
+        pauseAction.performed -= OnPausePressed;
+        pauseAction.Disable();
+    }
+
+    private void OnPausePressed(InputAction.CallbackContext context)
+    {
+        // Activa o desactiva el menú de pausa
+        pauseMenu.SetActive(!pauseMenu.activeSelf);
+
+        // Opcional: pausar el tiempo del juego
+        if (pauseMenu.activeSelf)
+            Time.timeScale = 0f; // pausa el juego
+        else
+            Time.timeScale = 1f; // reanuda
     }
 }
