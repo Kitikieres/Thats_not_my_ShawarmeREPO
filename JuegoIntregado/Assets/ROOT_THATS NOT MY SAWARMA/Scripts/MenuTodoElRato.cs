@@ -1,29 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
-public class ScenesLogic : MonoBehaviour
+public class ExampleClass : MonoBehaviour
 {
-    private void Awake()
+    void Awake()
     {
-        var DontDestroyScenes = FindObjectsOfType<ScenesLogic>();
-        if (DontDestroyScenes.Length > 1)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        DontDestroyOnLoad(gameObject);
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        DontDestroyOnLoad(transform.gameObject);
     }
 }
