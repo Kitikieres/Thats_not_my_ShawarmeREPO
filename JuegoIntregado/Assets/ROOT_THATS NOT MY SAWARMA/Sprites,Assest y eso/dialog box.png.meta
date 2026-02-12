@@ -1,0 +1,5249 @@
+fileFormatVersion: 2
+guid: 6f322dbfb118e7b41a8c92e66745e46c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6085524761092439429
+    second: dialog box_0
+  - first:
+      213: 4113960958977407212
+    second: dialog box_1
+  - first:
+      213: -8357960983891772442
+    second: dialog box_2
+  - first:
+      213: 3360285716252222754
+    second: dialog box_3
+  - first:
+      213: -4276654705861669201
+    second: dialog box_4
+  - first:
+      213: 7449519653235823558
+    second: dialog box_5
+  - first:
+      213: 42979164188081259
+    second: dialog box_6
+  - first:
+      213: -1859004519154201122
+    second: dialog box_7
+  - first:
+      213: 7545182405153403947
+    second: dialog box_8
+  - first:
+      213: -8877575665728119754
+    second: dialog box_9
+  - first:
+      213: 1939805651999188539
+    second: dialog box_10
+  - first:
+      213: 8904219238520857784
+    second: dialog box_11
+  - first:
+      213: 4477200585588596313
+    second: dialog box_12
+  - first:
+      213: -1247318387299989824
+    second: dialog box_13
+  - first:
+      213: -8938714023873027463
+    second: dialog box_14
+  - first:
+      213: -3678392151512347273
+    second: dialog box_15
+  - first:
+      213: -9180399952952342246
+    second: dialog box_16
+  - first:
+      213: 571012969905035549
+    second: dialog box_17
+  - first:
+      213: 3219297459571870147
+    second: dialog box_18
+  - first:
+      213: 3758888144487113366
+    second: dialog box_19
+  - first:
+      213: 7135806062876581216
+    second: dialog box_20
+  - first:
+      213: -2340373847723790990
+    second: dialog box_21
+  - first:
+      213: -7240603018605587306
+    second: dialog box_22
+  - first:
+      213: 912505643121204921
+    second: dialog box_23
+  - first:
+      213: 3177508815399111532
+    second: dialog box_24
+  - first:
+      213: 2767139548824668553
+    second: dialog box_25
+  - first:
+      213: -3567256643159957825
+    second: dialog box_26
+  - first:
+      213: 4224403932801433637
+    second: dialog box_27
+  - first:
+      213: 7831996571928732926
+    second: dialog box_28
+  - first:
+      213: -1051793960306950694
+    second: dialog box_29
+  - first:
+      213: -5006734650241638006
+    second: dialog box_30
+  - first:
+      213: 9163679254231323612
+    second: dialog box_31
+  - first:
+      213: -546784608437034536
+    second: dialog box_32
+  - first:
+      213: 1966272594267157456
+    second: dialog box_33
+  - first:
+      213: 350397827753146095
+    second: dialog box_34
+  - first:
+      213: 5288957935800808528
+    second: dialog box_35
+  - first:
+      213: -2825991477147048090
+    second: dialog box_36
+  - first:
+      213: 886423864096017597
+    second: dialog box_37
+  - first:
+      213: 7308406826989098838
+    second: dialog box_38
+  - first:
+      213: 996234568654654537
+    second: dialog box_39
+  - first:
+      213: 7202981043767390838
+    second: dialog box_40
+  - first:
+      213: 2367322847042648612
+    second: dialog box_41
+  - first:
+      213: -8057475896318514084
+    second: dialog box_42
+  - first:
+      213: -5955239486165773681
+    second: dialog box_43
+  - first:
+      213: 6415135256235316805
+    second: dialog box_44
+  - first:
+      213: -7194890987844692365
+    second: dialog box_45
+  - first:
+      213: 1147660283861439944
+    second: dialog box_46
+  - first:
+      213: -4466038730886850001
+    second: dialog box_47
+  - first:
+      213: -5639935791978099293
+    second: dialog box_48
+  - first:
+      213: 8829650314286448604
+    second: dialog box_49
+  - first:
+      213: 3751801532497111352
+    second: dialog box_50
+  - first:
+      213: -7881370274286195367
+    second: dialog box_51
+  - first:
+      213: -8152403749334767119
+    second: dialog box_52
+  - first:
+      213: 5331142379398746015
+    second: dialog box_53
+  - first:
+      213: -1633930778042979258
+    second: dialog box_54
+  - first:
+      213: 860565944718886354
+    second: dialog box_55
+  - first:
+      213: 999584286060076213
+    second: dialog box_56
+  - first:
+      213: 4391463566747142984
+    second: dialog box_57
+  - first:
+      213: -5316695850169919685
+    second: dialog box_58
+  - first:
+      213: -5746107208122250063
+    second: dialog box_59
+  - first:
+      213: 6687604253654098827
+    second: dialog box_60
+  - first:
+      213: -4349936467552947265
+    second: dialog box_61
+  - first:
+      213: -1065497527141204633
+    second: dialog box_62
+  - first:
+      213: -2412920444479658830
+    second: dialog box_63
+  - first:
+      213: -7110008036694968594
+    second: dialog box_64
+  - first:
+      213: 3989408068607141708
+    second: dialog box_65
+  - first:
+      213: 4418655865499558017
+    second: dialog box_66
+  - first:
+      213: 5405289167711232177
+    second: dialog box_67
+  - first:
+      213: -5993996140783061900
+    second: dialog box_68
+  - first:
+      213: 433057973440403543
+    second: dialog box_69
+  - first:
+      213: -9040887776512286530
+    second: dialog box_70
+  - first:
+      213: -1800561669063822589
+    second: dialog box_71
+  - first:
+      213: -4482684022469816343
+    second: dialog box_72
+  - first:
+      213: 4362142776080083542
+    second: dialog box_73
+  - first:
+      213: -5938816576792560505
+    second: dialog box_74
+  - first:
+      213: -6721935629936299354
+    second: dialog box_75
+  - first:
+      213: 3978868949168714443
+    second: dialog box_76
+  - first:
+      213: 41108349780815411
+    second: dialog box_77
+  - first:
+      213: 1873064831858613661
+    second: dialog box_78
+  - first:
+      213: 5245378821423111438
+    second: dialog box_79
+  - first:
+      213: 4452808275385534251
+    second: dialog box_80
+  - first:
+      213: -1459337015646517568
+    second: dialog box_81
+  - first:
+      213: 7002224385833430591
+    second: dialog box_82
+  - first:
+      213: -7651828789746518716
+    second: dialog box_83
+  - first:
+      213: 7633578881251442440
+    second: dialog box_84
+  - first:
+      213: 1520658797070556338
+    second: dialog box_85
+  - first:
+      213: 6826783278444488964
+    second: dialog box_86
+  - first:
+      213: -7292751911506809473
+    second: dialog box_87
+  - first:
+      213: 5742117412565795428
+    second: dialog box_88
+  - first:
+      213: -2699427080505247201
+    second: dialog box_89
+  - first:
+      213: 6699377950069801538
+    second: dialog box_90
+  - first:
+      213: -5186174707195088524
+    second: dialog box_91
+  - first:
+      213: -6769772362105097936
+    second: dialog box_92
+  - first:
+      213: 4087445210148081033
+    second: dialog box_93
+  - first:
+      213: 5642329511044915423
+    second: dialog box_94
+  - first:
+      213: -8986062691306006921
+    second: dialog box_95
+  - first:
+      213: -6653949833504968481
+    second: dialog box_96
+  - first:
+      213: -1474716545584980119
+    second: dialog box_97
+  - first:
+      213: 2657433839104802031
+    second: dialog box_98
+  - first:
+      213: 1704712408884980010
+    second: dialog box_99
+  - first:
+      213: -4186752320257010720
+    second: dialog box_100
+  - first:
+      213: -7530402985643297741
+    second: dialog box_101
+  - first:
+      213: -8748006997710560192
+    second: dialog box_102
+  - first:
+      213: 8543707007742682909
+    second: dialog box_103
+  - first:
+      213: -1084767862511374169
+    second: dialog box_104
+  - first:
+      213: -8182131980737915828
+    second: dialog box_105
+  - first:
+      213: 7345824431776203145
+    second: dialog box_106
+  - first:
+      213: 3840010106703949853
+    second: dialog box_107
+  - first:
+      213: 7050183171921775167
+    second: dialog box_108
+  - first:
+      213: -2381762513602266957
+    second: dialog box_109
+  - first:
+      213: -4319834890453617041
+    second: dialog box_110
+  - first:
+      213: -8180426636631075560
+    second: dialog box_111
+  - first:
+      213: 366231123140350601
+    second: dialog box_112
+  - first:
+      213: 709944558970188742
+    second: dialog box_113
+  - first:
+      213: -7534568603883753928
+    second: dialog box_114
+  - first:
+      213: 8100081396146195831
+    second: dialog box_115
+  - first:
+      213: -273685208841654306
+    second: dialog box_116
+  - first:
+      213: -1956951990411070043
+    second: dialog box_117
+  - first:
+      213: 6550144728038719024
+    second: dialog box_118
+  - first:
+      213: 8202300388124650163
+    second: dialog box_119
+  - first:
+      213: 2375743458345911108
+    second: dialog box_120
+  - first:
+      213: -5758015164014552620
+    second: dialog box_121
+  - first:
+      213: 3832284425927405200
+    second: dialog box_122
+  - first:
+      213: -73574712039625493
+    second: dialog box_123
+  - first:
+      213: 328455320882730856
+    second: dialog box_124
+  - first:
+      213: 6634593208744794551
+    second: dialog box_125
+  - first:
+      213: 5393715196957590537
+    second: dialog box_126
+  - first:
+      213: 2987523326707586053
+    second: dialog box_127
+  - first:
+      213: -1923615846871144309
+    second: dialog box_128
+  - first:
+      213: 3538200505147241972
+    second: dialog box_129
+  - first:
+      213: -4645198724480965148
+    second: dialog box_130
+  - first:
+      213: -9072897819754817041
+    second: dialog box_131
+  - first:
+      213: 7142981969025945441
+    second: dialog box_132
+  - first:
+      213: 3126855284220990809
+    second: dialog box_133
+  - first:
+      213: 3704588275128246314
+    second: dialog box_134
+  - first:
+      213: 3228993625106986530
+    second: dialog box_135
+  - first:
+      213: 2361938189164651596
+    second: dialog box_136
+  - first:
+      213: 6025348550147982687
+    second: dialog box_137
+  - first:
+      213: -5162205914595555896
+    second: dialog box_138
+  - first:
+      213: -816258141898812973
+    second: dialog box_139
+  - first:
+      213: 1750428090196023218
+    second: dialog box_140
+  - first:
+      213: 9164513849031431072
+    second: dialog box_141
+  - first:
+      213: 5685696781605510984
+    second: dialog box_142
+  - first:
+      213: -4260423022464318118
+    second: dialog box_143
+  - first:
+      213: 5978132449156279749
+    second: dialog box_144
+  - first:
+      213: 5227337622371335168
+    second: dialog box_145
+  - first:
+      213: -4313654193148133552
+    second: dialog box_146
+  - first:
+      213: 8638619363505948748
+    second: dialog box_147
+  - first:
+      213: 7909348296645004098
+    second: dialog box_148
+  - first:
+      213: 6648198449209531789
+    second: dialog box_149
+  - first:
+      213: 6433810473294765924
+    second: dialog box_150
+  - first:
+      213: -1608239674397753869
+    second: dialog box_151
+  - first:
+      213: 6387573001175818087
+    second: dialog box_152
+  - first:
+      213: 7430730859532497913
+    second: dialog box_153
+  - first:
+      213: -4558859347219332529
+    second: dialog box_154
+  - first:
+      213: 3324280755708576114
+    second: dialog box_155
+  - first:
+      213: -6777313066429657997
+    second: dialog box_156
+  - first:
+      213: 862308907665202028
+    second: dialog box_157
+  - first:
+      213: -700521316530444146
+    second: dialog box_158
+  - first:
+      213: -7156237458646054370
+    second: dialog box_159
+  - first:
+      213: 8909025169996095216
+    second: dialog box_160
+  - first:
+      213: 8503403370625246540
+    second: dialog box_161
+  - first:
+      213: 1392141394995163657
+    second: dialog box_162
+  - first:
+      213: -2785975861644641254
+    second: dialog box_163
+  - first:
+      213: 780370815660566445
+    second: dialog box_164
+  - first:
+      213: 395149054953804786
+    second: dialog box_165
+  - first:
+      213: 6560633040851925447
+    second: dialog box_166
+  - first:
+      213: -8486823901235819405
+    second: dialog box_167
+  - first:
+      213: 5658363835008979194
+    second: dialog box_168
+  - first:
+      213: -6527437582145734542
+    second: dialog box_169
+  - first:
+      213: 4881590595947132671
+    second: dialog box_170
+  - first:
+      213: 1854453540755292044
+    second: dialog box_171
+  - first:
+      213: 3006940327665323626
+    second: dialog box_172
+  - first:
+      213: 3482249172722617625
+    second: dialog box_173
+  - first:
+      213: 3193575675693378619
+    second: dialog box_174
+  - first:
+      213: 2285492106467201921
+    second: dialog box_175
+  - first:
+      213: -8241739930429470303
+    second: dialog box_176
+  - first:
+      213: -2189358815542900645
+    second: dialog box_177
+  - first:
+      213: 3092298365039818120
+    second: dialog box_178
+  - first:
+      213: 5334470268963121351
+    second: dialog box_179
+  - first:
+      213: 3293526149960496178
+    second: dialog box_180
+  - first:
+      213: 1449783299386609406
+    second: dialog box_181
+  - first:
+      213: 5197781680463507208
+    second: dialog box_182
+  - first:
+      213: 3670993460455352203
+    second: dialog box_183
+  - first:
+      213: 20399988337918713
+    second: dialog box_184
+  - first:
+      213: 2407103560012274846
+    second: dialog box_185
+  - first:
+      213: 9050787960481662352
+    second: dialog box_186
+  - first:
+      213: 3745270885361326055
+    second: dialog box_187
+  - first:
+      213: 941485775634198039
+    second: dialog box_188
+  - first:
+      213: -6921216795646933779
+    second: dialog box_189
+  - first:
+      213: -1065336402516499731
+    second: dialog box_190
+  - first:
+      213: -1214807791561573115
+    second: dialog box_191
+  - first:
+      213: -4974004424265618847
+    second: dialog box_192
+  - first:
+      213: 3759185051870168986
+    second: dialog box_193
+  - first:
+      213: 4098909981966185802
+    second: dialog box_194
+  - first:
+      213: -35156363212808243
+    second: dialog box_195
+  - first:
+      213: -5124033104635678519
+    second: dialog box_196
+  - first:
+      213: 194458041959858485
+    second: dialog box_197
+  - first:
+      213: 2484675989435889611
+    second: dialog box_198
+  - first:
+      213: 7372130336651925820
+    second: dialog box_199
+  - first:
+      213: 7011048280444396121
+    second: dialog box_200
+  - first:
+      213: -7628304002465647926
+    second: dialog box_201
+  - first:
+      213: 2453840779532670978
+    second: dialog box_202
+  - first:
+      213: -9060387483760597568
+    second: dialog box_203
+  - first:
+      213: 241931843551315239
+    second: dialog box_204
+  - first:
+      213: 8358730597016216503
+    second: dialog box_205
+  - first:
+      213: 7746475756592546284
+    second: dialog box_206
+  - first:
+      213: 1468803492829648218
+    second: dialog box_207
+  - first:
+      213: 2869993417054875722
+    second: dialog box_208
+  - first:
+      213: 4896748725230716831
+    second: dialog box_209
+  - first:
+      213: -3463258157056385826
+    second: dialog box_210
+  - first:
+      213: -3464284061766478627
+    second: dialog box_211
+  - first:
+      213: 4017131964088916488
+    second: dialog box_212
+  - first:
+      213: -734017642526222131
+    second: dialog box_213
+  - first:
+      213: 4721905809359724875
+    second: dialog box_214
+  - first:
+      213: -4164464094223114795
+    second: dialog box_215
+  - first:
+      213: -6144565631029041598
+    second: dialog box_216
+  - first:
+      213: 4153459648103515557
+    second: dialog box_217
+  - first:
+      213: 3631670213440812530
+    second: dialog box_218
+  - first:
+      213: 2684995516163370661
+    second: dialog box_219
+  - first:
+      213: 6775218594542139440
+    second: dialog box_220
+  - first:
+      213: -2647191979179903696
+    second: dialog box_221
+  - first:
+      213: 1724576907255296298
+    second: dialog box_222
+  - first:
+      213: 3946510749278641941
+    second: dialog box_223
+  - first:
+      213: 2904326469782079697
+    second: dialog box_224
+  - first:
+      213: 5951193541938381736
+    second: dialog box_225
+  - first:
+      213: -8885292224678598025
+    second: dialog box_226
+  - first:
+      213: 2761782257109172786
+    second: dialog box_227
+  - first:
+      213: 7107906938523278100
+    second: dialog box_228
+  - first:
+      213: -4012018492629363484
+    second: dialog box_229
+  - first:
+      213: -1037380358246614741
+    second: dialog box_230
+  - first:
+      213: -6656257535813026724
+    second: dialog box_231
+  - first:
+      213: 1678626633376192167
+    second: dialog box_232
+  - first:
+      213: 5793911372727036553
+    second: dialog box_233
+  - first:
+      213: 5086584320024763815
+    second: dialog box_234
+  - first:
+      213: -1986953979341457620
+    second: dialog box_235
+  - first:
+      213: 5923756537904361012
+    second: dialog box_236
+  - first:
+      213: 5086043746910323597
+    second: dialog box_237
+  - first:
+      213: 2941326273563317525
+    second: dialog box_238
+  - first:
+      213: -3244932893233733202
+    second: dialog box_239
+  - first:
+      213: 2561188067429184250
+    second: dialog box_240
+  - first:
+      213: -6113578954135298942
+    second: dialog box_241
+  - first:
+      213: -553599792295384096
+    second: dialog box_242
+  - first:
+      213: -4421409970588051971
+    second: dialog box_243
+  - first:
+      213: -4869313979981762386
+    second: dialog box_244
+  - first:
+      213: -7411292170377591509
+    second: dialog box_245
+  - first:
+      213: 3546306651642725558
+    second: dialog box_246
+  - first:
+      213: -5720787207745589765
+    second: dialog box_247
+  - first:
+      213: -3215881918572133486
+    second: dialog box_248
+  - first:
+      213: 4054459841567590698
+    second: dialog box_249
+  - first:
+      213: -4853246567758275038
+    second: dialog box_250
+  - first:
+      213: 8873634470685387578
+    second: dialog box_251
+  - first:
+      213: -8864923895790940713
+    second: dialog box_252
+  - first:
+      213: 3764526552548455476
+    second: dialog box_253
+  - first:
+      213: 8664855176854770589
+    second: dialog box_254
+  - first:
+      213: -1154562299453537562
+    second: dialog box_255
+  - first:
+      213: 6269397216418832593
+    second: dialog box_256
+  - first:
+      213: -4390382588438185236
+    second: dialog box_257
+  - first:
+      213: 3932023941646163591
+    second: dialog box_258
+  - first:
+      213: 8493963383135199617
+    second: dialog box_259
+  - first:
+      213: -8629592137954464759
+    second: dialog box_260
+  - first:
+      213: -7686834797124040543
+    second: dialog box_261
+  - first:
+      213: 3490597834481679558
+    second: dialog box_262
+  - first:
+      213: -181298732693609971
+    second: dialog box_263
+  - first:
+      213: -1481147819840119314
+    second: dialog box_264
+  - first:
+      213: 6687116484607378994
+    second: dialog box_265
+  - first:
+      213: -916328759158289402
+    second: dialog box_266
+  - first:
+      213: 3028007156692195425
+    second: dialog box_267
+  - first:
+      213: 5545852445272371903
+    second: dialog box_268
+  - first:
+      213: -3817391361470002897
+    second: dialog box_269
+  - first:
+      213: -5619098960606432698
+    second: dialog box_270
+  - first:
+      213: 479613842591290434
+    second: dialog box_271
+  - first:
+      213: -5707553521299612419
+    second: dialog box_272
+  - first:
+      213: -3385584964610281619
+    second: dialog box_273
+  - first:
+      213: -8931287594579690753
+    second: dialog box_274
+  - first:
+      213: 7701061429535195567
+    second: dialog box_275
+  - first:
+      213: 2845926776784193692
+    second: dialog box_276
+  - first:
+      213: 8819006644984332477
+    second: dialog box_277
+  - first:
+      213: 1296217908377236864
+    second: dialog box_278
+  - first:
+      213: -5115816458492501239
+    second: dialog box_279
+  - first:
+      213: 4955676862427215047
+    second: dialog box_280
+  - first:
+      213: 4427837174310215902
+    second: dialog box_281
+  - first:
+      213: 7703484934474896376
+    second: dialog box_282
+  - first:
+      213: 5255046613885955276
+    second: dialog box_283
+  - first:
+      213: 6215889452461455326
+    second: dialog box_284
+  - first:
+      213: -2973344727989081492
+    second: dialog box_285
+  - first:
+      213: 1226225721360219652
+    second: dialog box_286
+  - first:
+      213: -1099739510476999327
+    second: dialog box_287
+  - first:
+      213: 2842223507486648508
+    second: dialog box_288
+  - first:
+      213: -7458116257558045906
+    second: dialog box_289
+  - first:
+      213: 831446202666292366
+    second: dialog box_290
+  - first:
+      213: -5383982912382812491
+    second: dialog box_291
+  - first:
+      213: 2998330166939818072
+    second: dialog box_292
+  - first:
+      213: 2889910459708537929
+    second: dialog box_293
+  - first:
+      213: -4486637291216418169
+    second: dialog box_294
+  - first:
+      213: 7900646807086291733
+    second: dialog box_295
+  - first:
+      213: -1199446585734115324
+    second: dialog box_296
+  - first:
+      213: 4127473993627438420
+    second: dialog box_297
+  - first:
+      213: -2040017003232327556
+    second: dialog box_298
+  - first:
+      213: 2419159370861305708
+    second: dialog box_299
+  - first:
+      213: -1775969676741918079
+    second: dialog box_300
+  - first:
+      213: -3644307538013227723
+    second: dialog box_301
+  - first:
+      213: -2675796062544008800
+    second: dialog box_302
+  - first:
+      213: 2231354784444610429
+    second: dialog box_303
+  - first:
+      213: -6138749304583194078
+    second: dialog box_304
+  - first:
+      213: -6495995082397938095
+    second: dialog box_305
+  - first:
+      213: 3799174460305137831
+    second: dialog box_306
+  - first:
+      213: -6640269698076750018
+    second: dialog box_307
+  - first:
+      213: 1605574023057876236
+    second: dialog box_308
+  - first:
+      213: 6840700137131685882
+    second: dialog box_309
+  - first:
+      213: -1016736362236436244
+    second: dialog box_310
+  - first:
+      213: 7529828676733042284
+    second: dialog box_311
+  - first:
+      213: 2200062468364450531
+    second: dialog box_312
+  - first:
+      213: 3039707837104304013
+    second: dialog box_313
+  - first:
+      213: -1422072832429563962
+    second: dialog box_314
+  - first:
+      213: -961036118341364519
+    second: dialog box_315
+  - first:
+      213: -4165959939375480160
+    second: dialog box_316
+  - first:
+      213: 5975177658747902749
+    second: dialog box_317
+  - first:
+      213: 3807402709625405255
+    second: dialog box_318
+  - first:
+      213: 1022612270971607802
+    second: dialog box_319
+  - first:
+      213: 7474267844866390134
+    second: dialog box_320
+  - first:
+      213: -7721068909763311265
+    second: dialog box_321
+  - first:
+      213: 4710381041010678939
+    second: dialog box_322
+  - first:
+      213: 5789856193137967484
+    second: dialog box_323
+  - first:
+      213: -4901347750184165304
+    second: dialog box_324
+  - first:
+      213: -1671118382016758661
+    second: dialog box_325
+  - first:
+      213: 8134167166764250154
+    second: dialog box_326
+  - first:
+      213: 5491484548296205865
+    second: dialog box_327
+  - first:
+      213: -6323440391851402971
+    second: dialog box_328
+  - first:
+      213: -6579220710128034886
+    second: dialog box_329
+  - first:
+      213: -4226884951720258391
+    second: dialog box_330
+  - first:
+      213: -7502825544938830553
+    second: dialog box_331
+  - first:
+      213: 7866358173841882219
+    second: dialog box_332
+  - first:
+      213: 5055705671341634180
+    second: dialog box_333
+  - first:
+      213: -4419042839146153886
+    second: dialog box_334
+  - first:
+      213: -8886358251579481947
+    second: dialog box_335
+  - first:
+      213: -3908571469639109556
+    second: dialog box_336
+  - first:
+      213: 3100471494004855561
+    second: dialog box_337
+  - first:
+      213: 3725378953179744297
+    second: dialog box_338
+  - first:
+      213: -7586811856609739206
+    second: dialog box_339
+  - first:
+      213: -3264167984686192760
+    second: dialog box_340
+  - first:
+      213: 6018736133140203412
+    second: dialog box_341
+  - first:
+      213: 1024198927382413640
+    second: dialog box_342
+  - first:
+      213: -4007278305588011151
+    second: dialog box_343
+  - first:
+      213: -8014938050635523037
+    second: dialog box_344
+  - first:
+      213: 3343589621398588356
+    second: dialog box_345
+  - first:
+      213: -7413920683169658637
+    second: dialog box_346
+  - first:
+      213: -759251880889982019
+    second: dialog box_347
+  - first:
+      213: 4803041206702552661
+    second: dialog box_348
+  - first:
+      213: -7982782048598614354
+    second: dialog box_349
+  - first:
+      213: -6408699314670274968
+    second: dialog box_350
+  - first:
+      213: 8402321112850347185
+    second: dialog box_351
+  - first:
+      213: -7908614253670441470
+    second: dialog box_352
+  - first:
+      213: 7786238105871197291
+    second: dialog box_353
+  - first:
+      213: 7109997813226605683
+    second: dialog box_354
+  - first:
+      213: 79322752802247402
+    second: dialog box_355
+  - first:
+      213: -3384808767304492799
+    second: dialog box_356
+  - first:
+      213: -3431392760236321080
+    second: dialog box_357
+  - first:
+      213: 3120650721762564985
+    second: dialog box_358
+  - first:
+      213: -8077297153411081968
+    second: dialog box_359
+  - first:
+      213: 1333219613746492477
+    second: dialog box_360
+  - first:
+      213: -597337328786799615
+    second: dialog box_361
+  - first:
+      213: -1308698280027035959
+    second: dialog box_362
+  - first:
+      213: 3288911105157486362
+    second: dialog box_363
+  - first:
+      213: -925826850865110107
+    second: dialog box_364
+  - first:
+      213: -36411005538281753
+    second: dialog box_365
+  - first:
+      213: -7839580861695648420
+    second: dialog box_366
+  - first:
+      213: 7226317674859452474
+    second: dialog box_367
+  - first:
+      213: -1304814940781695461
+    second: dialog box_368
+  - first:
+      213: 2004707239427040980
+    second: dialog box_369
+  - first:
+      213: 3701208471376416708
+    second: dialog box_370
+  - first:
+      213: -1433040757361069486
+    second: dialog box_371
+  - first:
+      213: 6421738988107313182
+    second: dialog box_372
+  - first:
+      213: 5102271389471119992
+    second: dialog box_373
+  - first:
+      213: -8053977952480747424
+    second: dialog box_374
+  - first:
+      213: 7092208867002982929
+    second: dialog box_375
+  - first:
+      213: -4884816904042851396
+    second: dialog box_376
+  - first:
+      213: -3678524222403819662
+    second: dialog box_377
+  - first:
+      213: -5757558969768030769
+    second: dialog box_378
+  - first:
+      213: -1540869105960998762
+    second: dialog box_379
+  - first:
+      213: 8478293469993493408
+    second: dialog box_380
+  - first:
+      213: -2787650779346968792
+    second: dialog box_381
+  - first:
+      213: 2094714048351621005
+    second: dialog box_382
+  - first:
+      213: -3652196641345558927
+    second: dialog box_383
+  - first:
+      213: -7451294699473064391
+    second: dialog box_384
+  - first:
+      213: 7489469766250084938
+    second: dialog box_385
+  - first:
+      213: 6704558586486589283
+    second: dialog box_386
+  - first:
+      213: 1245278545817498377
+    second: dialog box_387
+  - first:
+      213: 3351100452600145693
+    second: dialog box_388
+  - first:
+      213: 2698377410846149036
+    second: dialog box_389
+  - first:
+      213: -1996179150727504504
+    second: dialog box_390
+  - first:
+      213: 282128078398140452
+    second: dialog box_391
+  - first:
+      213: -6687313610123391007
+    second: dialog box_392
+  - first:
+      213: -27051066292954560
+    second: dialog box_393
+  - first:
+      213: -5293190313591141074
+    second: dialog box_394
+  - first:
+      213: 5154607267658426744
+    second: dialog box_395
+  - first:
+      213: 3041179256757446576
+    second: dialog box_396
+  - first:
+      213: -4359524878288263473
+    second: dialog box_397
+  - first:
+      213: 4895590310001770795
+    second: dialog box_398
+  - first:
+      213: -272212596392851593
+    second: dialog box_399
+  - first:
+      213: 7041900618155326427
+    second: dialog box_400
+  - first:
+      213: 7614023060305691399
+    second: dialog box_401
+  - first:
+      213: 5496867956812682472
+    second: dialog box_402
+  - first:
+      213: -7031368162103935263
+    second: dialog box_403
+  - first:
+      213: 8526317375242071179
+    second: dialog box_404
+  - first:
+      213: 3758531552322660480
+    second: dialog box_405
+  - first:
+      213: 7377362370706276056
+    second: dialog box_406
+  - first:
+      213: -4075938014202767930
+    second: dialog box_407
+  - first:
+      213: 7973498012109303685
+    second: dialog box_408
+  - first:
+      213: 6346692202567283858
+    second: dialog box_409
+  - first:
+      213: 5262971772129033159
+    second: dialog box_410
+  - first:
+      213: 3270991470905301404
+    second: dialog box_411
+  - first:
+      213: 8292021813048721429
+    second: dialog box_412
+  - first:
+      213: 1332044339373684355
+    second: dialog box_413
+  - first:
+      213: -7551025524320620759
+    second: dialog box_414
+  - first:
+      213: -8473025023433461608
+    second: dialog box_415
+  - first:
+      213: 2844539039598871142
+    second: dialog box_416
+  - first:
+      213: 4656591949165990184
+    second: dialog box_417
+  - first:
+      213: 6599288730684817488
+    second: dialog box_418
+  - first:
+      213: -7227470450133110991
+    second: dialog box_419
+  - first:
+      213: -2539588838468997102
+    second: dialog box_420
+  - first:
+      213: 3834950224857201919
+    second: dialog box_421
+  - first:
+      213: -3761166856681543560
+    second: dialog box_422
+  - first:
+      213: -9107496982655955051
+    second: dialog box_423
+  - first:
+      213: -3443491259431818513
+    second: dialog box_424
+  - first:
+      213: -2918820447434043308
+    second: dialog box_425
+  - first:
+      213: -956597758461210550
+    second: dialog box_426
+  - first:
+      213: 6715202678132036147
+    second: dialog box_427
+  - first:
+      213: 1459349700610917899
+    second: dialog box_428
+  - first:
+      213: -494754649996877250
+    second: dialog box_429
+  - first:
+      213: -6865418459050107281
+    second: dialog box_430
+  - first:
+      213: 6708588650365754142
+    second: dialog box_431
+  - first:
+      213: -5854214914052683414
+    second: dialog box_432
+  - first:
+      213: -3100462625784494428
+    second: dialog box_433
+  - first:
+      213: -9095974038845550249
+    second: dialog box_434
+  - first:
+      213: -4131787645204127986
+    second: dialog box_435
+  - first:
+      213: 2393888375777322537
+    second: dialog box_436
+  - first:
+      213: -5581027703587714982
+    second: dialog box_437
+  - first:
+      213: 2546442228247391860
+    second: dialog box_438
+  - first:
+      213: 4277105814875149594
+    second: dialog box_439
+  - first:
+      213: -7790949154632817166
+    second: dialog box_440
+  - first:
+      213: 8139820023333841197
+    second: dialog box_441
+  - first:
+      213: 8133572415136064424
+    second: dialog box_442
+  - first:
+      213: -8640975835127610661
+    second: dialog box_443
+  - first:
+      213: -314728063621211093
+    second: dialog box_444
+  - first:
+      213: -2299132535423550848
+    second: dialog box_445
+  - first:
+      213: 5682149624156285724
+    second: dialog box_446
+  - first:
+      213: -784911129132526342
+    second: dialog box_447
+  - first:
+      213: -8442499164608132506
+    second: dialog box_448
+  - first:
+      213: -4306092453939377521
+    second: dialog box_449
+  - first:
+      213: 2453769458957884326
+    second: dialog box_450
+  - first:
+      213: 1771767469627814972
+    second: dialog box_451
+  - first:
+      213: 1891135147930406469
+    second: dialog box_452
+  - first:
+      213: -8977593442556428754
+    second: dialog box_453
+  - first:
+      213: -2202914653722886517
+    second: dialog box_454
+  - first:
+      213: -3296278981118433167
+    second: dialog box_455
+  - first:
+      213: 7871090471146993787
+    second: dialog box_456
+  - first:
+      213: -2012671179743089262
+    second: dialog box_457
+  - first:
+      213: -1921751443653748315
+    second: dialog box_458
+  - first:
+      213: 2599963007875910497
+    second: dialog box_459
+  - first:
+      213: 7279756626852932599
+    second: dialog box_460
+  - first:
+      213: -4777687559214224062
+    second: dialog box_461
+  - first:
+      213: -2925786732863818143
+    second: dialog box_462
+  - first:
+      213: -4369900622612992707
+    second: dialog box_463
+  - first:
+      213: -8470198333492681185
+    second: dialog box_464
+  - first:
+      213: -6784983669385054469
+    second: dialog box_465
+  - first:
+      213: -2254293282182096634
+    second: dialog box_466
+  - first:
+      213: -6673927702559897044
+    second: dialog box_467
+  - first:
+      213: -602679389136768843
+    second: dialog box_468
+  - first:
+      213: 4453194611354216841
+    second: dialog box_469
+  - first:
+      213: 2598667394694265147
+    second: dialog box_470
+  - first:
+      213: -8414609989022900878
+    second: dialog box_471
+  - first:
+      213: -935914338552382110
+    second: dialog box_472
+  - first:
+      213: -2237198962860405468
+    second: dialog box_473
+  - first:
+      213: -8955257229987540140
+    second: dialog box_474
+  - first:
+      213: 9170274892464658015
+    second: dialog box_475
+  - first:
+      213: -2889300328253816432
+    second: dialog box_476
+  - first:
+      213: 2749821333530839739
+    second: dialog box_477
+  - first:
+      213: 5519292626002899442
+    second: dialog box_478
+  - first:
+      213: 1950487595122981844
+    second: dialog box_479
+  - first:
+      213: 6799075047453131615
+    second: dialog box_480
+  - first:
+      213: 6590121926058577549
+    second: dialog box_481
+  - first:
+      213: 2388316050116494183
+    second: dialog box_482
+  - first:
+      213: 6450334858881071654
+    second: dialog box_483
+  - first:
+      213: -2708279323883442829
+    second: dialog box_484
+  - first:
+      213: 6541812008219710663
+    second: dialog box_485
+  - first:
+      213: 496156431283029817
+    second: dialog box_486
+  - first:
+      213: 6203518211588874731
+    second: dialog box_487
+  - first:
+      213: -7112514063197714146
+    second: dialog box_488
+  - first:
+      213: -5277118283188350121
+    second: dialog box_489
+  - first:
+      213: -6654296772946481227
+    second: dialog box_490
+  - first:
+      213: 8973526353333175952
+    second: dialog box_491
+  - first:
+      213: -1617400603910268134
+    second: dialog box_492
+  - first:
+      213: -307900756584216528
+    second: dialog box_493
+  - first:
+      213: 2839072798142081723
+    second: dialog box_494
+  - first:
+      213: -1911093738834134742
+    second: dialog box_495
+  - first:
+      213: 2450635534989711075
+    second: dialog box_496
+  - first:
+      213: 4124085866050422197
+    second: dialog box_497
+  - first:
+      213: -3833478799004753730
+    second: dialog box_498
+  - first:
+      213: 6453472535929137384
+    second: dialog box_499
+  - first:
+      213: -1020291660005190668
+    second: dialog box_500
+  - first:
+      213: -2254886827667221772
+    second: dialog box_501
+  - first:
+      213: -8894058053301032168
+    second: dialog box_502
+  - first:
+      213: 1561649058502212271
+    second: dialog box_503
+  - first:
+      213: -3426658213777548832
+    second: dialog box_504
+  - first:
+      213: -7085477475771138963
+    second: dialog box_505
+  - first:
+      213: -7292691505240156827
+    second: dialog box_506
+  - first:
+      213: -7257781202349483845
+    second: dialog box_507
+  - first:
+      213: -3400797380261123170
+    second: dialog box_508
+  - first:
+      213: -8034040792965688777
+    second: dialog box_509
+  - first:
+      213: -3098898334915978583
+    second: dialog box_510
+  - first:
+      213: 5884538598136015849
+    second: dialog box_511
+  - first:
+      213: -1543920419937506245
+    second: dialog box_512
+  - first:
+      213: 9091967378897999393
+    second: dialog box_513
+  - first:
+      213: 8011938342183495448
+    second: dialog box_514
+  - first:
+      213: 762393860165617895
+    second: dialog box_515
+  - first:
+      213: -4622760427694395402
+    second: dialog box_516
+  - first:
+      213: 2784302272382826836
+    second: dialog box_517
+  - first:
+      213: -1638434657287618912
+    second: dialog box_518
+  - first:
+      213: -2986935460538079207
+    second: dialog box_519
+  - first:
+      213: -4289524613143929258
+    second: dialog box_520
+  - first:
+      213: 76987614829074834
+    second: dialog box_521
+  - first:
+      213: 3777235216462451302
+    second: dialog box_522
+  - first:
+      213: -1346241612734956967
+    second: dialog box_523
+  - first:
+      213: 1367075272870896095
+    second: dialog box_524
+  - first:
+      213: 3951703090820242024
+    second: dialog box_525
+  - first:
+      213: -682378556535776788
+    second: dialog box_526
+  - first:
+      213: 2270380404628645015
+    second: dialog box_527
+  - first:
+      213: 4514361775526336818
+    second: dialog box_528
+  - first:
+      213: 3138055065340003196
+    second: dialog box_529
+  - first:
+      213: 3018991417784586006
+    second: dialog box_530
+  - first:
+      213: -188591091141747760
+    second: dialog box_531
+  - first:
+      213: -3859788617989356678
+    second: dialog box_532
+  - first:
+      213: -1448115219857990663
+    second: dialog box_533
+  - first:
+      213: -1944788645956279698
+    second: dialog box_534
+  - first:
+      213: 8557795244573908069
+    second: dialog box_535
+  - first:
+      213: -1799265719695361131
+    second: dialog box_536
+  - first:
+      213: 5196844344850003814
+    second: dialog box_537
+  - first:
+      213: -1058584131808701295
+    second: dialog box_538
+  - first:
+      213: -945811606690403372
+    second: dialog box_539
+  - first:
+      213: -7455626798177040638
+    second: dialog box_540
+  - first:
+      213: -8239548267511325841
+    second: dialog box_541
+  - first:
+      213: -7563840794769927481
+    second: dialog box_542
+  - first:
+      213: 8330329829604999868
+    second: dialog box_543
+  - first:
+      213: -8786321456522777694
+    second: dialog box_544
+  - first:
+      213: -8632377271003246518
+    second: dialog box_545
+  - first:
+      213: -3594118888598367917
+    second: dialog box_546
+  - first:
+      213: -4753537106749438822
+    second: dialog box_547
+  - first:
+      213: -217506745821314276
+    second: dialog box_548
+  - first:
+      213: 1481512259656582978
+    second: dialog box_549
+  - first:
+      213: 6612853782543294874
+    second: dialog box_550
+  - first:
+      213: -1733435692052884333
+    second: dialog box_551
+  - first:
+      213: 3852489686633268765
+    second: dialog box_552
+  - first:
+      213: 3010581661683617017
+    second: dialog box_553
+  - first:
+      213: -927834622085966283
+    second: dialog box_554
+  - first:
+      213: 1042060073219819002
+    second: dialog box_555
+  - first:
+      213: -8501523945491205604
+    second: dialog box_556
+  - first:
+      213: 7072477356191755734
+    second: dialog box_557
+  - first:
+      213: -8263003633010703275
+    second: dialog box_558
+  - first:
+      213: 7888194482380840118
+    second: dialog box_559
+  - first:
+      213: 1864255981360842514
+    second: dialog box_560
+  - first:
+      213: 177611209401129063
+    second: dialog box_561
+  - first:
+      213: -5796862508168344902
+    second: dialog box_562
+  - first:
+      213: -7496628098830506646
+    second: dialog box_563
+  - first:
+      213: -8089596818637066860
+    second: dialog box_564
+  - first:
+      213: -4475288939281983111
+    second: dialog box_565
+  - first:
+      213: -8213910370393091388
+    second: dialog box_566
+  - first:
+      213: 5530721078873309172
+    second: dialog box_567
+  - first:
+      213: 7947629948386490489
+    second: dialog box_568
+  - first:
+      213: 3592949673048182087
+    second: dialog box_569
+  - first:
+      213: -9155718386680764996
+    second: dialog box_570
+  - first:
+      213: 7072033799188918960
+    second: dialog box_571
+  - first:
+      213: 7072622436919447939
+    second: dialog box_572
+  - first:
+      213: 4052396446410167896
+    second: dialog box_573
+  - first:
+      213: 3435302902230932096
+    second: dialog box_574
+  - first:
+      213: 3808772855403063916
+    second: dialog box_575
+  - first:
+      213: -1926923340198969177
+    second: dialog box_576
+  - first:
+      213: 7628681418698988535
+    second: dialog box_577
+  - first:
+      213: 8147161188384417160
+    second: dialog box_578
+  - first:
+      213: 7837735945058031230
+    second: dialog box_579
+  - first:
+      213: -2933002942577202732
+    second: dialog box_580
+  - first:
+      213: -763835474228346664
+    second: dialog box_581
+  - first:
+      213: 9125951859198243686
+    second: dialog box_582
+  - first:
+      213: 3975026006555288004
+    second: dialog box_583
+  - first:
+      213: 4149528631293772411
+    second: dialog box_584
+  - first:
+      213: -4058827378345145859
+    second: dialog box_585
+  - first:
+      213: -291109633316352620
+    second: dialog box_586
+  - first:
+      213: 5851983370245130551
+    second: dialog box_587
+  - first:
+      213: 4597115356205982978
+    second: dialog box_588
+  - first:
+      213: -7936450201995991585
+    second: dialog box_589
+  - first:
+      213: 1931102428590088100
+    second: dialog box_590
+  - first:
+      213: 5708703747957460454
+    second: dialog box_591
+  - first:
+      213: -5797780118750257224
+    second: dialog box_592
+  - first:
+      213: 8797337114072818385
+    second: dialog box_593
+  - first:
+      213: 2735874805526879909
+    second: dialog box_594
+  - first:
+      213: -5790373465454871404
+    second: dialog box_595
+  - first:
+      213: 5294187984700444708
+    second: dialog box_596
+  - first:
+      213: -6243225789829514857
+    second: dialog box_597
+  - first:
+      213: -1729313336123706929
+    second: dialog box_598
+  - first:
+      213: -4731046025975857219
+    second: dialog box_599
+  - first:
+      213: 4768699326211619300
+    second: dialog box_600
+  - first:
+      213: 2125108216485694708
+    second: dialog box_601
+  - first:
+      213: -1811414869415792356
+    second: dialog box_602
+  - first:
+      213: 2628646302603067723
+    second: dialog box_603
+  - first:
+      213: -2753384393507511689
+    second: dialog box_604
+  - first:
+      213: -5778562650740818683
+    second: dialog box_605
+  - first:
+      213: -5025127396700865530
+    second: dialog box_606
+  - first:
+      213: -869831896808615319
+    second: dialog box_607
+  - first:
+      213: 8843127867800390327
+    second: dialog box_608
+  - first:
+      213: -7520678155752539801
+    second: dialog box_609
+  - first:
+      213: 5935215701024466679
+    second: dialog box_610
+  - first:
+      213: -2494404802164095196
+    second: dialog box_611
+  - first:
+      213: 2525007962694065058
+    second: dialog box_612
+  - first:
+      213: 3890339391603160492
+    second: dialog box_613
+  - first:
+      213: -1420466483487427313
+    second: dialog box_614
+  - first:
+      213: 6602800691353435277
+    second: dialog box_615
+  - first:
+      213: -5724374773462716779
+    second: dialog box_616
+  - first:
+      213: 6486893574268328513
+    second: dialog box_617
+  - first:
+      213: 6039913127369323164
+    second: dialog box_618
+  - first:
+      213: 3949000582645925741
+    second: dialog box_619
+  - first:
+      213: -907505196289690446
+    second: dialog box_620
+  - first:
+      213: 8608271391484930515
+    second: dialog box_621
+  - first:
+      213: 3020801808195217215
+    second: dialog box_622
+  - first:
+      213: -1911873067752686886
+    second: dialog box_623
+  - first:
+      213: -5190241126668408621
+    second: dialog box_624
+  - first:
+      213: 923921941056630866
+    second: dialog box_625
+  - first:
+      213: 284939835831564176
+    second: dialog box_626
+  - first:
+      213: 6247666925918551103
+    second: dialog box_627
+  - first:
+      213: 7799822822196813425
+    second: dialog box_628
+  - first:
+      213: 2903879382415559364
+    second: dialog box_629
+  - first:
+      213: -6654984525817229229
+    second: dialog box_630
+  - first:
+      213: 8849524579586643726
+    second: dialog box_631
+  - first:
+      213: 7295445056017815229
+    second: dialog box_632
+  - first:
+      213: 5036356143493846398
+    second: dialog box_633
+  - first:
+      213: -1549845307425211234
+    second: dialog box_634
+  - first:
+      213: -3072896194559027103
+    second: dialog box_635
+  - first:
+      213: -6289008661451801331
+    second: dialog box_636
+  - first:
+      213: -1678951314332861240
+    second: dialog box_637
+  - first:
+      213: 2249174371185458072
+    second: dialog box_638
+  - first:
+      213: 8359944282403756184
+    second: dialog box_639
+  - first:
+      213: -6515096747979733427
+    second: dialog box_640
+  - first:
+      213: 195124898173367439
+    second: dialog box_641
+  - first:
+      213: -6368966953433139648
+    second: dialog box_642
+  - first:
+      213: -8895386726321120939
+    second: dialog box_643
+  - first:
+      213: 2768974990625954779
+    second: dialog box_644
+  - first:
+      213: -3303403332722372063
+    second: dialog box_645
+  - first:
+      213: -1207401994473641525
+    second: dialog box_646
+  - first:
+      213: 5334808677852897346
+    second: dialog box_647
+  - first:
+      213: -5067776718484220613
+    second: dialog box_648
+  - first:
+      213: 3241316044647987771
+    second: dialog box_649
+  - first:
+      213: 7755766542292357673
+    second: dialog box_650
+  - first:
+      213: -1637289629951334831
+    second: dialog box_651
+  - first:
+      213: 8989557860696539248
+    second: dialog box_652
+  - first:
+      213: 2777612294563968803
+    second: dialog box_653
+  - first:
+      213: 1824133634306487731
+    second: dialog box_654
+  - first:
+      213: -9051329669508208493
+    second: dialog box_655
+  - first:
+      213: 6039453077150911569
+    second: dialog box_656
+  - first:
+      213: 7507477748543280150
+    second: dialog box_657
+  - first:
+      213: 526276689954199054
+    second: dialog box_658
+  - first:
+      213: 2312744024328315388
+    second: dialog box_659
+  - first:
+      213: -7288702420528378471
+    second: dialog box_660
+  - first:
+      213: 875536403702729996
+    second: dialog box_661
+  - first:
+      213: -4899447828504661600
+    second: dialog box_662
+  - first:
+      213: 7854879415573966765
+    second: dialog box_663
+  - first:
+      213: -5717453551628786376
+    second: dialog box_664
+  - first:
+      213: 6923605134816314651
+    second: dialog box_665
+  - first:
+      213: 5475956170491611600
+    second: dialog box_666
+  - first:
+      213: -6632093858116202707
+    second: dialog box_667
+  - first:
+      213: 3595927206703332567
+    second: dialog box_668
+  - first:
+      213: -556854055460904154
+    second: dialog box_669
+  - first:
+      213: -5737208866205747986
+    second: dialog box_670
+  - first:
+      213: -7697797856120662547
+    second: dialog box_671
+  - first:
+      213: -4049414704865002586
+    second: dialog box_672
+  - first:
+      213: 3171849171255534539
+    second: dialog box_673
+  - first:
+      213: -54302925931071426
+    second: dialog box_674
+  - first:
+      213: 6319565105684886636
+    second: dialog box_675
+  - first:
+      213: 6899453699780785202
+    second: dialog box_676
+  - first:
+      213: -5928083890347373922
+    second: dialog box_677
+  - first:
+      213: -2645471344340701574
+    second: dialog box_678
+  - first:
+      213: 4111890757021305108
+    second: dialog box_679
+  - first:
+      213: -6945441465653137449
+    second: dialog box_680
+  - first:
+      213: -7000759421771274733
+    second: dialog box_681
+  - first:
+      213: -956341684067534517
+    second: dialog box_682
+  - first:
+      213: 7380356185717796924
+    second: dialog box_683
+  - first:
+      213: 7278361939234260317
+    second: dialog box_684
+  - first:
+      213: 1693526780497374933
+    second: dialog box_685
+  - first:
+      213: 7521214626001155154
+    second: dialog box_686
+  - first:
+      213: 4829195515798930529
+    second: dialog box_687
+  - first:
+      213: 9111254462170009664
+    second: dialog box_688
+  - first:
+      213: 4836571004625902301
+    second: dialog box_689
+  - first:
+      213: 8458806362094749349
+    second: dialog box_690
+  - first:
+      213: -2272424334776530964
+    second: dialog box_691
+  - first:
+      213: -5696561315390083239
+    second: dialog box_692
+  - first:
+      213: 3968162053542856268
+    second: dialog box_693
+  - first:
+      213: 317239628700996008
+    second: dialog box_694
+  - first:
+      213: 2665917430510150
+    second: dialog box_695
+  - first:
+      213: -7941962686091021878
+    second: dialog box_696
+  - first:
+      213: -3795149954680420001
+    second: dialog box_697
+  - first:
+      213: -6974949067052669034
+    second: dialog box_698
+  - first:
+      213: -4937587093618857181
+    second: dialog box_699
+  - first:
+      213: -6231265802547491199
+    second: dialog box_700
+  - first:
+      213: 9183852847789766554
+    second: dialog box_701
+  - first:
+      213: 2318501837387433921
+    second: dialog box_702
+  - first:
+      213: -955505534100888214
+    second: dialog box_703
+  - first:
+      213: -1494476603486860749
+    second: dialog box_704
+  - first:
+      213: -3832513072253066004
+    second: dialog box_705
+  - first:
+      213: 6032827600268551305
+    second: dialog box_706
+  - first:
+      213: -7135006923642213196
+    second: dialog box_707
+  - first:
+      213: -8464861251282007922
+    second: dialog box_708
+  - first:
+      213: 8067885608872953078
+    second: dialog box_709
+  - first:
+      213: -8805916092116675274
+    second: dialog box_710
+  - first:
+      213: 2787843196366970496
+    second: dialog box_711
+  - first:
+      213: 5053570016037955533
+    second: dialog box_712
+  - first:
+      213: -3182016115358516010
+    second: dialog box_713
+  - first:
+      213: -7136002513044864580
+    second: dialog box_714
+  - first:
+      213: -7058934408062559868
+    second: dialog box_715
+  - first:
+      213: -7817433756946275454
+    second: dialog box_716
+  - first:
+      213: -6059878909576118636
+    second: dialog box_717
+  - first:
+      213: -8722825523337799095
+    second: dialog box_718
+  - first:
+      213: 4372185477775663045
+    second: dialog box_719
+  - first:
+      213: -4654596367015301906
+    second: dialog box_720
+  - first:
+      213: 8946547818553523201
+    second: dialog box_721
+  - first:
+      213: 4769787355290762652
+    second: dialog box_722
+  - first:
+      213: -1302164740301698007
+    second: dialog box_723
+  - first:
+      213: 4655836922238844722
+    second: dialog box_724
+  - first:
+      213: 2034371445137440617
+    second: dialog box_725
+  - first:
+      213: 8480447674186352326
+    second: dialog box_726
+  - first:
+      213: -22340036920824762
+    second: dialog box_727
+  - first:
+      213: -5530400314851374003
+    second: dialog box_728
+  - first:
+      213: -6302905796504646617
+    second: dialog box_729
+  - first:
+      213: 5391640085052380338
+    second: dialog box_730
+  - first:
+      213: 1140098634809055678
+    second: dialog box_731
+  - first:
+      213: -8362269459677849091
+    second: dialog box_732
+  - first:
+      213: 5376448840120016003
+    second: dialog box_733
+  - first:
+      213: -6064875926999062893
+    second: dialog box_734
+  - first:
+      213: -605236005617067948
+    second: dialog box_735
+  - first:
+      213: -6700403771755848794
+    second: dialog box_736
+  - first:
+      213: -7306478796502953822
+    second: dialog box_737
+  - first:
+      213: 3282854813390438321
+    second: dialog box_738
+  - first:
+      213: 4655038009730416386
+    second: dialog box_739
+  - first:
+      213: -3984173268948436769
+    second: dialog box_740
+  - first:
+      213: 704367562594661202
+    second: dialog box_741
+  - first:
+      213: 4817816873275304634
+    second: dialog box_742
+  - first:
+      213: -4440121989596044877
+    second: dialog box_743
+  - first:
+      213: 6495521347769312357
+    second: dialog box_744
+  - first:
+      213: -1155192064912065461
+    second: dialog box_745
+  - first:
+      213: 5666884939623253147
+    second: dialog box_746
+  - first:
+      213: -674332241358670349
+    second: dialog box_747
+  - first:
+      213: -3121612341685664398
+    second: dialog box_748
+  - first:
+      213: 811215205198492837
+    second: dialog box_749
+  - first:
+      213: -246080579182169548
+    second: dialog box_750
+  - first:
+      213: -524526176250811867
+    second: dialog box_751
+  - first:
+      213: 2298508954274216286
+    second: dialog box_752
+  - first:
+      213: 9094337467523694301
+    second: dialog box_753
+  - first:
+      213: -2488892476487919941
+    second: dialog box_754
+  - first:
+      213: -7437169095691778352
+    second: dialog box_755
+  - first:
+      213: -258005814115911426
+    second: dialog box_756
+  - first:
+      213: -3286337388187015840
+    second: dialog box_757
+  - first:
+      213: -759401253590020121
+    second: dialog box_758
+  - first:
+      213: -2465333677532565102
+    second: dialog box_759
+  - first:
+      213: 2855845047970528646
+    second: dialog box_760
+  - first:
+      213: -5048497762082122287
+    second: dialog box_761
+  - first:
+      213: -9135947638948243738
+    second: dialog box_762
+  - first:
+      213: -5974865853942564103
+    second: dialog box_763
+  - first:
+      213: -3008252834653734814
+    second: dialog box_764
+  - first:
+      213: -6321605854287405145
+    second: dialog box_765
+  - first:
+      213: -94961283863405366
+    second: dialog box_766
+  - first:
+      213: 2894178165157190604
+    second: dialog box_767
+  - first:
+      213: -6012193486539464678
+    second: dialog box_768
+  - first:
+      213: 8005622027669146231
+    second: dialog box_769
+  - first:
+      213: -4766203938005239514
+    second: dialog box_770
+  - first:
+      213: 1043623027018406965
+    second: dialog box_771
+  - first:
+      213: 7598942759354564233
+    second: dialog box_772
+  - first:
+      213: -7691898408675868034
+    second: dialog box_773
+  - first:
+      213: -7861165189447156981
+    second: dialog box_774
+  - first:
+      213: -3288520875547378595
+    second: dialog box_775
+  - first:
+      213: -3267437572769533946
+    second: dialog box_776
+  - first:
+      213: -6533832845784631795
+    second: dialog box_777
+  - first:
+      213: -758359565051444191
+    second: dialog box_778
+  - first:
+      213: -8948001837758798543
+    second: dialog box_779
+  - first:
+      213: 3246293308453998588
+    second: dialog box_780
+  - first:
+      213: -8912075114412384863
+    second: dialog box_781
+  - first:
+      213: -5459364073400933127
+    second: dialog box_782
+  - first:
+      213: 5626001977681095306
+    second: dialog box_783
+  - first:
+      213: 8436203663307464808
+    second: dialog box_784
+  - first:
+      213: -8879549164589218649
+    second: dialog box_785
+  - first:
+      213: 4230893494716471519
+    second: dialog box_786
+  - first:
+      213: 5728237972852799143
+    second: dialog box_787
+  - first:
+      213: 5875643847502152729
+    second: dialog box_788
+  - first:
+      213: -7544807919938873055
+    second: dialog box_789
+  - first:
+      213: 3882852999289621778
+    second: dialog box_790
+  - first:
+      213: -6751853474016786759
+    second: dialog box_791
+  - first:
+      213: 5636877589356033646
+    second: dialog box_792
+  - first:
+      213: 7494397925377301936
+    second: dialog box_793
+  - first:
+      213: 1740231781494851540
+    second: dialog box_794
+  - first:
+      213: -6403994693669748561
+    second: dialog box_795
+  - first:
+      213: 37368801541262772
+    second: dialog box_796
+  - first:
+      213: 7631737008030667397
+    second: dialog box_797
+  - first:
+      213: -4104610599576326294
+    second: dialog box_798
+  - first:
+      213: -9074647055594635942
+    second: dialog box_799
+  - first:
+      213: 875847946876706649
+    second: dialog box_800
+  - first:
+      213: 7832220272331950137
+    second: dialog box_801
+  - first:
+      213: 5818048190136873841
+    second: dialog box_802
+  - first:
+      213: -275858994149899403
+    second: dialog box_803
+  - first:
+      213: 5594721213518401727
+    second: dialog box_804
+  - first:
+      213: 7935442849147109804
+    second: dialog box_805
+  - first:
+      213: 3993429427481186474
+    second: dialog box_806
+  - first:
+      213: -7880146675209223503
+    second: dialog box_807
+  - first:
+      213: -3016656986778661285
+    second: dialog box_808
+  - first:
+      213: 2020227925392577902
+    second: dialog box_809
+  - first:
+      213: 2820066924069971582
+    second: dialog box_810
+  - first:
+      213: -2486594150120988178
+    second: dialog box_811
+  - first:
+      213: 3851343113623493665
+    second: dialog box_812
+  - first:
+      213: 2000191706080115929
+    second: dialog box_813
+  - first:
+      213: 1168871883293992047
+    second: dialog box_814
+  - first:
+      213: -5114145063635642186
+    second: dialog box_815
+  - first:
+      213: -8134577165783099325
+    second: dialog box_816
+  - first:
+      213: -393293545365933007
+    second: dialog box_817
+  - first:
+      213: 5833029231266580423
+    second: dialog box_818
+  - first:
+      213: -7655347973500998863
+    second: dialog box_819
+  - first:
+      213: -4337032108310029687
+    second: dialog box_820
+  - first:
+      213: -9013883230521283032
+    second: dialog box_821
+  - first:
+      213: -3971472504144306313
+    second: dialog box_822
+  - first:
+      213: -7398611200730836808
+    second: dialog box_823
+  - first:
+      213: 2929027594356882843
+    second: dialog box_824
+  - first:
+      213: 9074871352236769232
+    second: dialog box_825
+  - first:
+      213: -7844053186367264133
+    second: dialog box_826
+  - first:
+      213: -6665671499919124460
+    second: dialog box_827
+  - first:
+      213: -1246420765529578217
+    second: dialog box_828
+  - first:
+      213: -3630120993798527330
+    second: dialog box_829
+  - first:
+      213: 1471024222401680159
+    second: dialog box_830
+  - first:
+      213: -8395295492710989148
+    second: dialog box_831
+  - first:
+      213: 7784843202288864600
+    second: dialog box_832
+  - first:
+      213: 13088010589940423
+    second: dialog box_833
+  - first:
+      213: 1969554343030231320
+    second: dialog box_834
+  - first:
+      213: -2204708360145576050
+    second: dialog box_835
+  - first:
+      213: 6011731938217006422
+    second: dialog box_836
+  - first:
+      213: 1275759778255029645
+    second: dialog box_837
+  - first:
+      213: -2236407930341998748
+    second: dialog box_838
+  - first:
+      213: 3913004670422371078
+    second: dialog box_839
+  - first:
+      213: 3813095954458649301
+    second: dialog box_840
+  - first:
+      213: 4948461843952959182
+    second: dialog box_841
+  - first:
+      213: -2070294115838959444
+    second: dialog box_842
+  - first:
+      213: -2757321270832038299
+    second: dialog box_843
+  - first:
+      213: -366460326460612292
+    second: dialog box_844
+  - first:
+      213: 8607461605232193524
+    second: dialog box_845
+  - first:
+      213: 6916198940836967105
+    second: dialog box_846
+  - first:
+      213: -9199521472103553130
+    second: dialog box_847
+  - first:
+      213: -7541489743342354514
+    second: dialog box_848
+  - first:
+      213: 6903217774035742472
+    second: dialog box_849
+  - first:
+      213: -2648729680821432178
+    second: dialog box_850
+  - first:
+      213: -8563718017485482362
+    second: dialog box_851
+  - first:
+      213: -8310882975490123319
+    second: dialog box_852
+  - first:
+      213: 6898072279075190358
+    second: dialog box_853
+  - first:
+      213: 6787961672972382631
+    second: dialog box_854
+  - first:
+      213: -6352438127380454813
+    second: dialog box_855
+  - first:
+      213: -4431779995866856606
+    second: dialog box_856
+  - first:
+      213: 4321309149488324408
+    second: dialog box_857
+  - first:
+      213: 5590191406043828757
+    second: dialog box_858
+  - first:
+      213: -7973477766974791048
+    second: dialog box_859
+  - first:
+      213: -1413859680152999406
+    second: dialog box_860
+  - first:
+      213: -5893361586416421843
+    second: dialog box_861
+  - first:
+      213: -2087764836247214262
+    second: dialog box_862
+  - first:
+      213: -8249791581322845220
+    second: dialog box_863
+  - first:
+      213: -1821087834976855180
+    second: dialog box_864
+  - first:
+      213: 433508360337409186
+    second: dialog box_865
+  - first:
+      213: 7736688681342342499
+    second: dialog box_866
+  - first:
+      213: 9034492590791735564
+    second: dialog box_867
+  - first:
+      213: -2813775353283222322
+    second: dialog box_868
+  - first:
+      213: 1223935954126442829
+    second: dialog box_869
+  - first:
+      213: 3159010209411144895
+    second: dialog box_870
+  - first:
+      213: -4388775476876073148
+    second: dialog box_871
+  - first:
+      213: 4688689401309074742
+    second: dialog box_872
+  - first:
+      213: 3622877486938917687
+    second: dialog box_873
+  - first:
+      213: 1502440791473586608
+    second: dialog box_874
+  - first:
+      213: -3134276353087738755
+    second: dialog box_875
+  - first:
+      213: 7395549001867639402
+    second: dialog box_876
+  - first:
+      213: -5734689809758958839
+    second: dialog box_877
+  - first:
+      213: -2703105346502006412
+    second: dialog box_878
+  - first:
+      213: -6875386456371151596
+    second: dialog box_879
+  - first:
+      213: -47090900508108353
+    second: dialog box_880
+  - first:
+      213: -7595834371078859213
+    second: dialog box_881
+  - first:
+      213: -6648891661964179542
+    second: dialog box_882
+  - first:
+      213: -5548243455977151524
+    second: dialog box_883
+  - first:
+      213: -3527707529814489162
+    second: dialog box_884
+  - first:
+      213: -7404189908817937960
+    second: dialog box_885
+  - first:
+      213: -3686457906799385865
+    second: dialog box_886
+  - first:
+      213: -4138341766003064026
+    second: dialog box_887
+  - first:
+      213: -62046308880613792
+    second: dialog box_888
+  - first:
+      213: 1615853850275454139
+    second: dialog box_889
+  - first:
+      213: -31178393817299399
+    second: dialog box_890
+  - first:
+      213: 4936463884002721721
+    second: dialog box_891
+  - first:
+      213: -3361588048553731897
+    second: dialog box_892
+  - first:
+      213: -3531223592707343931
+    second: dialog box_893
+  - first:
+      213: 5906302435319055067
+    second: dialog box_894
+  - first:
+      213: -3754960129873852356
+    second: dialog box_895
+  - first:
+      213: 2335028351104046700
+    second: dialog box_896
+  - first:
+      213: 6428822033906047568
+    second: dialog box_897
+  - first:
+      213: -2637399517340772802
+    second: dialog box_898
+  - first:
+      213: -7428756266360966353
+    second: dialog box_899
+  - first:
+      213: -2771166749702602280
+    second: dialog box_900
+  - first:
+      213: 5105181359095883882
+    second: dialog box_901
+  - first:
+      213: 1850042359984282620
+    second: dialog box_902
+  - first:
+      213: 6317155214491070470
+    second: dialog box_903
+  - first:
+      213: 7729024717183180105
+    second: dialog box_904
+  - first:
+      213: -1640074660952286572
+    second: dialog box_905
+  - first:
+      213: 6912331619461129904
+    second: dialog box_906
+  - first:
+      213: 6688868083744811550
+    second: dialog box_907
+  - first:
+      213: -2019095584197450461
+    second: dialog box_908
+  - first:
+      213: -2492495382373793043
+    second: dialog box_909
+  - first:
+      213: -115701769689573224
+    second: dialog box_910
+  - first:
+      213: -1016847566712149937
+    second: dialog box_911
+  - first:
+      213: 3224535381852881349
+    second: dialog box_912
+  - first:
+      213: 4620194862145424082
+    second: dialog box_913
+  - first:
+      213: 6450594049585338262
+    second: dialog box_914
+  - first:
+      213: -4533410855554439424
+    second: dialog box_915
+  - first:
+      213: 5006930076713032112
+    second: dialog box_916
+  - first:
+      213: 5972243226529145194
+    second: dialog box_917
+  - first:
+      213: 735829570414305323
+    second: dialog box_918
+  - first:
+      213: 3278819109751917492
+    second: dialog box_919
+  - first:
+      213: 1758032707038042698
+    second: dialog box_920
+  - first:
+      213: 4819735392356242154
+    second: dialog box_921
+  - first:
+      213: -4279920561258285763
+    second: dialog box_922
+  - first:
+      213: -4602247724131862589
+    second: dialog box_923
+  - first:
+      213: 308802196376629901
+    second: dialog box_924
+  - first:
+      213: 3594809908230725484
+    second: dialog box_925
+  - first:
+      213: 263014200863669305
+    second: dialog box_926
+  - first:
+      213: -6392221428765179425
+    second: dialog box_927
+  - first:
+      213: 3562105902848510893
+    second: dialog box_928
+  - first:
+      213: -358256804084463179
+    second: dialog box_929
+  - first:
+      213: 3731578968880679690
+    second: dialog box_930
+  - first:
+      213: 5548364086154802768
+    second: dialog box_931
+  - first:
+      213: 3550140170758041437
+    second: dialog box_932
+  - first:
+      213: -6634089542211844620
+    second: dialog box_933
+  - first:
+      213: -1272764460172582653
+    second: dialog box_934
+  - first:
+      213: 8895892770929294120
+    second: dialog box_935
+  - first:
+      213: 3355423775459449339
+    second: dialog box_936
+  - first:
+      213: -7871363448476254291
+    second: dialog box_937
+  - first:
+      213: -1939807690322976421
+    second: dialog box_938
+  - first:
+      213: 3775983348108781907
+    second: dialog box_939
+  - first:
+      213: -779178406626312402
+    second: dialog box_940
+  - first:
+      213: 7470360333524576149
+    second: dialog box_941
+  - first:
+      213: -72379005586487157
+    second: dialog box_942
+  - first:
+      213: -1432780952053093806
+    second: dialog box_943
+  - first:
+      213: -892499398136998942
+    second: dialog box_944
+  - first:
+      213: -6405179834952067749
+    second: dialog box_945
+  - first:
+      213: 4857533361902391399
+    second: dialog box_946
+  - first:
+      213: -8754862174940073363
+    second: dialog box_947
+  - first:
+      213: 7138541754428363868
+    second: dialog box_948
+  - first:
+      213: 5832053653650648818
+    second: dialog box_949
+  - first:
+      213: 5885709532327144984
+    second: dialog box_950
+  - first:
+      213: -5923823578242547701
+    second: dialog box_951
+  - first:
+      213: -9093807669217129807
+    second: dialog box_952
+  - first:
+      213: 6595379393450764131
+    second: dialog box_953
+  - first:
+      213: 4235455597433119924
+    second: dialog box_954
+  - first:
+      213: -3421353059071562380
+    second: dialog box_955
+  - first:
+      213: -8538996761473165308
+    second: dialog box_956
+  - first:
+      213: 5133497405926355228
+    second: dialog box_957
+  - first:
+      213: -2488738452044774909
+    second: dialog box_958
+  - first:
+      213: 4152514092825192101
+    second: dialog box_959
+  - first:
+      213: 5600341187711181795
+    second: dialog box_960
+  - first:
+      213: -1524356325029915390
+    second: dialog box_961
+  - first:
+      213: -7582657256813039402
+    second: dialog box_962
+  - first:
+      213: 2596086379042932749
+    second: dialog box_963
+  - first:
+      213: 2635145583817721575
+    second: dialog box_964
+  - first:
+      213: 2049277799982723729
+    second: dialog box_965
+  - first:
+      213: 1059797720182317745
+    second: dialog box_966
+  - first:
+      213: 7291148101290108311
+    second: dialog box_967
+  - first:
+      213: -4020636178019299727
+    second: dialog box_968
+  - first:
+      213: 7318700513356828526
+    second: dialog box_969
+  - first:
+      213: 1803091741951144138
+    second: dialog box_970
+  - first:
+      213: -1813138578937831136
+    second: dialog box_971
+  - first:
+      213: -6086298692660866060
+    second: dialog box_972
+  - first:
+      213: -7472775153459822131
+    second: dialog box_973
+  - first:
+      213: 4181041296337679472
+    second: dialog box_974
+  - first:
+      213: -7483702548354551268
+    second: dialog box_975
+  - first:
+      213: 5515014263760667384
+    second: dialog box_976
+  - first:
+      213: -4879405675131615440
+    second: dialog box_977
+  - first:
+      213: 1438202588379018730
+    second: dialog box_978
+  - first:
+      213: 7426981676005204136
+    second: dialog box_979
+  - first:
+      213: 9516706627629784
+    second: dialog box_980
+  - first:
+      213: 6100305040346957409
+    second: dialog box_981
+  - first:
+      213: 3731110035977151087
+    second: dialog box_982
+  - first:
+      213: 3133044371135419838
+    second: dialog box_983
+  - first:
+      213: -283622219049983674
+    second: dialog box_984
+  - first:
+      213: -6891307981279674805
+    second: dialog box_985
+  - first:
+      213: -349539287431548644
+    second: dialog box_986
+  - first:
+      213: 2019155535660705863
+    second: dialog box_987
+  - first:
+      213: 5784009211397846490
+    second: dialog box_988
+  - first:
+      213: 5876801035298033642
+    second: dialog box_989
+  - first:
+      213: -5637212921155618550
+    second: dialog box_990
+  - first:
+      213: 1882839608487030839
+    second: dialog box_991
+  - first:
+      213: -4607538633730643411
+    second: dialog box_992
+  - first:
+      213: -1216964914444773868
+    second: dialog box_993
+  - first:
+      213: 5403033858898885814
+    second: dialog box_994
+  - first:
+      213: -2695747417153009370
+    second: dialog box_995
+  - first:
+      213: 4542860920903982057
+    second: dialog box_996
+  - first:
+      213: 1102204601255050504
+    second: dialog box_997
+  - first:
+      213: 9168839066663701148
+    second: dialog box_998
+  - first:
+      213: 878553658943377146
+    second: dialog box_999
+  - first:
+      213: 6530775593295203715
+    second: dialog box_1000
+  - first:
+      213: -5624807140410700425
+    second: dialog box_1001
+  - first:
+      213: 3557741241670393975
+    second: dialog box_1002
+  - first:
+      213: -193909444163507882
+    second: dialog box_1003
+  - first:
+      213: 4567629831663489564
+    second: dialog box_1004
+  - first:
+      213: 5790480044418672877
+    second: dialog box_1005
+  - first:
+      213: 5371413657890971129
+    second: dialog box_1006
+  - first:
+      213: -1065604446987455558
+    second: dialog box_1007
+  - first:
+      213: 3318199095914198108
+    second: dialog box_1008
+  - first:
+      213: 3222077939291933063
+    second: dialog box_1009
+  - first:
+      213: -3767973675260334489
+    second: dialog box_1010
+  - first:
+      213: -7592069437554804701
+    second: dialog box_1011
+  - first:
+      213: 4377689688899206041
+    second: dialog box_1012
+  - first:
+      213: -4150334702682839223
+    second: dialog box_1013
+  - first:
+      213: -5550476883561036611
+    second: dialog box_1014
+  - first:
+      213: 7487213367768174560
+    second: dialog box_1015
+  - first:
+      213: 1775548761955154350
+    second: dialog box_1016
+  - first:
+      213: 6339820113292875032
+    second: dialog box_1017
+  - first:
+      213: 4521331558006199558
+    second: dialog box_1018
+  - first:
+      213: -3568454646237680591
+    second: dialog box_1019
+  - first:
+      213: -4603663332801897167
+    second: dialog box_1020
+  - first:
+      213: 9003767167867431817
+    second: dialog box_1021
+  - first:
+      213: -2932424940846007921
+    second: dialog box_1022
+  - first:
+      213: -6963431445419885714
+    second: dialog box_1023
+  - first:
+      213: -6536047928357777165
+    second: dialog box_1024
+  - first:
+      213: 6278315786331846537
+    second: dialog box_1025
+  - first:
+      213: 7860562330635521729
+    second: dialog box_1026
+  - first:
+      213: 4147260127966859443
+    second: dialog box_1027
+  - first:
+      213: -6671444616105661644
+    second: dialog box_1028
+  - first:
+      213: 8228642925632517014
+    second: dialog box_1029
+  - first:
+      213: 7061799926743791488
+    second: dialog box_1030
+  - first:
+      213: -4805556153790204500
+    second: dialog box_1031
+  - first:
+      213: -4846352142903562782
+    second: dialog box_1032
+  - first:
+      213: -7833106975817176153
+    second: dialog box_1033
+  - first:
+      213: -1939814712434288359
+    second: dialog box_1034
+  - first:
+      213: -8314309572958951272
+    second: dialog box_1035
+  - first:
+      213: -4516323410495890930
+    second: dialog box_1036
+  - first:
+      213: -541494519542012961
+    second: dialog box_1037
+  - first:
+      213: 8846878065068285712
+    second: dialog box_1038
+  - first:
+      213: 3959383787230985483
+    second: dialog box_1039
+  - first:
+      213: 4009743529151335066
+    second: dialog box_1040
+  - first:
+      213: 5743132492400412627
+    second: dialog box_1041
+  - first:
+      213: -3003804112679394741
+    second: dialog box_1042
+  - first:
+      213: 7606827197206709703
+    second: dialog box_1043
+  - first:
+      213: 3562342123500616237
+    second: dialog box_1044
+  - first:
+      213: 5504582183753279004
+    second: dialog box_1045
+  - first:
+      213: -720576179025356500
+    second: dialog box_1046
+  - first:
+      213: -3682676431642927107
+    second: dialog box_1047
+  - first:
+      213: 5890156892042276237
+    second: dialog box_1048
+  - first:
+      213: -6351046660951178242
+    second: dialog box_1049
+  - first:
+      213: 2522579082205869850
+    second: dialog box_1050
+  - first:
+      213: -4583687745382563518
+    second: dialog box_1051
+  - first:
+      213: -1257228906436512082
+    second: dialog box_1052
+  - first:
+      213: 5394789122058484586
+    second: dialog box_1053
+  - first:
+      213: -3551078298320959114
+    second: dialog box_1054
+  - first:
+      213: -702408246254604410
+    second: dialog box_1055
+  - first:
+      213: -1931717490477882112
+    second: dialog box_1056
+  - first:
+      213: -4295006036569029816
+    second: dialog box_1057
+  - first:
+      213: 1497385835503356088
+    second: dialog box_1058
+  - first:
+      213: 4239855844455343486
+    second: dialog box_1059
+  - first:
+      213: -3751564998660867233
+    second: dialog box_1060
+  - first:
+      213: 7524676501767855370
+    second: dialog box_1061
+  - first:
+      213: -3182530232394187412
+    second: dialog box_1062
+  - first:
+      213: -4526773511776684863
+    second: dialog box_1063
+  - first:
+      213: 7406751862801267938
+    second: dialog box_1064
+  - first:
+      213: 656372435455441326
+    second: dialog box_1065
+  - first:
+      213: 1284325732410887009
+    second: dialog box_1066
+  - first:
+      213: -29755474289588670
+    second: dialog box_1067
+  - first:
+      213: 2704536442139895528
+    second: dialog box_1068
+  - first:
+      213: 4772587206138388902
+    second: dialog box_1069
+  - first:
+      213: -3437506112065991469
+    second: dialog box_1070
+  - first:
+      213: -3142381188853118253
+    second: dialog box_1071
+  - first:
+      213: -649537853948540437
+    second: dialog box_1072
+  - first:
+      213: -4905383180675195067
+    second: dialog box_1073
+  - first:
+      213: 3389628170663612673
+    second: dialog box_1074
+  - first:
+      213: -2856040941981932867
+    second: dialog box_1075
+  - first:
+      213: 763233544017324579
+    second: dialog box_1076
+  - first:
+      213: 4453478513874947401
+    second: dialog box_1077
+  - first:
+      213: 7531546142046079061
+    second: dialog box_1078
+  - first:
+      213: 1594142852148572577
+    second: dialog box_1079
+  - first:
+      213: -8722737368987182247
+    second: dialog box_1080
+  - first:
+      213: -6530299481518993748
+    second: dialog box_1081
+  - first:
+      213: -7286785445936578530
+    second: dialog box_1082
+  - first:
+      213: -3971975421715483196
+    second: dialog box_1083
+  - first:
+      213: -2697579081373816401
+    second: dialog box_1084
+  - first:
+      213: 7816663257284244826
+    second: dialog box_1085
+  - first:
+      213: -2711591583810775899
+    second: dialog box_1086
+  - first:
+      213: -3131562851343365803
+    second: dialog box_1087
+  - first:
+      213: -8868866361540818073
+    second: dialog box_1088
+  - first:
+      213: -6944257955478404738
+    second: dialog box_1089
+  - first:
+      213: 5671113076997524858
+    second: dialog box_1090
+  - first:
+      213: -6719391560160130617
+    second: dialog box_1091
+  - first:
+      213: -5328536267063225594
+    second: dialog box_1092
+  - first:
+      213: 1531687644807847802
+    second: dialog box_1093
+  - first:
+      213: 7585295861358289577
+    second: dialog box_1094
+  - first:
+      213: -5410188799347916151
+    second: dialog box_1095
+  - first:
+      213: 3237232465791765251
+    second: dialog box_1096
+  - first:
+      213: -398999378444881930
+    second: dialog box_1097
+  - first:
+      213: -2299969398244430108
+    second: dialog box_1098
+  - first:
+      213: 7812899566392102952
+    second: dialog box_1099
+  - first:
+      213: -1079830387191058511
+    second: dialog box_1100
+  - first:
+      213: 3068264311324490402
+    second: dialog box_1101
+  - first:
+      213: -685819083090407979
+    second: dialog box_1102
+  - first:
+      213: -5106429908155893058
+    second: dialog box_1103
+  - first:
+      213: 2875022976025919823
+    second: dialog box_1104
+  - first:
+      213: 5055048273502435884
+    second: dialog box_1105
+  - first:
+      213: 3253202051544703602
+    second: dialog box_1106
+  - first:
+      213: -2957846280384939915
+    second: dialog box_1107
+  - first:
+      213: 1878075864025773344
+    second: dialog box_1108
+  - first:
+      213: 2161449343658522303
+    second: dialog box_1109
+  - first:
+      213: 527223501832683234
+    second: dialog box_1110
+  - first:
+      213: -9194098877246541938
+    second: dialog box_1111
+  - first:
+      213: -5175721713225472019
+    second: dialog box_1112
+  - first:
+      213: -3368115375704404334
+    second: dialog box_1113
+  - first:
+      213: -7116830430245092871
+    second: dialog box_1114
+  - first:
+      213: 4370163088397488193
+    second: dialog box_1115
+  - first:
+      213: 6768611805545542191
+    second: dialog box_1116
+  - first:
+      213: -4941345770161059370
+    second: dialog box_1117
+  - first:
+      213: -977697089503240293
+    second: dialog box_1118
+  - first:
+      213: 970413020424515384
+    second: dialog box_1119
+  - first:
+      213: 5002184088314068917
+    second: dialog box_1120
+  - first:
+      213: -5998156844516488434
+    second: dialog box_1121
+  - first:
+      213: -4215902559332636833
+    second: dialog box_1122
+  - first:
+      213: 725971717533525316
+    second: dialog box_1123
+  - first:
+      213: -2941970616528734298
+    second: dialog box_1124
+  - first:
+      213: -6931865860483029830
+    second: dialog box_1125
+  - first:
+      213: 2144837014749777592
+    second: dialog box_1126
+  - first:
+      213: 1794013110810175882
+    second: dialog box_1127
+  - first:
+      213: 1266540235144828772
+    second: dialog box_1128
+  - first:
+      213: 3129894931161790971
+    second: dialog box_1129
+  - first:
+      213: -3307429464803746546
+    second: dialog box_1130
+  - first:
+      213: -3338398615382069953
+    second: dialog box_1131
+  - first:
+      213: -9153527213678434585
+    second: dialog box_1132
+  - first:
+      213: -4762497885644507633
+    second: dialog box_1133
+  - first:
+      213: 3186610296459764989
+    second: dialog box_1134
+  - first:
+      213: 4879269764077973485
+    second: dialog box_1135
+  - first:
+      213: 912148779959279673
+    second: dialog box_1136
+  - first:
+      213: 7718297491699638774
+    second: dialog box_1137
+  - first:
+      213: 5533929331122678482
+    second: dialog box_1138
+  - first:
+      213: -7333144779605447544
+    second: dialog box_1139
+  - first:
+      213: 6764991602182474088
+    second: dialog box_1140
+  - first:
+      213: -6648699437146465770
+    second: dialog box_1141
+  - first:
+      213: -1651470063304413951
+    second: dialog box_1142
+  - first:
+      213: -7962476682366772988
+    second: dialog box_1143
+  - first:
+      213: 6588893496358782390
+    second: dialog box_1144
+  - first:
+      213: -8918550629418431824
+    second: dialog box_1145
+  - first:
+      213: -5439617481660256710
+    second: dialog box_1146
+  - first:
+      213: 8763750468513364657
+    second: dialog box_1147
+  - first:
+      213: 470594231478844386
+    second: dialog box_1148
+  - first:
+      213: 877938425550198723
+    second: dialog box_1149
+  - first:
+      213: -7218795626375234592
+    second: dialog box_1150
+  - first:
+      213: -4990512962520910048
+    second: dialog box_1151
+  - first:
+      213: 2726237956120888988
+    second: dialog box_1152
+  - first:
+      213: -274814402725799171
+    second: dialog box_1153
+  - first:
+      213: 1223508185167656415
+    second: dialog box_1154
+  - first:
+      213: -1503003184751046050
+    second: dialog box_1155
+  - first:
+      213: -1737635881032779989
+    second: dialog box_1156
+  - first:
+      213: -4911396572014990554
+    second: dialog box_1157
+  - first:
+      213: 1893801789006403138
+    second: dialog box_1158
+  - first:
+      213: -3818766584900260517
+    second: dialog box_1159
+  - first:
+      213: -4825161050495171455
+    second: dialog box_1160
+  - first:
+      213: -5137524561823251436
+    second: dialog box_1161
+  - first:
+      213: -5142408892472603349
+    second: dialog box_1162
+  - first:
+      213: 6374282160845920438
+    second: dialog box_1163
+  - first:
+      213: 1051967863679856420
+    second: dialog box_1164
+  - first:
+      213: -5524467095901493843
+    second: dialog box_1165
+  - first:
+      213: 3553204219848599070
+    second: dialog box_1166
+  - first:
+      213: -1597983494254744610
+    second: dialog box_1167
+  - first:
+      213: -5556300401526643069
+    second: dialog box_1168
+  - first:
+      213: 2919175008949414178
+    second: dialog box_1169
+  - first:
+      213: -4378650837112490519
+    second: dialog box_1170
+  - first:
+      213: -493645988006462178
+    second: dialog box_1171
+  - first:
+      213: -1253669448767765470
+    second: dialog box_1172
+  - first:
+      213: -6834020109283154331
+    second: dialog box_1173
+  - first:
+      213: -8367460391594270864
+    second: dialog box_1174
+  - first:
+      213: -8566027804321179285
+    second: dialog box_1175
+  - first:
+      213: 2110131008996655065
+    second: dialog box_1176
+  - first:
+      213: -5236073654595973328
+    second: dialog box_1177
+  - first:
+      213: 8651524363450527569
+    second: dialog box_1178
+  - first:
+      213: -28352457311254028
+    second: dialog box_1179
+  - first:
+      213: -2289574356528275808
+    second: dialog box_1180
+  - first:
+      213: 7545575376564294181
+    second: dialog box_1181
+  - first:
+      213: -5505661744284908901
+    second: dialog box_1182
+  - first:
+      213: -8019755892278164186
+    second: dialog box_1183
+  - first:
+      213: -6090709687969297373
+    second: dialog box_1184
+  - first:
+      213: -1714620982481187943
+    second: dialog box_1185
+  - first:
+      213: 528935385410037825
+    second: dialog box_1186
+  - first:
+      213: -2492975901453843545
+    second: dialog box_1187
+  - first:
+      213: 5643579556580100319
+    second: dialog box_1188
+  - first:
+      213: -2309606002918760779
+    second: dialog box_1189
+  - first:
+      213: -4782942643112528597
+    second: dialog box_1190
+  - first:
+      213: 637339936381196327
+    second: dialog box_1191
+  - first:
+      213: -5062011944327779649
+    second: dialog box_1192
+  - first:
+      213: 3426344198372276827
+    second: dialog box_1193
+  - first:
+      213: 8588776319147440441
+    second: dialog box_1194
+  - first:
+      213: 5629973907765823963
+    second: dialog box_1195
+  - first:
+      213: -7046121642809190550
+    second: dialog box_1196
+  - first:
+      213: -8112297392605141407
+    second: dialog box_1197
+  - first:
+      213: -1959764054440885755
+    second: dialog box_1198
+  - first:
+      213: -2280369178192616474
+    second: dialog box_1199
+  - first:
+      213: -1853223691115009831
+    second: dialog box_1200
+  - first:
+      213: -6613841012486235890
+    second: dialog box_1201
+  - first:
+      213: 7708061923075225406
+    second: dialog box_1202
+  - first:
+      213: -998454097144999546
+    second: dialog box_1203
+  - first:
+      213: -7041551011263850840
+    second: dialog box_1204
+  - first:
+      213: 2293439166267384635
+    second: dialog box_1205
+  - first:
+      213: -3490989879420434902
+    second: dialog box_1206
+  - first:
+      213: 7912468903467304190
+    second: dialog box_1207
+  - first:
+      213: -7146348769798468422
+    second: dialog box_1208
+  - first:
+      213: 5413267652153218225
+    second: dialog box_1209
+  - first:
+      213: -4672822580779445439
+    second: dialog box_1210
+  - first:
+      213: -2542247804217118295
+    second: dialog box_1211
+  - first:
+      213: -2045351049448942812
+    second: dialog box_1212
+  - first:
+      213: 664165322058144312
+    second: dialog box_1213
+  - first:
+      213: 2026830628260429418
+    second: dialog box_1214
+  - first:
+      213: -5474646114114354835
+    second: dialog box_1215
+  - first:
+      213: 2399051229225561097
+    second: dialog box_1216
+  - first:
+      213: -8122829361158920337
+    second: dialog box_1217
+  - first:
+      213: 3437817750089445423
+    second: dialog box_1218
+  - first:
+      213: -1624869155797155706
+    second: dialog box_1219
+  - first:
+      213: -531446071245220510
+    second: dialog box_1220
+  - first:
+      213: 8787855386794570835
+    second: dialog box_1221
+  - first:
+      213: 574553521049056296
+    second: dialog box_1222
+  - first:
+      213: -4909191003002305411
+    second: dialog box_1223
+  - first:
+      213: -8074631938268005098
+    second: dialog box_1224
+  - first:
+      213: 5315856379897142938
+    second: dialog box_1225
+  - first:
+      213: 7512495327176406137
+    second: dialog box_1226
+  - first:
+      213: 421645208887873177
+    second: dialog box_1227
+  - first:
+      213: -1433247444958131865
+    second: dialog box_1228
+  - first:
+      213: 1453648840829353805
+    second: dialog box_1229
+  - first:
+      213: -1635488758113384061
+    second: dialog box_1230
+  - first:
+      213: -527013082095457121
+    second: dialog box_1231
+  - first:
+      213: -3946940302079090920
+    second: dialog box_1232
+  - first:
+      213: 7107070828641686579
+    second: dialog box_1233
+  - first:
+      213: 8928667916447930498
+    second: dialog box_1234
+  - first:
+      213: -1916062814205928046
+    second: dialog box_1235
+  - first:
+      213: -2585326926832907087
+    second: dialog box_1236
+  - first:
+      213: 2185674810606008761
+    second: dialog box_1237
+  - first:
+      213: -7633985324844928214
+    second: dialog box_1238
+  - first:
+      213: 7786719129924352760
+    second: dialog box_1239
+  - first:
+      213: -7293796259891828059
+    second: dialog box_1240
+  - first:
+      213: -7811041094391834194
+    second: dialog box_1241
+  - first:
+      213: 7491967604082728740
+    second: dialog box_1242
+  - first:
+      213: -7502568780761775548
+    second: dialog box_1243
+  - first:
+      213: -8563794264246097856
+    second: dialog box_1244
+  - first:
+      213: 1650838141137550690
+    second: dialog box_1245
+  - first:
+      213: 1165060951049016894
+    second: dialog box_1246
+  - first:
+      213: -8199768318155419741
+    second: dialog box_1247
+  - first:
+      213: -1685458008565975305
+    second: dialog box_1248
+  - first:
+      213: -6717875225769569896
+    second: dialog box_1249
+  - first:
+      213: 8326218888568975795
+    second: dialog box_1250
+  - first:
+      213: 5118585021169159887
+    second: dialog box_1251
+  - first:
+      213: 1967140401011051557
+    second: dialog box_1252
+  - first:
+      213: 2342275387217963074
+    second: dialog box_1253
+  - first:
+      213: 6793511895168382910
+    second: dialog box_1254
+  - first:
+      213: -7164404985394821364
+    second: dialog box_1255
+  - first:
+      213: -7663574123583902030
+    second: dialog box_1256
+  - first:
+      213: -3469426938713243077
+    second: dialog box_1257
+  - first:
+      213: 2063116773103433083
+    second: dialog box_1258
+  - first:
+      213: -1731278635777357798
+    second: dialog box_1259
+  - first:
+      213: 9213966559318450564
+    second: dialog box_1260
+  - first:
+      213: 4416016294890842835
+    second: dialog box_1261
+  - first:
+      213: 671445504390532996
+    second: dialog box_1262
+  - first:
+      213: 8306382991244907201
+    second: dialog box_1263
+  - first:
+      213: -5243003209538444162
+    second: dialog box_1264
+  - first:
+      213: -3654477201720113972
+    second: dialog box_1265
+  - first:
+      213: -5214915658224754489
+    second: dialog box_1266
+  - first:
+      213: -501681649373515604
+    second: dialog box_1267
+  - first:
+      213: -4672858927197008424
+    second: dialog box_1268
+  - first:
+      213: 576689652544626585
+    second: dialog box_1269
+  - first:
+      213: 6790305737205374911
+    second: dialog box_1270
+  - first:
+      213: 7343144001969569902
+    second: dialog box_1271
+  - first:
+      213: 5522852928632414803
+    second: dialog box_1272
+  - first:
+      213: 1762385128736507062
+    second: dialog box_1273
+  - first:
+      213: -2817169628582421241
+    second: dialog box_1274
+  - first:
+      213: -8188059508699296756
+    second: dialog box_1275
+  - first:
+      213: 1306036925069794432
+    second: dialog box_1276
+  - first:
+      213: 6685282574160859986
+    second: dialog box_1277
+  - first:
+      213: 7616741653067378283
+    second: dialog box_1278
+  - first:
+      213: 3211027017844652342
+    second: dialog box_1279
+  - first:
+      213: 4266277160721509902
+    second: dialog box_1280
+  - first:
+      213: 6397041603529729021
+    second: dialog box_1281
+  - first:
+      213: -1896340919997168890
+    second: dialog box_1282
+  - first:
+      213: 1074019594811807537
+    second: dialog box_1283
+  - first:
+      213: 1067051849243601667
+    second: dialog box_1284
+  - first:
+      213: -7398327199508673212
+    second: dialog box_1285
+  - first:
+      213: -8145377986276601355
+    second: dialog box_1286
+  - first:
+      213: 5701332400825231896
+    second: dialog box_1287
+  - first:
+      213: -385510127453019837
+    second: dialog box_1288
+  - first:
+      213: -6992336102986054200
+    second: dialog box_1289
+  - first:
+      213: 5578972153723336822
+    second: dialog box_1290
+  - first:
+      213: -878641366183596608
+    second: dialog box_1291
+  - first:
+      213: -4831861318565327759
+    second: dialog box_1292
+  - first:
+      213: 3905634942471176709
+    second: dialog box_1293
+  - first:
+      213: -7666391870084439680
+    second: dialog box_1294
+  - first:
+      213: 2318289267840720071
+    second: dialog box_1295
+  - first:
+      213: -5140879865087622886
+    second: dialog box_1296
+  - first:
+      213: -4732393789154942962
+    second: dialog box_1297
+  - first:
+      213: 2219867687222406577
+    second: dialog box_1298
+  - first:
+      213: -6011252902703394783
+    second: dialog box_1299
+  - first:
+      213: 6686379338237355588
+    second: dialog box_1300
+  - first:
+      213: -4552277474413309080
+    second: dialog box_1301
+  - first:
+      213: -6977824171475416392
+    second: dialog box_1302
+  - first:
+      213: -8195186969603593455
+    second: dialog box_1303
+  - first:
+      213: 8043099403972575
+    second: dialog box_1304
+  - first:
+      213: -3575600894129577002
+    second: dialog box_1305
+  - first:
+      213: -5136359165217542188
+    second: dialog box_1306
+  - first:
+      213: -1479832360152628655
+    second: dialog box_1307
+  - first:
+      213: 4833242639103064451
+    second: dialog box_1308
+  - first:
+      213: -4570352900821762070
+    second: dialog box_1309
+  - first:
+      213: -2466113826611653912
+    second: dialog box_1310
+  - first:
+      213: 2394330997749075623
+    second: dialog box_1311
+  - first:
+      213: -8465966730713359976
+    second: dialog box_1312
+  - first:
+      213: -8344450170020968258
+    second: dialog box_1313
+  - first:
+      213: 331240554744613927
+    second: dialog box_1314
+  - first:
+      213: 5714381406388785742
+    second: dialog box_1315
+  - first:
+      213: 7919125229997968358
+    second: dialog box_1316
+  - first:
+      213: 5589670964234166960
+    second: dialog box_1317
+  - first:
+      213: -6160760658543695163
+    second: dialog box_1318
+  - first:
+      213: -720937259346185662
+    second: dialog box_1319
+  - first:
+      213: -7327681283211662860
+    second: dialog box_1320
+  - first:
+      213: -1865195921385406524
+    second: dialog box_1321
+  - first:
+      213: -1691612563652413139
+    second: dialog box_1322
+  - first:
+      213: -3210293597028585130
+    second: dialog box_1323
+  - first:
+      213: -3478799950602065946
+    second: dialog box_1324
+  - first:
+      213: -5559271734893288113
+    second: dialog box_1325
+  - first:
+      213: 5007052562612177918
+    second: dialog box_1326
+  - first:
+      213: 7715131720642240047
+    second: dialog box_1327
+  - first:
+      213: 6663426948921957863
+    second: dialog box_1328
+  - first:
+      213: 1405503387080077622
+    second: dialog box_1329
+  - first:
+      213: -4703946352191865694
+    second: dialog box_1330
+  - first:
+      213: 1856605217124445539
+    second: dialog box_1331
+  - first:
+      213: 4403690475950521963
+    second: dialog box_1332
+  - first:
+      213: 6171305999768811901
+    second: dialog box_1333
+  - first:
+      213: -6116331562929243304
+    second: dialog box_1334
+  - first:
+      213: 906511130262549022
+    second: dialog box_1335
+  - first:
+      213: 3728167575141842609
+    second: dialog box_1336
+  - first:
+      213: -3386169103322809642
+    second: dialog box_1337
+  - first:
+      213: 5273792790887314083
+    second: dialog box_1338
+  - first:
+      213: 1391273084844823897
+    second: dialog box_1339
+  - first:
+      213: -7198792495509559213
+    second: dialog box_1340
+  - first:
+      213: -6399088628406457339
+    second: dialog box_1341
+  - first:
+      213: 5462040193222387347
+    second: dialog box_1342
+  - first:
+      213: 3963306695836017201
+    second: dialog box_1343
+  - first:
+      213: -5197134117669343669
+    second: dialog box_1344
+  - first:
+      213: 9140802588696453747
+    second: dialog box_1345
+  - first:
+      213: -8164894021022230289
+    second: dialog box_1346
+  - first:
+      213: -2217162166812841520
+    second: dialog box_1347
+  - first:
+      213: -5938356982380885456
+    second: dialog box_1348
+  - first:
+      213: 4030125337052357334
+    second: dialog box_1349
+  - first:
+      213: 811226621855715292
+    second: dialog box_1350
+  - first:
+      213: -8445515024754211145
+    second: dialog box_1351
+  - first:
+      213: -1900165813460173741
+    second: dialog box_1352
+  - first:
+      213: 8793314316090305094
+    second: dialog box_1353
+  - first:
+      213: -246692896155170816
+    second: dialog box_1354
+  - first:
+      213: 7314151689224645571
+    second: dialog box_1355
+  - first:
+      213: -203199145735938935
+    second: dialog box_1356
+  - first:
+      213: 6090312894484243778
+    second: dialog box_1357
+  - first:
+      213: -1030648388522961901
+    second: dialog box_1358
+  - first:
+      213: 8124077106958604837
+    second: dialog box_1359
+  - first:
+      213: -3364373237584191989
+    second: dialog box_1360
+  - first:
+      213: -6369069647720635873
+    second: dialog box_1361
+  - first:
+      213: -2702252429293685634
+    second: dialog box_1362
+  - first:
+      213: 6455575161344064209
+    second: dialog box_1363
+  - first:
+      213: 5805285032239029838
+    second: dialog box_1364
+  - first:
+      213: 5856252256860141530
+    second: dialog box_1365
+  - first:
+      213: 7022195609505154484
+    second: dialog box_1366
+  - first:
+      213: -4509085801116239133
+    second: dialog box_1367
+  - first:
+      213: 7219314730061904392
+    second: dialog box_1368
+  - first:
+      213: 1388640824290966053
+    second: dialog box_1369
+  - first:
+      213: 3915634435892117018
+    second: dialog box_1370
+  - first:
+      213: 6343307742672629156
+    second: dialog box_1371
+  - first:
+      213: 6104706267718946367
+    second: dialog box_1372
+  - first:
+      213: -4278677151066372072
+    second: dialog box_1373
+  - first:
+      213: -7228672447418091267
+    second: dialog box_1374
+  - first:
+      213: -1774486623912591823
+    second: dialog box_1375
+  - first:
+      213: 5484292148248740580
+    second: dialog box_1376
+  - first:
+      213: 5245425977051491219
+    second: dialog box_1377
+  - first:
+      213: 724803341944578373
+    second: dialog box_1378
+  - first:
+      213: 1865929903938805274
+    second: dialog box_1379
+  - first:
+      213: 7732791558757062429
+    second: dialog box_1380
+  - first:
+      213: -8992499464591913529
+    second: dialog box_1381
+  - first:
+      213: -274427398939539825
+    second: dialog box_1382
+  - first:
+      213: -775090957795749854
+    second: dialog box_1383
+  - first:
+      213: 52446007516057475
+    second: dialog box_1384
+  - first:
+      213: 405658420842137833
+    second: dialog box_1385
+  - first:
+      213: -7430848505951408249
+    second: dialog box_1386
+  - first:
+      213: -6798532345493861004
+    second: dialog box_1387
+  - first:
+      213: 6657767364680314553
+    second: dialog box_1388
+  - first:
+      213: -3902677812576237435
+    second: dialog box_1389
+  - first:
+      213: 7954745543441416746
+    second: dialog box_1390
+  - first:
+      213: 7960500201135901265
+    second: dialog box_1391
+  - first:
+      213: 1291877455937964992
+    second: dialog box_1392
+  - first:
+      213: -4941641854922779960
+    second: dialog box_1393
+  - first:
+      213: 6188623024413741400
+    second: dialog box_1394
+  - first:
+      213: 8665234868934100822
+    second: dialog box_1395
+  - first:
+      213: -5559354413187998896
+    second: dialog box_1396
+  - first:
+      213: -4070769675792781356
+    second: dialog box_1397
+  - first:
+      213: 5030379294644610285
+    second: dialog box_1398
+  - first:
+      213: -3970008925783310267
+    second: dialog box_1399
+  - first:
+      213: -7171602214762566786
+    second: dialog box_1400
+  - first:
+      213: -2661658365439772429
+    second: dialog box_1401
+  - first:
+      213: -1963136314916615426
+    second: dialog box_1402
+  - first:
+      213: 4071274769723547628
+    second: dialog box_1403
+  - first:
+      213: -142510861986618685
+    second: dialog box_1404
+  - first:
+      213: 5608217643265455999
+    second: dialog box_1405
+  - first:
+      213: -218121877215932694
+    second: dialog box_1406
+  - first:
+      213: -1448688633765388267
+    second: dialog box_1407
+  - first:
+      213: 9057612138389725085
+    second: dialog box_1408
+  - first:
+      213: -1261985242252644558
+    second: dialog box_1409
+  - first:
+      213: 3048928106481652334
+    second: dialog box_1410
+  - first:
+      213: -2793575718375711807
+    second: dialog box_1411
+  - first:
+      213: -3136435928860712895
+    second: dialog box_1412
+  - first:
+      213: 6031147645612670042
+    second: dialog box_1413
+  - first:
+      213: -6829745949401970222
+    second: dialog box_1414
+  - first:
+      213: 6114711109189647689
+    second: dialog box_1415
+  - first:
+      213: 2612384914388921145
+    second: dialog box_1416
+  - first:
+      213: 6023811834168858303
+    second: dialog box_1417
+  - first:
+      213: 3032877313303253353
+    second: dialog box_1418
+  - first:
+      213: -2505162557095415579
+    second: dialog box_1419
+  - first:
+      213: -430050063374034177
+    second: dialog box_1420
+  - first:
+      213: 5373790270755837797
+    second: dialog box_1421
+  - first:
+      213: -8540913750085431071
+    second: dialog box_1422
+  - first:
+      213: 8675258245507227136
+    second: dialog box_1423
+  - first:
+      213: 1044088089744732887
+    second: dialog box_1424
+  - first:
+      213: -3482568008385335336
+    second: dialog box_1425
+  - first:
+      213: -5877244955484225301
+    second: dialog box_1426
+  - first:
+      213: -2317115122777043207
+    second: dialog box_1427
+  - first:
+      213: -8016503370945479353
+    second: dialog box_1428
+  - first:
+      213: 235323781253894799
+    second: dialog box_1429
+  - first:
+      213: 972074924069726400
+    second: dialog box_1430
+  - first:
+      213: -3409172426670938380
+    second: dialog box_1431
+  - first:
+      213: 1375015288317103982
+    second: dialog box_1432
+  - first:
+      213: -8887628938238148147
+    second: dialog box_1433
+  - first:
+      213: 519404627356645823
+    second: dialog box_1434
+  - first:
+      213: 1390726951902054309
+    second: dialog box_1435
+  - first:
+      213: -4297240104621015072
+    second: dialog box_1436
+  - first:
+      213: -6006459579931485295
+    second: dialog box_1437
+  - first:
+      213: -8297721367427082962
+    second: dialog box_1438
+  - first:
+      213: -1057362834446671217
+    second: dialog box_1439
+  - first:
+      213: -5592108079154841211
+    second: dialog box_1440
+  - first:
+      213: 6173244448951615300
+    second: dialog box_1441
+  - first:
+      213: -8762064133725307320
+    second: dialog box_1442
+  - first:
+      213: -6626217131449899419
+    second: dialog box_1443
+  - first:
+      213: -6522195563867738189
+    second: dialog box_1444
+  - first:
+      213: -7911732275077825287
+    second: dialog box_1445
+  - first:
+      213: -3830834939501435744
+    second: dialog box_1446
+  - first:
+      213: -6418936733196629419
+    second: dialog box_1447
+  - first:
+      213: 7197306164943447351
+    second: dialog box_1448
+  - first:
+      213: 9037391678245165140
+    second: dialog box_1449
+  - first:
+      213: 4110143811323202268
+    second: dialog box_1450
+  - first:
+      213: 8976568096495940275
+    second: dialog box_1451
+  - first:
+      213: -5356866469450162470
+    second: dialog box_1452
+  - first:
+      213: -3537607592332536788
+    second: dialog box_1453
+  - first:
+      213: 6496168638934085133
+    second: dialog box_1454
+  - first:
+      213: -1184446599266922474
+    second: dialog box_1455
+  - first:
+      213: 3687830261901093671
+    second: dialog box_1456
+  - first:
+      213: -7779729072032257589
+    second: dialog box_1457
+  - first:
+      213: 2441494849783258029
+    second: dialog box_1458
+  - first:
+      213: -2844157453268281761
+    second: dialog box_1459
+  - first:
+      213: 4532550468854260881
+    second: dialog box_1460
+  - first:
+      213: -6192885892051483997
+    second: dialog box_1461
+  - first:
+      213: 4334345947668254767
+    second: dialog box_1462
+  - first:
+      213: -8027887094708791110
+    second: dialog box_1463
+  - first:
+      213: -2001904455400511970
+    second: dialog box_1464
+  - first:
+      213: -8118888699778205217
+    second: dialog box_1465
+  - first:
+      213: -7552494845749273564
+    second: dialog box_1466
+  - first:
+      213: 2906355927494909203
+    second: dialog box_1467
+  - first:
+      213: 7956776545024244043
+    second: dialog box_1468
+  - first:
+      213: -5534982004736230534
+    second: dialog box_1469
+  - first:
+      213: 4391977015832365337
+    second: dialog box_1470
+  - first:
+      213: 2304058646487446327
+    second: dialog box_1471
+  - first:
+      213: 2121876493111302290
+    second: dialog box_1472
+  - first:
+      213: 4358216096211199857
+    second: dialog box_1473
+  - first:
+      213: 1743908557963490089
+    second: dialog box_1474
+  - first:
+      213: 888741756509765594
+    second: dialog box_1475
+  - first:
+      213: -3732893662550254940
+    second: dialog box_1476
+  - first:
+      213: 8686339894820330872
+    second: dialog box_1477
+  - first:
+      213: 1929813958675884432
+    second: dialog box_1478
+  - first:
+      213: 3521016691348873474
+    second: dialog box_1479
+  - first:
+      213: -3210244641653442564
+    second: dialog box_1480
+  - first:
+      213: 7449230296663646516
+    second: dialog box_1481
+  - first:
+      213: 5964681651047383890
+    second: dialog box_1482
+  - first:
+      213: -4572327726861291211
+    second: dialog box_1483
+  - first:
+      213: -7685523018018055558
+    second: dialog box_1484
+  - first:
+      213: -7949917384035545183
+    second: dialog box_1485
+  - first:
+      213: 6659568592839072701
+    second: dialog box_1486
+  - first:
+      213: 7758836625535403183
+    second: dialog box_1487
+  - first:
+      213: 7078706628358804194
+    second: dialog box_1488
+  - first:
+      213: -3456083971599723691
+    second: dialog box_1489
+  - first:
+      213: -5285778725761781283
+    second: dialog box_1490
+  - first:
+      213: -938778597133120637
+    second: dialog box_1491
+  - first:
+      213: 8775449492451787360
+    second: dialog box_1492
+  - first:
+      213: 9042058537215476139
+    second: dialog box_1493
+  - first:
+      213: 8762114593428814868
+    second: dialog box_1494
+  - first:
+      213: -7012467002947650313
+    second: dialog box_1495
+  - first:
+      213: -5379301779442159328
+    second: dialog box_1496
+  - first:
+      213: 3638036677287971497
+    second: dialog box_1497
+  - first:
+      213: -1046208436260064838
+    second: dialog box_1498
+  - first:
+      213: 6188093619255700571
+    second: dialog box_1499
+  - first:
+      213: -8631575809690408899
+    second: dialog box_1500
+  - first:
+      213: 8353644487025451900
+    second: dialog box_1501
+  - first:
+      213: -4568234012617372088
+    second: dialog box_1502
+  - first:
+      213: -7635258573796339410
+    second: dialog box_1503
+  - first:
+      213: 4420511800525913129
+    second: dialog box_1504
+  - first:
+      213: -8307287181784884794
+    second: dialog box_1505
+  - first:
+      213: 770050702772717313
+    second: dialog box_1506
+  - first:
+      213: -5646260336996795095
+    second: dialog box_1507
+  - first:
+      213: -4747022426648253273
+    second: dialog box_1508
+  - first:
+      213: 3353234828990489141
+    second: dialog box_1509
+  - first:
+      213: -388970796245584260
+    second: dialog box_1510
+  - first:
+      213: -6468115814774364810
+    second: dialog box_1511
+  - first:
+      213: 9121096190244328637
+    second: dialog box_1512
+  - first:
+      213: 6499861440590952284
+    second: dialog box_1513
+  - first:
+      213: 8517485983384860639
+    second: dialog box_1514
+  - first:
+      213: -3994320804460855271
+    second: dialog box_1515
+  - first:
+      213: 4166692383458049483
+    second: dialog box_1516
+  - first:
+      213: -6602691859567394045
+    second: dialog box_1517
+  - first:
+      213: -8600274113756964970
+    second: dialog box_1518
+  - first:
+      213: 2302277001633537477
+    second: dialog box_1519
+  - first:
+      213: -444722347246755646
+    second: dialog box_1520
+  - first:
+      213: -2433283791802731038
+    second: dialog box_1521
+  - first:
+      213: 6295155773790124542
+    second: dialog box_1522
+  - first:
+      213: -2180227317682166892
+    second: dialog box_1523
+  - first:
+      213: -8350016271982029821
+    second: dialog box_1524
+  - first:
+      213: -5008688095575209428
+    second: dialog box_1525
+  - first:
+      213: -5905581255953315672
+    second: dialog box_1526
+  - first:
+      213: -2738801235204994950
+    second: dialog box_1527
+  - first:
+      213: -4942979490689888224
+    second: dialog box_1528
+  - first:
+      213: 1490936440798663463
+    second: dialog box_1529
+  - first:
+      213: 8906928856433327043
+    second: dialog box_1530
+  - first:
+      213: -1987543416244962630
+    second: dialog box_1531
+  - first:
+      213: 3322128638265866679
+    second: dialog box_1532
+  - first:
+      213: 2332516910078969785
+    second: dialog box_1533
+  - first:
+      213: 4061577335046481105
+    second: dialog box_1534
+  - first:
+      213: 8540682051806669133
+    second: dialog box_1535
+  - first:
+      213: 2732168485449814609
+    second: dialog box_1536
+  - first:
+      213: 9120874769398442611
+    second: dialog box_1537
+  - first:
+      213: 754029358187155055
+    second: dialog box_1538
+  - first:
+      213: 4684798160460317113
+    second: dialog box_1539
+  - first:
+      213: -4575212121484974899
+    second: dialog box_1540
+  - first:
+      213: 3759828943526437687
+    second: dialog box_1541
+  - first:
+      213: 2940257773173683435
+    second: dialog box_1542
+  - first:
+      213: 8316874845485111637
+    second: dialog box_1543
+  - first:
+      213: -5881192146282570342
+    second: dialog box_1544
+  - first:
+      213: 185390336436780804
+    second: dialog box_1545
+  - first:
+      213: -6713688037664164563
+    second: dialog box_1546
+  - first:
+      213: -8627445102385838966
+    second: dialog box_1547
+  - first:
+      213: 1354428521788988876
+    second: dialog box_1548
+  - first:
+      213: -1320031807773683125
+    second: dialog box_1549
+  - first:
+      213: -3103394408561809845
+    second: dialog box_1550
+  - first:
+      213: 5388969695762715977
+    second: dialog box_1551
+  - first:
+      213: -5856936693866347441
+    second: dialog box_1552
+  - first:
+      213: -6397364521592630405
+    second: dialog box_1553
+  - first:
+      213: 3783775878115224317
+    second: dialog box_1554
+  - first:
+      213: 3038794609367083081
+    second: dialog box_1555
+  - first:
+      213: 2292394956905150259
+    second: dialog box_1556
+  - first:
+      213: 6667683927948630284
+    second: dialog box_1557
+  - first:
+      213: 9162548273433321772
+    second: dialog box_1558
+  - first:
+      213: 3994747666016216242
+    second: dialog box_1559
+  - first:
+      213: -8027389288508734417
+    second: dialog box_1560
+  - first:
+      213: 226230926669039432
+    second: dialog box_1561
+  - first:
+      213: -7277046807576439649
+    second: dialog box_1562
+  - first:
+      213: -2104032957994914947
+    second: dialog box_1563
+  - first:
+      213: -7548542293830489230
+    second: dialog box_1564
+  - first:
+      213: -8020053741451901215
+    second: dialog box_1565
+  - first:
+      213: 4491024644515289713
+    second: dialog box_1566
+  - first:
+      213: 6817253219258523176
+    second: dialog box_1567
+  - first:
+      213: -6378724947788249667
+    second: dialog box_1568
+  - first:
+      213: -2089741759128471054
+    second: dialog box_1569
+  - first:
+      213: 3827561622968117510
+    second: dialog box_1570
+  - first:
+      213: -7696172645540761912
+    second: dialog box_1571
+  - first:
+      213: -7811788517016410373
+    second: dialog box_1572
+  - first:
+      213: -2080680595056781290
+    second: dialog box_1573
+  - first:
+      213: -7033253277935498436
+    second: dialog box_1574
+  - first:
+      213: 7374324731579139655
+    second: dialog box_1575
+  - first:
+      213: -625233308831462239
+    second: dialog box_1576
+  - first:
+      213: 2665267817028447557
+    second: dialog box_1577
+  - first:
+      213: -6142079799644930400
+    second: dialog box_1578
+  - first:
+      213: -1265417080833662904
+    second: dialog box_1579
+  - first:
+      213: 6260538177724295270
+    second: dialog box_1580
+  - first:
+      213: -5891015630354020251
+    second: dialog box_1581
+  - first:
+      213: -7221117680049792951
+    second: dialog box_1582
+  - first:
+      213: 3239056617331295182
+    second: dialog box_1583
+  - first:
+      213: 2921147815689627098
+    second: dialog box_1584
+  - first:
+      213: -7794260141472105953
+    second: dialog box_1585
+  - first:
+      213: -7168578728736371316
+    second: dialog box_1586
+  - first:
+      213: -5081759390733772197
+    second: dialog box_1587
+  - first:
+      213: 1852198528234976884
+    second: dialog box_1588
+  - first:
+      213: -5436021602711354234
+    second: dialog box_1589
+  - first:
+      213: 6230477479422261905
+    second: dialog box_1590
+  - first:
+      213: 5683778397071134526
+    second: dialog box_1591
+  - first:
+      213: 8310899300505464256
+    second: dialog box_1592
+  - first:
+      213: -2202785150526269780
+    second: dialog box_1593
+  - first:
+      213: -3923399698398922110
+    second: dialog box_1594
+  - first:
+      213: -4747357308607171550
+    second: dialog box_1595
+  - first:
+      213: 6400953730495314610
+    second: dialog box_1596
+  - first:
+      213: 2411748540930663906
+    second: dialog box_1597
+  - first:
+      213: 1374468077544774535
+    second: dialog box_1598
+  - first:
+      213: -1150634797801710091
+    second: dialog box_1599
+  - first:
+      213: 6156757840895344732
+    second: dialog box_1600
+  - first:
+      213: -9074135919540611395
+    second: dialog box_1601
+  - first:
+      213: 488390694765723642
+    second: dialog box_1602
+  - first:
+      213: -7285594182735715341
+    second: dialog box_1603
+  - first:
+      213: 6534430369195139670
+    second: dialog box_1604
+  - first:
+      213: 1791276707239407890
+    second: dialog box_1605
+  - first:
+      213: -8989162359552110644
+    second: dialog box_1606
+  - first:
+      213: 2551230099709649020
+    second: dialog box_1607
+  - first:
+      213: -5517522351905661354
+    second: dialog box_1608
+  - first:
+      213: 3434731563677601992
+    second: dialog box_1609
+  - first:
+      213: -6977279126019219322
+    second: dialog box_1610
+  - first:
+      213: -8561773908961138700
+    second: dialog box_1611
+  - first:
+      213: -8910110695240208451
+    second: dialog box_1612
+  - first:
+      213: -5835958565135892232
+    second: dialog box_1613
+  - first:
+      213: -4988655512604573222
+    second: dialog box_1614
+  - first:
+      213: -5432065508401716049
+    second: dialog box_1615
+  - first:
+      213: 3987776048552605048
+    second: dialog box_1616
+  - first:
+      213: 8285371191102035157
+    second: dialog box_1617
+  - first:
+      213: -7390470307451573638
+    second: dialog box_1618
+  - first:
+      213: -6694669402712669076
+    second: dialog box_1619
+  - first:
+      213: -8003578704946095893
+    second: dialog box_1620
+  - first:
+      213: 3333582655707348328
+    second: dialog box_1621
+  - first:
+      213: -2078720929703649996
+    second: dialog box_1622
+  - first:
+      213: -1693318071843197911
+    second: dialog box_1623
+  - first:
+      213: -1054015374880028577
+    second: dialog box_1624
+  - first:
+      213: -605327538705696632
+    second: dialog box_1625
+  - first:
+      213: 7849410840770758378
+    second: dialog box_1626
+  - first:
+      213: 6089764123591456472
+    second: dialog box_1627
+  - first:
+      213: -2929374307718936961
+    second: dialog box_1628
+  - first:
+      213: -5118548504202923855
+    second: dialog box_1629
+  - first:
+      213: 7101541262470633946
+    second: dialog box_1630
+  - first:
+      213: -6367073913987173984
+    second: dialog box_1631
+  - first:
+      213: 974852823931640085
+    second: dialog box_1632
+  - first:
+      213: -1125799753467261351
+    second: dialog box_1633
+  - first:
+      213: 6125709943717020809
+    second: dialog box_1634
+  - first:
+      213: -1184695214586804204
+    second: dialog box_1635
+  - first:
+      213: 1341750697354371693
+    second: dialog box_1636
+  - first:
+      213: -2193351449697088776
+    second: dialog box_1637
+  - first:
+      213: -7996758867980952965
+    second: dialog box_1638
+  - first:
+      213: 1507621980975237198
+    second: dialog box_1639
+  - first:
+      213: 1647480906487902115
+    second: dialog box_1640
+  - first:
+      213: 6301963319508796293
+    second: dialog box_1641
+  - first:
+      213: -6396506261241246283
+    second: dialog box_1642
+  - first:
+      213: -5625780674661119920
+    second: dialog box_1643
+  - first:
+      213: 8025070527301117633
+    second: dialog box_1644
+  - first:
+      213: -850578516852154407
+    second: dialog box_1645
+  - first:
+      213: -8741393914310086952
+    second: dialog box_1646
+  - first:
+      213: -889854745312930985
+    second: dialog box_1647
+  - first:
+      213: 692671680503920512
+    second: dialog box_1648
+  - first:
+      213: 7283814675927304227
+    second: dialog box_1649
+  - first:
+      213: 4788655915154876570
+    second: dialog box_1650
+  - first:
+      213: 2026420247881990997
+    second: dialog box_1651
+  - first:
+      213: -5152095586639385455
+    second: dialog box_1652
+  - first:
+      213: 6452368269725969235
+    second: dialog box_1653
+  - first:
+      213: 4230206863849693169
+    second: dialog box_1654
+  - first:
+      213: 7023886490265657804
+    second: dialog box_1655
+  - first:
+      213: -3064369431826946646
+    second: dialog box_1656
+  - first:
+      213: 6820638099411407471
+    second: dialog box_1657
+  - first:
+      213: 4440940438533995665
+    second: dialog box_1658
+  - first:
+      213: 3639008768680703530
+    second: dialog box_1659
+  - first:
+      213: 6433499437520463116
+    second: dialog box_1660
+  - first:
+      213: 1539923860109055232
+    second: dialog box_1661
+  - first:
+      213: 6890373952431587469
+    second: dialog box_1662
+  - first:
+      213: 1272385827745510906
+    second: dialog box_1663
+  - first:
+      213: 8875602290743050394
+    second: dialog box_1664
+  - first:
+      213: 6347174217890332367
+    second: dialog box_1665
+  - first:
+      213: -1329943112564817279
+    second: dialog box_1666
+  - first:
+      213: -2914713484437020529
+    second: dialog box_1667
+  - first:
+      213: 2109133267625616492
+    second: dialog box_1668
+  - first:
+      213: -434679906958088004
+    second: dialog box_1669
+  - first:
+      213: 6801671364864387542
+    second: dialog box_1670
+  - first:
+      213: -8798179619648320050
+    second: dialog box_1671
+  - first:
+      213: -2166129761421502770
+    second: dialog box_1672
+  - first:
+      213: 7839334481212399800
+    second: dialog box_1673
+  - first:
+      213: 6919114170663600200
+    second: dialog box_1674
+  - first:
+      213: -2475463640804898051
+    second: dialog box_1675
+  - first:
+      213: 4654289339285494462
+    second: dialog box_1676
+  - first:
+      213: -5766295900971863981
+    second: dialog box_1677
+  - first:
+      213: 9180712944237293946
+    second: dialog box_1678
+  - first:
+      213: -4896018124925064596
+    second: dialog box_1679
+  - first:
+      213: 7497996945094268846
+    second: dialog box_1680
+  - first:
+      213: -1115730341259802844
+    second: dialog box_1681
+  - first:
+      213: -6396108336590266251
+    second: dialog box_1682
+  - first:
+      213: 5672869969136416687
+    second: dialog box_1683
+  - first:
+      213: 9174629553845796152
+    second: dialog box_1684
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dialog box_0
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 418
+        width: 1622
+        height: 688
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d32c81780247450800000000000000
+      internalID: 6085524761092439429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6610c8a8c09f5204db31686f6a458071
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2000.0,"y":2000.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      dialog box_0: 6085524761092439429
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
