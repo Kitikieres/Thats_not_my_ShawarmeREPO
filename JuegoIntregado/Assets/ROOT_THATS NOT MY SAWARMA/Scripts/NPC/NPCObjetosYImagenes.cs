@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;  // ✅ Necesario para usar Image
 
 public class NPCObjetosYImagenes : MonoBehaviour
 {
     [Header("Configuración del NPC")]
     public GameObject objetoNPC;  // El objeto que el NPC te da
-    public Sprite imagenNPC;      // Imagen que aparece cuando el NPC da el objeto
+    public Sprite imagenNPC;      // Imagen única para este NPC
     public Transform puntoEntregaObjeto;  // Punto donde el objeto debe llegar
 
     [Header("Componente de deslizamiento")]
@@ -29,25 +28,10 @@ public class NPCObjetosYImagenes : MonoBehaviour
             deslizante.DeslizarDesdeHasta(transform.position, puntoEntregaObjeto.position);  // Desliza el objeto hasta el punto
         }
 
-        // Si hay una imagen, la mostrará (esto puede estar en el UI si lo deseas)
-        MostrarImagen();
-    }
-
-    private void MostrarImagen()
-    {
-        if (imagenNPC != null)
+        // Aquí se le pasa la imagen única del NPC al PanelInfoManager
+        if (PanelInfoManager.Instance != null)
         {
-            // Aquí puedes poner código para mostrar la imagen, por ejemplo, en un Image en el UI
-            // Dependiendo de tu sistema de UI, lo que podrías hacer es algo como:
-            Image img = FindObjectOfType<Image>();  // Asume que solo hay un Image en la escena, o busca el adecuado
-            img.sprite = imagenNPC;  // Cambia la imagen que aparece
-            img.enabled = true;  // Hacer visible la imagen
+            PanelInfoManager.Instance.Abrir(imagenNPC);  // Pasamos la imagen del NPC al panel
         }
-    }
-
-    public void OcultarImagen()
-    {
-        Image img = FindObjectOfType<Image>();
-        img.enabled = false;  // Ocultar la imagen
     }
 }

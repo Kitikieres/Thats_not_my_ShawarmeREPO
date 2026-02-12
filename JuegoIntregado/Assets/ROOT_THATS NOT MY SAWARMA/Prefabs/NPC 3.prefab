@@ -14,9 +14,8 @@ GameObject:
   - component: {fileID: 1468698721237771136}
   - component: {fileID: 1136672516484425753}
   - component: {fileID: 8759808511203947608}
-  - component: {fileID: 7907255900641005447}
   - component: {fileID: 8054791406462661818}
-  - component: {fileID: 6280712399577527439}
+  - component: {fileID: 8467475805486194565}
   m_Layer: 0
   m_Name: NPC 3
   m_TagString: NPC
@@ -205,25 +204,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
   textoDialogo: Hola buenas, a mi se me olvido ponerle tomate pero no pasa nada no?
---- !u!114 &7907255900641005447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370303068708422825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76dd2c90d32b85b4e8f3b5f64e137857, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCChecklist
-  respuestaFaltaDocumento: yo no amigo eso no
-  respuestaFaltaFoto: como q no esta bien la foto mira bien eh
-  respuestaFaltaFirma: venga va chaval
-  respuestaFaltaPermiso: pues me cago en tus muertos pisaos
-  respuestaNadaPreguntado: ya sabia yo que no me faltaba nada
-  panelDialogo: {fileID: 7242771716699534813, guid: a6a78d648b866a140811108398c90b6b, type: 3}
-  textoDialogo: {fileID: 989098126252988847, guid: 6140527c8bd7d3943969941000e1114a, type: 3}
 --- !u!114 &8054791406462661818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,7 +217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCEstado
   esMalo: 0
---- !u!114 &6280712399577527439
+--- !u!114 &8467475805486194565
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,9 +226,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 370303068708422825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d60f6d4984e75434bbf40b12e85cd09d, type: 3}
+  m_Script: {fileID: 11500000, guid: edd7f88e5194c9b40b02fc37e2d9590f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCInteractuar
+  m_EditorClassIdentifier: Assembly-CSharp::NPCObjetosYImagenes
+  objetoNPC: {fileID: 7749227492938496384, guid: 934af7185e7d2d640b1b646b42102a65, type: 3}
+  imagenNPC: {fileID: 4759475792428477358, guid: a9ed40e7ba5d9a14ab58bf7fc705b522, type: 3}
+  puntoEntregaObjeto: {fileID: 1424061394326425369, guid: d654458448a54d2449d0f05aef35a9bb, type: 3}
 --- !u!1001 &6156103482726903510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -305,6 +288,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7143344603845354031, guid: 934af7185e7d2d640b1b646b42102a65, type: 3}
+      propertyPath: imagenGrande
+      value: 
+      objectReference: {fileID: 4759475792428477358, guid: a9ed40e7ba5d9a14ab58bf7fc705b522, type: 3}
     - target: {fileID: 7749227492938496384, guid: 934af7185e7d2d640b1b646b42102a65, type: 3}
       propertyPath: m_Name
       value: Listado 4

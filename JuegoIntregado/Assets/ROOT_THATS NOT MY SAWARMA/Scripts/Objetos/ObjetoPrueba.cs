@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class ObjetoPrueba : MonoBehaviour
 {
+    [Header("Imagen grande que abrirá ESTE NPC")]
+    public Sprite imagenGrande;
+
     private Camera cam;
 
     void Start()
@@ -12,7 +15,7 @@ public class ObjetoPrueba : MonoBehaviour
 
     void Update()
     {
-        if (Mouse.current == null) return;
+        if (Mouse.current == null || cam == null) return;
 
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
@@ -26,9 +29,13 @@ public class ObjetoPrueba : MonoBehaviour
                 Debug.Log("CLICK DETECTADO EN OBJETO");
 
                 if (PanelInfoManager.Instance != null)
-                    PanelInfoManager.Instance.Abrir();
+                {
+                    PanelInfoManager.Instance.Abrir(imagenGrande);
+                }
                 else
+                {
                     Debug.LogError("❌ PanelInfoManager.Instance es NULL");
+                }
             }
         }
     }

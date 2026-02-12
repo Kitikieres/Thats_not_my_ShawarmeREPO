@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1468698721237771136}
   - component: {fileID: 1136672516484425753}
   - component: {fileID: 8759808511203947608}
-  - component: {fileID: 2174006115281490289}
   - component: {fileID: 1787359465676663625}
+  - component: {fileID: 3271771096936928856}
   m_Layer: 0
   m_Name: NPC 2
   m_TagString: NPC
@@ -204,25 +204,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
   textoDialogo: Hola soy un kebab malvadoo
---- !u!114 &2174006115281490289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370303068708422825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76dd2c90d32b85b4e8f3b5f64e137857, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCChecklist
-  respuestaFaltaDocumento: yo no amigo eso no
-  respuestaFaltaFoto: como q no esta bien la foto mira bien eh
-  respuestaFaltaFirma: venga va chaval
-  respuestaFaltaPermiso: pues me cago en tus muertos pisaos
-  respuestaNadaPreguntado: ya sabia yo que no me faltaba nada
-  panelDialogo: {fileID: 7242771716699534813, guid: a6a78d648b866a140811108398c90b6b, type: 3}
-  textoDialogo: {fileID: 989098126252988847, guid: 6140527c8bd7d3943969941000e1114a, type: 3}
 --- !u!114 &1787359465676663625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +217,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCEstado
   esMalo: 0
+--- !u!114 &3271771096936928856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370303068708422825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd7f88e5194c9b40b02fc37e2d9590f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCObjetosYImagenes
+  objetoNPC: {fileID: 7749227492938496384, guid: 4b23ce5afff35664685eb916bd970a10, type: 3}
+  imagenNPC: {fileID: -5920176980808187624, guid: e60185b351dd33f4b986019f2a09c813, type: 3}
+  puntoEntregaObjeto: {fileID: 1424061394326425369, guid: d654458448a54d2449d0f05aef35a9bb, type: 3}
 --- !u!1001 &7226341230519064749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -292,6 +288,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7143344603845354031, guid: 4b23ce5afff35664685eb916bd970a10, type: 3}
+      propertyPath: imagenGrande
+      value: 
+      objectReference: {fileID: -5920176980808187624, guid: e60185b351dd33f4b986019f2a09c813, type: 3}
     - target: {fileID: 7749227492938496384, guid: 4b23ce5afff35664685eb916bd970a10, type: 3}
       propertyPath: m_Name
       value: Listado 3
@@ -303,6 +303,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7749227492938496384, guid: 4b23ce5afff35664685eb916bd970a10, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5643786841496318365}
+    - targetCorrespondingSourceObject: {fileID: 7749227492938496384, guid: 4b23ce5afff35664685eb916bd970a10, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3409766945307577038}
   m_SourcePrefab: {fileID: 100100000, guid: 4b23ce5afff35664685eb916bd970a10, type: 3}
 --- !u!1 &1135987200019865901 stripped
 GameObject:
@@ -322,6 +325,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjetoDeslizante
   duracion: 1
+--- !u!114 &3409766945307577038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135987200019865901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b73af87a29e9704ba52eef9239f110c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjetoAbrible
+  imagenDeEsteObjeto: {fileID: -5920176980808187624, guid: e60185b351dd33f4b986019f2a09c813, type: 3}
+  imagenUI: {fileID: 0}
+  panelInfo: {fileID: 0}
 --- !u!4 &3162781924378636023 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5741362098202768986, guid: 4b23ce5afff35664685eb916bd970a10, type: 3}
