@@ -46,7 +46,7 @@ public class NPCSpawner : MonoBehaviour
         
         if (colaNPCs.Count == 0)
         {
-            Debug.Log("🏁 No quedan más kebabs → FIN DE PARTIDA");
+           
 
             if (GameManager.Instance != null)
                 GameManager.Instance.FinDePartida();

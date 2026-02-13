@@ -17,11 +17,11 @@ public class PanelInfoManager : MonoBehaviour
 
         Instance = this;
 
-        // Seguridad inicial
+       
         if (overlayBloqueo != null)
             overlayBloqueo.SetActive(false);
 
-        gameObject.SetActive(false); // el panel empieza oculto
+        gameObject.SetActive(false); 
     }
 
     public void Abrir()

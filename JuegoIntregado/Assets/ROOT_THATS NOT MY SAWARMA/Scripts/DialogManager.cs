@@ -15,7 +15,7 @@ public class DialogManager : MonoBehaviour
     private string textoCompleto;
     private Coroutine rutinaEscritura;
 
-    // Para avisar al NPC actual
+   
     private NPCInteractuar npcActual;
 
     void Awake()
@@ -29,7 +29,7 @@ public class DialogManager : MonoBehaviour
         panelDialogo.SetActive(true);
         textoCompleto = texto;
 
-        // Buscar quién llamó
+        
         npcActual = FindObjectOfType<NPCInteractuar>();
 
         if (rutinaEscritura != null)

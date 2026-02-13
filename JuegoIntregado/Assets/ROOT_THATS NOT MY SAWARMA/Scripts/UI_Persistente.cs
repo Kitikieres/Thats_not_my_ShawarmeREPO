@@ -6,14 +6,14 @@ public class PersistenteEntreEscenas : MonoBehaviour
 
     void Awake()
     {
-        // Si ya existe otro igual, destrúyelo
+        
         if (instancia != null && instancia != this)
         {
             Destroy(gameObject);
             return;
         }
 
-        // Guarda esta instancia
+        
         instancia = this;
         DontDestroyOnLoad(gameObject);
     }

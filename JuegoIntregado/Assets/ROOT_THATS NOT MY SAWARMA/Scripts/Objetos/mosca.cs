@@ -8,14 +8,14 @@ public class MoscaDentroPantalla : MonoBehaviour
     private Vector2 direccion;
     private float tiempo;
 
-    // Límites de la pantalla en mundo 2D
+   
     private float xMin, xMax, yMin, yMax;
 
     void Start()
     {
         NuevaDireccion();
 
-        // Convertimos los bordes de la pantalla a coordenadas del mundo
+        
         Vector3 esquinaInferior = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0));
         Vector3 esquinaSuperior = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
 
@@ -29,23 +29,23 @@ public class MoscaDentroPantalla : MonoBehaviour
     {
         tiempo += Time.deltaTime;
 
-        // Movimiento
+        
         transform.position += (Vector3)direccion * velocidad * Time.deltaTime;
 
-        // Cambia de dirección de vez en cuando
+      
         if (tiempo >= cambioDireccion)
         {
             NuevaDireccion();
             tiempo = 0f;
         }
 
-        // --- Rebote en los bordes ---
+       
         Vector3 pos = transform.position;
 
         if (pos.x < xMin)
         {
             pos.x = xMin;
-            direccion.x *= -1;   // rebota
+            direccion.x *= -1;   
         }
 
         if (pos.x > xMax)

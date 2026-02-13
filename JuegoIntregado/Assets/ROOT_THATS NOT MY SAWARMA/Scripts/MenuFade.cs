@@ -23,6 +23,6 @@ public class MenuFade : MonoBehaviour
             yield return null;
         }
 
-        SceneManager.LoadScene(1); // tu nivel 1
+        SceneManager.LoadScene(1); 
     }
 }

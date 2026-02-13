@@ -23,7 +23,7 @@ public class FadeMenuUI : MonoBehaviour
             yield return null;
         }
 
-        menuUI.alpha = 0; // aseguramos que quede invisible
+        menuUI.alpha = 0; 
         SceneManager.LoadScene(1);
     }
 }

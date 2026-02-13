@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.InputSystem; // importante
+using UnityEngine.InputSystem; 
 
 public class PlayerInputHandler : MonoBehaviour
 {
-    public InputAction pauseAction; // arrastra tu acción Pause aquí
-    public GameObject pauseMenu;    // arrastra tu menú de pausa aquí
+    public InputAction pauseAction; 
+    public GameObject pauseMenu;    
 
     private void OnEnable()
     {
@@ -20,13 +20,13 @@ public class PlayerInputHandler : MonoBehaviour
 
     private void OnPausePressed(InputAction.CallbackContext context)
     {
-        // Activa o desactiva el menú de pausa
+       
         pauseMenu.SetActive(!pauseMenu.activeSelf);
 
-        // Opcional: pausar el tiempo del juego
+        
         if (pauseMenu.activeSelf)
-            Time.timeScale = 0f; // pausa el juego
+            Time.timeScale = 0f; 
         else
-            Time.timeScale = 1f; // reanuda
+            Time.timeScale = 1f; 
     }
 }

@@ -7,7 +7,7 @@ public class NewGameManager : MonoBehaviour
     public CanvasGroup titulo;
     public CanvasGroup menuBotones;
 
-    public string escenaJuego;   // nombre de tu escena del juego
+    public string escenaJuego;  
     public float fadeDuracion = 1f;
 
     public void PulsarNewGame()
@@ -29,11 +29,11 @@ public class NewGameManager : MonoBehaviour
             yield return null;
         }
 
-        // Opcional: desactivar UI cuando ya no se ve
+       
         titulo.gameObject.SetActive(false);
         menuBotones.gameObject.SetActive(false);
 
-        // Ahora sí, cargar el juego
+       
         SceneManager.LoadScene(escenaJuego);
     }
 }

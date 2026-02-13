@@ -9,10 +9,10 @@ public class NPCInteractuarEleccion : MonoBehaviour
         dialogo = GetComponent<NPCDialogoEleccion>();
     }
 
-    // Esto lo llamará el raycast
+    
     public void ClickManual()
     {
-        Debug.Log("🍖 CLICK AL KEBAB DETECTADO POR RAYCAST");
+        
 
         if (dialogo != null && DialogManagerEleccion.Instance != null)
         {

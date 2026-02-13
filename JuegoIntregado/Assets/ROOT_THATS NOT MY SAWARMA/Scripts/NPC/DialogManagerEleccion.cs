@@ -28,8 +28,8 @@ public class DialogManagerEleccion : MonoBehaviour
 
         Debug.Log("🟢 INICIANDO DIALOGO");
 
-        panelDialogo.SetActive(true);   // 👈 FORZADO
-        panelOpciones.SetActive(true);  // 👈 FORZADO
+        panelDialogo.SetActive(true);   
+        panelOpciones.SetActive(true);  
 
         textoDialogo.text = npc.textoInicial;
 
@@ -43,10 +43,10 @@ public class DialogManagerEleccion : MonoBehaviour
 
         Debug.Log("👉 ELEGISTE A");
 
-        // ❗ SOLO ocultamos opciones
+        
         panelOpciones.SetActive(false);
 
-        // ❗ JAMÁS ocultamos panelDialogo aquí
+       
         panelDialogo.SetActive(true);
 
         textoDialogo.text = npcActual.respuestaA;

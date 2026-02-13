@@ -12,11 +12,11 @@ public class NPCInteractuar : MonoBehaviour
 
     void OnMouseDown()
     {
-        // Si no hay DialogManager, no hacemos nada
+        
         if (DialogManager.Instance == null)
             return;
 
-        // Si ya está hablando → cerrar
+        
         if (estaHablando)
         {
             DialogManager.Instance.CerrarDialogo();
@@ -24,7 +24,7 @@ public class NPCInteractuar : MonoBehaviour
         }
         else
         {
-            // Abrir diálogo del NPC
+            
             if (dialogo != null)
             {
                 DialogManager.Instance.MostrarDialogo(dialogo.textoDialogo);
@@ -33,7 +33,7 @@ public class NPCInteractuar : MonoBehaviour
         }
     }
 
-    // Lo llamará el DialogManager cuando se cierre
+    
     public void DialogoCerrado()
     {
         estaHablando = false;

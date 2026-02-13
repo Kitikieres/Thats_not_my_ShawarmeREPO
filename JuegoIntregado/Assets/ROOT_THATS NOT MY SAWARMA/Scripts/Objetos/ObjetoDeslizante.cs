@@ -17,7 +17,7 @@ public class ObjetoDeslizante : MonoBehaviour
         rutina = StartCoroutine(Deslizar(inicio, destino, false));
     }
 
-    // 🔄 Deslizamiento de vuelta (para aceptar / rechazar)
+    
     public void DeslizarYGuardar(Vector3 inicio, Vector3 destino)
     {
         if (rutina != null)

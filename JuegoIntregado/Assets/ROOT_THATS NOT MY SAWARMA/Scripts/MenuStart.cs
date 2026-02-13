@@ -20,13 +20,13 @@ public class MenuStart : MonoBehaviour
 
     IEnumerator AnimarYLuegoCargar()
     {
-        // 1) Llamamos a tu animación
+        
         menuAnimator.SetTrigger("StartGame");
 
-        // 2) Esperamos a que termine
+        
         yield return new WaitForSeconds(tiempoAnimacion);
 
-        // 3) Cargamos el Nivel 1
+        
         SceneManager.LoadScene(1);
     }
 }

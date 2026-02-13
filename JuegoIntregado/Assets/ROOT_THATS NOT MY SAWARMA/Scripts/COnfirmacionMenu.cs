@@ -21,11 +21,11 @@ public class MenuConfirmacion : MonoBehaviour
     public void ConfirmarSalir()
     {
         Application.Quit();
-        Debug.Log("Has abandonado tu puesto hdp"); // Solo para que lo veas en el Editor
+        Debug.Log("Has abandonado tu puesto hdp"); 
     }
 
     public void ConfirmarNuevaPartida()
     {
-        SceneManager.LoadScene(1); // Tu Nivel 1
+        SceneManager.LoadScene(1); 
     }
 }
