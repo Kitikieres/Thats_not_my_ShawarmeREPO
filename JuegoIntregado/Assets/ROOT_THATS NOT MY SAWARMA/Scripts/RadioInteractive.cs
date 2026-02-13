@@ -8,16 +8,23 @@ public class RadioInteractiva : MonoBehaviour
     [Header("Clip por defecto")]
     public AudioClip clipRadio;
 
+   
+    public AudioSource musicaDeFondo;
+
     private bool encendida = false;
     private Camera cam;
 
     private void Start()
     {
-        // Si no está asignado, intentamos cogerlo
+        
         if (musicaRadio == null)
             musicaRadio = GetComponent<AudioSource>();
 
-        // 🔴 ESTO ES CLAVE
+       
+        if (musicaDeFondo == null)
+            musicaDeFondo = GameObject.Find("MusicaDeFondo").GetComponent<AudioSource>(); 
+
+       
         if (musicaRadio.clip == null && clipRadio != null)
         {
             musicaRadio.clip = clipRadio;
@@ -62,8 +69,18 @@ public class RadioInteractiva : MonoBehaviour
         encendida = !encendida;
 
         if (encendida)
+        {
+            
+            if (musicaDeFondo.isPlaying)
+                musicaDeFondo.Stop();
             musicaRadio.Play();
+        }
         else
+        {
+            
             musicaRadio.Stop();
+            if (!musicaDeFondo.isPlaying)
+                musicaDeFondo.Play();
+        }
     }
 }
