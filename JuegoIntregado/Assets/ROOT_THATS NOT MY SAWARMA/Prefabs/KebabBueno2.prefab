@@ -252,7 +252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9098655bc75c5154fa123b65aeadca22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogo
-  textoDialogo: 
+  textoDialogo: Yo soy vegane, como puedes ver, pero bueno mirame rapido el dni y
+    dejame pasar anda
 --- !u!114 &3469198695529509557
 MonoBehaviour:
   m_ObjectHideFlags: 0
