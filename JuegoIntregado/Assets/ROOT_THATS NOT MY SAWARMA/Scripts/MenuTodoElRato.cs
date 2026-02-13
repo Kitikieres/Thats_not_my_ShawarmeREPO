@@ -1,29 +1,10 @@
 using UnityEngine;
+using System.Collections;
 
-public class SettingsManager : MonoBehaviour
+public class ExampleClass : MonoBehaviour
 {
-    public static SettingsManager instance;
-
     void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    public void OpenMenu()
-    {
-        gameObject.SetActive(true);
-    }
-
-    public void CloseMenu()
-    {
-        gameObject.SetActive(false);
+        DontDestroyOnLoad(transform.gameObject);
     }
 }
