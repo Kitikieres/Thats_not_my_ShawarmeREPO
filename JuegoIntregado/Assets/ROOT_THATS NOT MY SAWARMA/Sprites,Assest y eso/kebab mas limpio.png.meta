@@ -173,28 +173,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kebab mas limpio_0
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 778
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de2303e37b201d440800000000000000
-      internalID: 4958747650757243629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: kebab mas limpio_1
       rect:
         serializedVersion: 2
@@ -203,7 +181,7 @@ TextureImporter:
         width: 1129
         height: 848
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,143 +194,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: kebab mas limpio_2
-      rect:
-        serializedVersion: 2
-        x: 1168
-        y: 773
-        width: 6
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a561117e7fbb592d0800000000000000
-      internalID: -3272502880806824358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kebab mas limpio_3
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 700
-        width: 8
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2065811ba2a73ee60800000000000000
-      internalID: 7990364487663769090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kebab mas limpio_4
-      rect:
-        serializedVersion: 2
-        x: 1161
-        y: 612
-        width: 11
-        height: 149
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a213870acb927be80800000000000000
-      internalID: -8163009909462912726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kebab mas limpio_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 476
-        width: 6
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc3da1ee953b74440800000000000000
-      internalID: 4920098316753753037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kebab mas limpio_6
-      rect:
-        serializedVersion: 2
-        x: 1164
-        y: 472
-        width: 33
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ca5523b2ee7b8480800000000000000
-      internalID: -8895877126807004479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kebab mas limpio_7
-      rect:
-        serializedVersion: 2
-        x: 1164
-        y: 334
-        width: 36
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 975b5f4551ee1b530800000000000000
-      internalID: 3869135330275079545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cf7956b9e712b4a439c993f208c99dea
     internalID: 0
     vertices: []
     indices: 
@@ -370,6 +216,7 @@ TextureImporter:
       kebab mas limpio_5: 4920098316753753037
       kebab mas limpio_6: -8895877126807004479
       kebab mas limpio_7: 3869135330275079545
+      kebab mas limpio_8: 848113394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
